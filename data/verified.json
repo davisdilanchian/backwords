@@ -1,0 +1,31 @@
+{
+  "phrases": [
+    {
+      "original": "I am a fantastic singer",
+      "script": "ERNG-iss KIT-sat-NAFF uh MUH-ee-ah",
+      "engine": "espeak",
+      "asr": "I am a fantastic singer",
+      "score": 1.0,
+      "verified": "2026-08-16"
+    },
+    {
+      "original": "Hello my name is Dan",
+      "script": "nahd zee main aym ola",
+      "engine": "pocket-tts",
+      "voice": "alba",
+      "asr": "Hello, my name is Dan.",
+      "score": 1.0,
+      "verified": "2026-08-16"
+    },
+    {
+      "original": "I am a fantastic singer",
+      "script": "ehrng-iss kit-sat-naff uh muh-ee-ah",
+      "engine": "pocket-tts",
+      "voice": "alba",
+      "asr": "I am a fantastic singer.",
+      "score": 1.0,
+      "verified": "2026-08-16",
+      "note": "lowercase; caps ERNG was letter-named"
+    }
+  ]
+}

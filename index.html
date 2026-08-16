@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Backwords</title>
+  <meta name="description" content="Type a line. Get a script you can say backwards." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Backwords</h1>
+      <p>Type what you want it to say when reversed. Read the script out loud. Record that. Flip the take.</p>
+    </header>
+
+    <label class="sr" for="input">Forward line</label>
+    <textarea id="input" rows="4" placeholder="I am a fantastic singer" autofocus></textarea>
+
+    <div class="row">
+      <button id="go" type="button">Make script</button>
+      <button id="copy" type="button" class="ghost" hidden>Copy</button>
+    </div>
+
+    <section id="outwrap" hidden>
+      <p class="kicker">Say this</p>
+      <p id="script"></p>
+      <p id="missing" class="warn" hidden></p>
+    </section>
+  </main>
+  <p id="status" class="status">Loading dictionary…</p>
+  <script src="app.js"></script>
+</body>
+</html>
