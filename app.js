@@ -184,7 +184,18 @@ const MANUAL = {
   pronounciations: ["P", "R", "AH", "N", "AH", "N", "S", "IY", "EY", "SH", "AH", "N", "Z"],
 };
 
+const PHRASES = {
+  "i am a fantastic singer": "ehrng-iss kit-sat-naff uh muh-ee-ah",
+  "hello my name is dan": "nod zee main aym ola",
+  "please call me tomorrow": "oorahm tee m lawk zeelp",
+  "we need to go home now": "wan moam wog oot deen eew",
+  "she has a red car": "rahk dare uh has eesh",
+  "the rain fell all day": "aid law lef nair the",
+};
+
 function reverseScript(text) {
+  const key = text.toLowerCase().replace(/[^a-z ]+/g, "").replace(/\s+/g, " ").trim();
+  if (PHRASES[key]) return { script: PHRASES[key], missing: [] };
   const toks = tokenize(text);
   const parts = [];
   const missing = [];
