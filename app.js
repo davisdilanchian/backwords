@@ -21,7 +21,92 @@ let dict = {};
 
 function phonesFor(word) {
   const w = word.toLowerCase();
-  return dict[w] || dict[w.replace(/'/g, "")] || null;
+  return dict[w] || dict[w.replace(/'/g, "")] || MANUAL[w] || guessPhones(w);
+}
+
+// Letter-to-phone guess for anything not in the dictionary.
+// English-ish, not perfect. Enough that "grok" and other noise still flip.
+function guessPhones(word) {
+  let w = word.toLowerCase().replace(/[^a-z]/g, "");
+  if (!w) return null;
+
+  const silentE = w.length > 2 && w.endsWith("e") && /[aeiou]/.test(w.slice(0, -1));
+  if (silentE) w = w.slice(0, -1);
+
+  const rules = [
+    ["tion", ["SH", "AH", "N"]],
+    ["sion", ["ZH", "AH", "N"]],
+    ["tch", ["CH"]],
+    ["dge", ["JH"]],
+    ["igh", ["AY"]],
+    ["eer", ["IH", "R"]],
+    ["ool", ["UW", "L"]],
+    ["oo", ["UW"]],
+    ["ee", ["IY"]],
+    ["ea", ["IY"]],
+    ["oa", ["OW"]],
+    ["ai", ["EY"]],
+    ["ay", ["EY"]],
+    ["au", ["AO"]],
+    ["aw", ["AO"]],
+    ["oi", ["OY"]],
+    ["oy", ["OY"]],
+    ["ou", ["AW"]],
+    ["ow", ["AW"]],
+    ["ie", ["IY"]],
+    ["ei", ["IY"]],
+    ["er", ["ER"]],
+    ["ir", ["ER"]],
+    ["ur", ["ER"]],
+    ["ar", ["AA", "R"]],
+    ["or", ["AO", "R"]],
+    ["ng", ["NG"]],
+    ["ch", ["CH"]],
+    ["sh", ["SH"]],
+    ["th", ["TH"]],
+    ["ph", ["F"]],
+    ["wh", ["W"]],
+    ["kn", ["N"]],
+    ["wr", ["R"]],
+    ["ck", ["K"]],
+    ["qu", ["K", "W"]],
+  ];
+
+  const out = [];
+  let i = 0;
+  while (i < w.length) {
+    let hit = null;
+    for (const [g, ph] of rules) {
+      if (w.startsWith(g, i)) { hit = [g.length, ph]; break; }
+    }
+    if (hit) {
+      out.push(...hit[1]);
+      i += hit[0];
+      continue;
+    }
+    const c = w[i];
+    const nxt = w[i + 1] || "";
+    if (c === "c") out.push("eiy".includes(nxt) ? "S" : "K");
+    else if (c === "g") out.push("eiy".includes(nxt) ? "JH" : "G");
+    else if (c === "x") out.push("K", "S");
+    else if (c === "q") out.push("K");
+    else if (c === "a") out.push(silentE ? "EY" : "AA");
+    else if (c === "e") out.push(silentE ? "IY" : "EH");
+    else if (c === "i") out.push(silentE ? "AY" : "IH");
+    else if (c === "o") out.push(silentE ? "OW" : "AA");
+    else if (c === "u") out.push(silentE ? "UW" : "AH");
+    else if (c === "y") out.push(i === 0 ? "Y" : "IY");
+    else {
+      const single = {
+        b: "B", d: "D", f: "F", h: "HH", j: "JH", k: "K", l: "L",
+        m: "M", n: "N", p: "P", r: "R", s: "S", t: "T", v: "V",
+        w: "W", z: "Z",
+      };
+      if (single[c]) out.push(single[c]);
+    }
+    i++;
+  }
+  return out.length ? out : null;
 }
 
 function expand(phs) {
@@ -110,7 +195,7 @@ function reverseScript(text) {
       parts.push("[" + word + "]");
       continue;
     }
-    const flipped = expand(ph).reverse().map((p) => SUB[p] || p);
+    const flipped = expand(ph).reverse();
     parts.push(speakable(flipped));
   }
   return { script: parts.join("   ·   "), missing };
