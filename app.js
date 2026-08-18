@@ -217,6 +217,7 @@ const PHRASES = {
   "we need to go home now": "wan moam wog oot deen eew",
   "she has a red car": "rahk dare uh has eesh",
   "the rain fell all day": "aid law lef nair the",
+  "this is only a test": "tseht uh eelnoo zih sihth",
 };
 
 function reverseScript(text) {
