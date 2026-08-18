@@ -211,11 +211,11 @@ const MANUAL = {
 
 const PHRASES = {
   "i am a fantastic singer": "ehrng-iss kit-sat-naff uh muh-ee-ah",
-  "hello my name is dan": "nahd zee main aim oh-lah",
-  "please call me tomorrow": "oorahm tee mm lawk zeelp",
-  "we need to go home now": "wan moam wog oot deen ee-oo",
+  "hello my name is dan": "nod zee main aym ola",
+  "please call me tomorrow": "oorahm tee m lawk zeelp",
+  "we need to go home now": "wan moam wog oot deen eew",
   "she has a red car": "rahk dare uh has eesh",
-  "the rain fell all day": "aid law lef nair dhuh",
+  "the rain fell all day": "aid law lef nair the",
 };
 
 function reverseScript(text) {
