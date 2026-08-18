@@ -129,15 +129,18 @@ function onset(phones, i) {
 // Vowels are always a cue, never a bare letter.
 // nih = short i, nee = "knee". aa = cat, ah = father.
 function clarify(syl) {
-  return syl
+  syl = syl
     .replace(/^ingi$/, "ing-ee")
-    .replace(/^ingih$/, "ing-ih")
+    .replace(/^ingih/, "ing-ih")
     .replace(/^washed-$/, "washed")
     .replace(/([bcdfghjklmnpqrstvwxyz])i$/, "$1ih")
     .replace(/([bcdfghjklmnpqrstvwxyz])e$/, "$1eh")
     .replace(/([bcdfghjklmnpqrstvwxyz])a$/, "$1ah")
     .replace(/([bcdfghjklmnpqrstvwxyz])o$/, "$1oh")
     .replace(/([bcdfghjklmnpqrstvwxyz])u$/, "$1uh");
+  // lone consonant: hum it, don't letter-name it
+  if (/^[bcdfghjklmnpqrstvwxyz]$/.test(syl)) syl = syl + syl;
+  return syl;
 }
 
 function speakable(phones) {
@@ -155,11 +158,11 @@ function speakable(phones) {
     if (i < phones.length && VOWEL.has(phones[i])) {
       syl += SAY[phones[i]];
       i++;
-      // one coda consonant if it isn't a new cluster start
-      if (i < phones.length && !VOWEL.has(phones[i]) && phones[i] !== "NG") {
+      // glue a final coda; only leave the consonant if a vowel follows
+      if (i < phones.length && !VOWEL.has(phones[i])) {
         const nxt = phones[i + 1];
-        if (!nxt || VOWEL.has(nxt) || phones[i] === "NG") {
-          // skip
+        if (nxt && VOWEL.has(nxt)) {
+          // next syllable onset
         } else {
           syl += SAY[phones[i]] || phones[i].toLowerCase();
           i++;
@@ -170,7 +173,20 @@ function speakable(phones) {
     syl = clarify(syl);
     bits.push(syl);
   }
-  return bits.join(" ").replace(/washed- /g, "washed-");
+  return glueBits(bits).replace(/washed- /g, "washed-");
+}
+
+function glueBits(bits) {
+  const out = [];
+  for (const raw of bits) {
+    const b = raw;
+    if (out.length && /^[bcdfghjklmnpqrstvwxyz]{1,3}$/.test(b)) {
+      out[out.length - 1] += b;
+    } else {
+      out.push(b);
+    }
+  }
+  return out.join(" ");
 }
 
 function tokenize(text) {
@@ -195,11 +211,11 @@ const MANUAL = {
 
 const PHRASES = {
   "i am a fantastic singer": "ehrng-iss kit-sat-naff uh muh-ee-ah",
-  "hello my name is dan": "nod zee main aym ola",
-  "please call me tomorrow": "oorahm tee m lawk zeelp",
-  "we need to go home now": "wan moam wog oot deen eew",
+  "hello my name is dan": "nahd zee main aim oh-lah",
+  "please call me tomorrow": "oorahm tee mm lawk zeelp",
+  "we need to go home now": "wan moam wog oot deen ee-oo",
   "she has a red car": "rahk dare uh has eesh",
-  "the rain fell all day": "aid law lef nair the",
+  "the rain fell all day": "aid law lef nair dhuh",
 };
 
 function reverseScript(text) {
