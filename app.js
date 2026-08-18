@@ -7,10 +7,10 @@ const VOWEL = new Set(["AA","AE","AH","AO","EH","ER","IH","IY","UH","UW"]);
 
 // English you can already say. Not IPA leftovers.
 const SAY = {
-  AA: "ah", AE: "a", AH: "uh", AO: "aw",
-  EH: "e", ER: "er", IH: "i", IY: "ee",
-  UH: "oo", UW: "oo",
-  B: "b", D: "d", DH: "the", F: "f", HH: "h",
+  AA: "ah", AE: "aa", AH: "uh", AO: "aw",
+  EH: "eh", ER: "er", IH: "ih", IY: "ee",
+  UH: "uu", UW: "oo",
+  B: "b", D: "d", DH: "dh", F: "f", HH: "h",
   JH: "j", K: "k", KH: "k", L: "l", M: "m", N: "n",
   NG: "ing", P: "p", R: "r", S: "s", SH: "sh",
   T: "t", TH: "th", V: "v", W: "w", Y: "y", Z: "z",
@@ -125,6 +125,21 @@ function onset(phones, i) {
   return { text: SAY[a] || a.toLowerCase(), n: 1 };
 }
 
+
+// Vowels are always a cue, never a bare letter.
+// nih = short i, nee = "knee". aa = cat, ah = father.
+function clarify(syl) {
+  return syl
+    .replace(/^ingi$/, "ing-ee")
+    .replace(/^ingih$/, "ing-ih")
+    .replace(/^washed-$/, "washed")
+    .replace(/([bcdfghjklmnpqrstvwxyz])i$/, "$1ih")
+    .replace(/([bcdfghjklmnpqrstvwxyz])e$/, "$1eh")
+    .replace(/([bcdfghjklmnpqrstvwxyz])a$/, "$1ah")
+    .replace(/([bcdfghjklmnpqrstvwxyz])o$/, "$1oh")
+    .replace(/([bcdfghjklmnpqrstvwxyz])u$/, "$1uh");
+}
+
 function speakable(phones) {
   const bits = [];
   let i = 0;
@@ -152,13 +167,7 @@ function speakable(phones) {
       }
     }
     // tidy a few ugly glues
-    syl = syl
-      .replace(/^ingi$/, "ing-ee")
-      .replace(/^ingih$/, "ing-ee")
-      .replace(/^crahm$/, "crom")
-      .replace(/^crahm$/, "crom")
-      .replace(/^washed-$/, "washed")
-      .replace(/^zhe$/, "zhe");
+    syl = clarify(syl);
     bits.push(syl);
   }
   return bits.join(" ").replace(/washed- /g, "washed-");

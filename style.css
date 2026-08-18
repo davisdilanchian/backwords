@@ -62,3 +62,5 @@ button.ghost {
 .warn { color: var(--warn); font-family: system-ui, sans-serif; font-size: 0.9rem; }
 .status { color: var(--mute); font: 0.85rem/1 system-ui, sans-serif; margin-top: auto; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+.hint { opacity: 0.75; font-size: 0.95rem; max-width: 40rem; }
