@@ -1,0 +1,6 @@
+# regenerable build intermediates (see README.md for the order to rebuild)
+espeak_lex.json
+syllabary.json
+index.json
+acoustic_rows.json
+__pycache__/
