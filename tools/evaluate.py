@@ -20,61 +20,42 @@ from g2p import atomize, phones as espeak_phones, per
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-CMU = json.load(open(os.path.join(HERE, 'cmudict.json')))
+from lexicon import CMU, word_phones, target_for   # re-exported for the other tools
 
-BRIDGE = r'''
-const fs = require('fs');
-const SCRIPTER = require(process.argv[2]);
-SCRIPTER.load(fs.readFileSync(process.argv[3], 'utf8'),
-              fs.readFileSync(process.argv[4], 'utf8'));
-const lines = fs.readFileSync(0, 'utf8').split('\n').filter(Boolean);
-process.stdout.write(JSON.stringify(lines.map(l => {
-  const r = SCRIPTER.make(l);
-  return { line: l, script: r.parts.map(p => p.spell).join(' '), accuracy: r.accuracy };
-})));
-'''
 
-def target_for(text):
+def load_hand():
+    """lines somebody spelled themselves, from calibration/lines*.json"""
     out = []
-    for w in text.lower().split():
-        w = ''.join(c for c in w if c.isalpha() or c == "'")
-        if not w: continue
-        p = CMU.get(w) or CMU.get(w.replace("'", ""))
-        out.extend([x.rstrip('012') for x in p] if p else espeak_phones(w))
-    return atomize(out)[::-1]
+    d = os.path.join(HERE, 'calibration')
+    for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+        if not f.startswith('lines'): continue
+        blob = json.load(open(os.path.join(d, f)))
+        for r in blob.get('lines', blob if isinstance(blob, list) else []):
+            if r.get('line') and r.get('mine'): out.append((r['line'], r['mine']))
+    return out
 
-def run(lines):
-    bp = os.path.join(HERE, '_bridge.js')
-    open(bp, 'w').write(BRIDGE)
-    try:
-        r = subprocess.run(['node', bp, os.path.join(ROOT, 'script.js'),
-                            os.path.join(ROOT, 'data/lex.txt'),
-                            os.path.join(ROOT, 'data/idx.txt')],
-                           input='\n'.join(lines), capture_output=True, text=True)
-        if r.returncode: raise SystemExit(r.stderr)
-        return json.loads(r.stdout)
-    finally:
-        os.remove(bp)
-
-def report(name, path):
-    lines = [l.strip() for l in open(os.path.join(HERE, path)) if l.strip()]
-    rows, tot, exact, good = run(lines), 0.0, 0, 0
-    worst = []
-    for row in rows:
-        want = target_for(row['line'])
-        got = atomize(espeak_phones(row['script']))
-        p = per(want, got)
-        tot += p; exact += (p == 0); good += (p <= 0.20)
-        worst.append((p, row['line'], row['script'], ' '.join(want), ' '.join(got)))
-    n = len(rows)
-    print(f"{name:9s} n={n:3d}  mean PER {tot/n:.4f}   exact {exact}/{n}"
-          f"   PER<=0.20 {good}/{n} ({100*good/n:.0f}%)")
-    return sorted(worst, reverse=True)
+def main():
+    from render_style import script_for, load_style
+    style = load_style()
+    hand = load_hand()
+    if not hand:
+        print("no hand-written lines yet — save some from the page, then drop the")
+        print("download into tools/calibration/lines-<name>.json")
+        return 0
+    exact = close = tot = 0
+    for line, theirs in hand:
+        mine = script_for(line, style)
+        a, b = theirs.lower().split(), mine.split()
+        print(f"\n  {line}\n    theirs {theirs}\n    mine   {mine}")
+        for x, y in zip(a, b):
+            tot += 1
+            if x == y: exact += 1; mark = "exact"
+            elif x[:3] == y[:3] or x[-3:] == y[-3:]: close += 1; mark = "close"
+            else: mark = ""
+            if mark: print(f"      {x:<14s} {y:<14s} {mark}")
+    print(f"\n  {len(hand)} line(s), {tot} tokens: {exact} exact, {close} close"
+          f" ({100*(exact+close)/max(1,tot):.0f}% within reach)")
+    return 0
 
 if __name__ == '__main__':
-    w = report('testset', 'testset.txt')
-    report('holdout', 'holdout.txt')
-    if '-v' in sys.argv:
-        print("\nworst cases:")
-        for p, l, s, want, got in w[:8]:
-            print(f"  PER {p:.2f}  {l}\n     script {s}\n     want   {want}\n     got    {got}")
+    sys.exit(main())

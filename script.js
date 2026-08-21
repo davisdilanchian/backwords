@@ -18,8 +18,8 @@ const ALPHA = ["AA","AE","AH","AO","EH","IH","IY","UH","UW",
                "B","D","DH","F","G","HH","K","L","M","N","NG",
                "P","R","S","SH","T","TH","V","W","Y","Z","ZH"];
 const CODE = "abcdefghijklmnopqrstuvwxyzABCDE";
-const P2C = {};
-ALPHA.forEach((p, i) => { P2C[p] = CODE[i]; });
+const P2C = {}, C2P = {};
+ALPHA.forEach((p, i) => { P2C[p] = CODE[i]; C2P[CODE[i]] = p; });
 
 // A phone that is still moving when you cut it in half has to be written as the
 // parts it moves through, or the reversal lands on the wrong sound.
@@ -30,33 +30,8 @@ const ATOM = {
 
 // Swaps that survive being played backwards: voicing pairs, close vowels,
 // and the glide/vowel pairs that are the same gesture either way.
-const NEAR_GROUPS = [
-  "AA AH","AA AE","AA AO","AE EH","AH AE","IH IY","UH UW","AH ER","AH IH",
-  "W UW","Y IY","T D","P B","K G","S Z","F V","TH DH","SH ZH","M N","N NG","L R",
-];
-const NEAR = {};
-for (const p of ALPHA) {
-  NEAR[p] = ALPHA.filter(q => q !== p && NEAR_GROUPS.some(g => {
-    const s = g.split(" ");
-    return s.includes(p) && s.includes(q);
-  }));
-}
-// vowels and glides that show up when a cluster needs breaking
-const EPEN = ["AH","IH","UH","IY","UW","EH","AA","R","W","Y","HH"];
-const NEAR_C = {}, EPEN_C = EPEN.map(p => P2C[p]);
-for (const p of ALPHA) NEAR_C[P2C[p]] = NEAR[p].map(q => P2C[q]);
-
-const CFG = {
-  errSubNear: 1.0,   // wrote a close phone instead of the right one
-  errIns: 1.6,       // script says a phone the line does not have
-  errDel: 2.2,       // phone in the line the script never says
-  wErr: 2.5,         // a phone error is worth this much detour
-  chunk: 0.25,       // mild pull toward fewer, longer pieces
-  maxLen: 7,
-};
 
 let LEX = new Map();   // word -> atomised phone codes
-let IDX = new Map();   // phone codes -> [[spelling, cost], ...]
 
 function parseLex(text) {
   const m = new Map();
@@ -67,20 +42,6 @@ function parseLex(text) {
   return m;
 }
 
-function parseIdx(text) {
-  const m = new Map();
-  for (const line of text.split("\n")) {
-    const t = line.indexOf("\t");
-    if (t < 0) continue;
-    const ents = line.slice(t + 1).split("|").map((s) => {
-      const cost = parseInt(s[0], 36) / 20;
-      const word = s[1] !== "!";               // "!" marks an invented syllable
-      return [word ? s.slice(1) : s.slice(2), cost, word];
-    });
-    m.set(line.slice(0, t), ents);
-  }
-  return m;
-}
 
 // ---- input side ----------------------------------------------------------
 
@@ -147,82 +108,69 @@ function phonesFor(word) {
   return atomise(guess(w)).map(p => P2C[p]).join("");
 }
 
-// ---- the search ----------------------------------------------------------
+// ---- spelling it the way a person actually hears it ---------------------
+//
+// This part is not derived from a synthesiser. It is learned from someone
+// saying words, hearing them reversed, and writing down what they would have
+// to read to make that sound. Two things came out of that.
+//
+// The obvious one is the letters: reversed /t/ arrives fricated and gets
+// written "th" or "sth", reversed /k/ becomes "kh", and most pieces open with
+// a breath. The subtle one is that those spellings are compensating, not just
+// describing. Saying "sthee" forward reverses into a clean /t/; saying "tea"
+// does not, because a stop's burst-then-aspiration order is exactly what
+// reversal destroys. So the odd-looking spelling is the accurate one.
+//
+// The structure came from a sentence they wrote by hand: one token per input
+// word, in reverse order, which keeps word-sized gaps in the take.
 
-// Every index key within one edit of what we still owe the listener.
-function variants(want) {
-  const out = [[want, 0]];
-  for (let k = 0; k < want.length; k++) {
-    for (const alt of NEAR_C[want[k]]) {
-      out.push([want.slice(0, k) + alt + want.slice(k + 1), CFG.errSubNear]);
-    }
-    if (want.length > 1) out.push([want.slice(0, k) + want.slice(k + 1), CFG.errDel]);
-  }
-  for (let k = 0; k <= want.length; k++) {
-    for (const e of EPEN_C) out.push([want.slice(0, k) + e + want.slice(k), CFG.errIns]);
-  }
-  return out;
-}
+let STYLE = null;
 
-function assemble(target) {
-  const n = target.length, INF = Infinity;
-  const best = new Array(n + 1).fill(INF), back = new Array(n + 1).fill(null);
-  best[0] = 0;
-  for (let i = 0; i < n; i++) {
-    if (best[i] === INF) continue;
-    let any = false;
-    const hi = Math.min(i + CFG.maxLen, n);
-    for (let j = i + 1; j <= hi; j++) {
-      const want = target.slice(i, j);
-      for (const [key, ecost] of variants(want)) {
-        const ents = IDX.get(key);
-        if (!ents) continue;
-        any = true;
-        for (const [spell, c] of ents) {
-          const v = best[i] + c + CFG.wErr * ecost + CFG.chunk;
-          if (v < best[j]) { best[j] = v; back[j] = [i, spell, ecost]; }
-        }
-      }
+function spellChunk(ph) {
+  const key = ph.join(" ");
+  if (STYLE.exact[key]) return STYLE.exact[key];
+  const vowel = new Set(STYLE.vowels);
+  const p = ph.slice();
+  // a breath at the end of a piece has no English spelling, and they drop it
+  while (p.length > 1 && p[p.length - 1] === "HH") p.pop();
+  const out = [];
+  for (let i = 0; i < p.length; i++) {
+    const cur = p[i], nxt = p[i + 1];
+    if (vowel.has(cur) && nxt && vowel.has(nxt)) {
+      const pair = STYLE.pair[`${cur} ${nxt}`];
+      if (pair) { out.push(pair); i++; continue; }
+      if (i === 0 && (cur === "IY" || cur === "IH")) { out.push("y"); continue; }
+      if (i === 0 && (cur === "UW" || cur === "UH")) { out.push("w"); continue; }
     }
-    if (!any && best[i] + 10 < best[i + 1]) {
-      best[i + 1] = best[i] + 10;
-      back[i + 1] = [i, "uh", CFG.errDel];
-    }
+    out.push((STYLE.phone[cur] || ["?"])[0]);
   }
-  const parts = [];
-  let j = n;
-  while (j > 0) {
-    const [i, spell, ecost] = back[j];
-    parts.push({ spell, off: ecost > 0 });
-    j = i;
-  }
-  parts.reverse();
-  return parts;
+  const body = out.join("");
+  return (STYLE.headBefore.includes(body[0]) ? "h" : "") + body;
 }
 
 function reverseScript(text) {
-  const words = (text.match(/[A-Za-z']+/g) || []);
-  let target = "";
+  const words = text.match(/[A-Za-z']+/g) || [];
   const unknown = [];
-  for (const w of words) {
-    if (!LEX.has(w.toLowerCase()) && !LEX.has(w.toLowerCase().replace(/'/g, ""))) {
-      unknown.push(w.toLowerCase());
-    }
-    target += phonesFor(w);
+  const parts = [];
+  for (let i = words.length - 1; i >= 0; i--) {      // last word is said first
+    const w = words[i].toLowerCase();
+    if (!LEX.has(w) && !LEX.has(w.replace(/'/g, ""))) unknown.push(w);
+    const codes = phonesFor(w);
+    if (!codes) continue;
+    const ph = [...codes].reverse().map((c) => C2P[c]);
+    if (ph.length) parts.push({ spell: spellChunk(ph), off: false });
   }
-  target = [...target].reverse().join("");
-  if (!target) return { parts: [], unknown, accuracy: 1 };
-  const parts = assemble(target);
-  const off = parts.filter(p => p.off).length;
-  return { parts, unknown, accuracy: Math.max(0, 1 - off / target.length) };
+  return { parts, unknown, accuracy: 1 };
 }
 
-
 const SCRIPTER = {
-  load(lexText, idxText) { LEX = parseLex(lexText); IDX = parseIdx(idxText); },
+  load(lexText, styleText) {
+    LEX = parseLex(lexText);
+    STYLE = typeof styleText === "string" ? JSON.parse(styleText) : styleText;
+  },
   make: (text) => reverseScript(text),
   get words() { return LEX.size; },
-  get pieces() { return IDX.size; },
+  get pieces() { return Object.keys(STYLE.exact).length; },
 };
 
 if (typeof module !== "undefined") module.exports = SCRIPTER;

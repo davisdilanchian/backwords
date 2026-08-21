@@ -54,7 +54,7 @@ function setStep(now, avail = now) {
 
 function renderScript() {
   if (!SCRIPTER.pieces || !S.text) return;
-  const { parts, unknown, accuracy } = SCRIPTER.make(S.text);
+  const { parts, unknown } = SCRIPTER.make(S.text);
   const el = $("script");
   el.textContent = "";
   parts.forEach((p, i) => {
@@ -64,7 +64,7 @@ function renderScript() {
     el.appendChild(s);
     if (i < parts.length - 1) el.appendChild(document.createTextNode(" "));
   });
-  $("meter").textContent = `${Math.round(accuracy * 100)}% of the sounds are spelled exactly`
+  $("meter").textContent = "One piece per word, last word first"
     + (unknown.length ? ` · sounded out by rule: ${unknown.join(", ")}` : "");
 }
 
@@ -147,6 +147,8 @@ function start() {
   renderScript();
   setStep(1);
   $("say").textContent = t;
+  $("mine").value = "";
+  countLines();
   gate();
   BW.warm();                            // this click is our chance to open the audio graph
   $("work").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -189,20 +191,50 @@ $("save").addEventListener("click", () => {
   a.click();
 });
 
+// Whole-line spellings, in the reader's own hand. The single-sound pass taught
+// the letters; only full lines show the glides, the squashed vowel runs and the
+// dropped final breaths, because those are things you do at word length.
+const LINES_KEY = "backwords-lines-v1";
+const plain = () => [...$("script").querySelectorAll(".bit")].map((b) => b.textContent).join(" ");
+const lines = () => { try { return JSON.parse(localStorage.getItem(LINES_KEY) || "[]"); } catch (e) { return []; } };
+function countLines() {
+  const n = lines().length;
+  $("minecount").textContent = n ? `${n} line${n === 1 ? "" : "s"} saved in this browser` : "";
+  $("exportmine").hidden = !n;
+}
+$("savemine").addEventListener("click", () => {
+  const v = $("mine").value.trim();
+  if (!v || !S.text) return;
+  const all = lines().filter((r) => r.line !== S.text);
+  all.push({ line: S.text, mine: v, auto: plain(), at: new Date().toISOString() });
+  try { localStorage.setItem(LINES_KEY, JSON.stringify(all)); } catch (e) {}
+  $("mine").value = "";
+  $("savemine").textContent = "Saved";
+  setTimeout(() => ($("savemine").textContent = "Save this line"), 1200);
+  countLines();
+});
+$("mine").addEventListener("keydown", (e) => { if (e.key === "Enter") $("savemine").click(); });
+$("exportmine").addEventListener("click", () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({ version: 1, lines: lines() }, null, 1)],
+                                        { type: "application/json" }));
+  a.download = "backwords-lines.json";
+  a.click();
+});
+
 $("copy").addEventListener("click", async () => {
-  const t = [...$("script").querySelectorAll(".bit")].map((s) => s.textContent).join(" ");
-  await navigator.clipboard.writeText(t);
+  await navigator.clipboard.writeText(plain());
   $("copy").textContent = "Copied";
   setTimeout(() => ($("copy").textContent = "Copy script"), 1200);
 });
 
 Promise.all([
   fetch("data/lex.txt").then((r) => r.text()),
-  fetch("data/idx.txt").then((r) => r.text()),
-]).then(([lex, idx]) => {
-  SCRIPTER.load(lex, idx);
+  fetch("data/style.json").then((r) => r.text()),
+]).then(([lex, style]) => {
+  SCRIPTER.load(lex, style);
   $("status").textContent =
-    `${SCRIPTER.words.toLocaleString()} words, ${SCRIPTER.pieces.toLocaleString()} checked sound pieces. Everything runs in your browser; nothing is uploaded.`;
+    `${SCRIPTER.words.toLocaleString()} words, spelled the way ${SCRIPTER.pieces} recorded answers say you hear them. Everything runs in your browser; nothing is uploaded.`;
   if (S.text) renderScript();
 }).catch(() => {
   $("status").textContent = "Couldn’t load the spelling data — the audio loop still works.";

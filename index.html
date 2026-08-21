@@ -50,12 +50,27 @@
         </div>
         <canvas id="wave2" class="wave"></canvas>
       </div>
-      <p class="kicker">Written out, it is roughly</p>
+      <p class="kicker">Written out, one piece per word, last word first</p>
       <p id="script"></p>
       <p id="meter" class="meter"></p>
       <div class="row"><button id="copy" type="button" class="ghost">Copy script</button></div>
-      <p class="legend">Faded pieces are the closest sound English can spell. Trust your ears over the spelling
-         wherever they disagree.</p>
+
+      <p class="kicker">Heard it differently?</p>
+      <p class="lede">Write how <em>you</em> would spell what you just heard. Whole line, one piece
+         per word, last word first. These teach it far faster than the single-sound recordings do,
+         because the rules that matter — glides, squashed vowels, dropped breaths — only show up at
+         word length.</p>
+      <input id="mine" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+             placeholder="e.g. hooy herolf heolukh nikhtmus hethhym vah yah holla" />
+      <div class="row">
+        <button id="savemine" type="button">Save this line</button>
+        <button id="exportmine" type="button" class="ghost" hidden>Download my lines</button>
+      </div>
+      <p id="minecount" class="meter"></p>
+      <p class="legend">Spelled from recorded answers about what reversed speech actually sounds like:
+         a reversed <b>t</b> arrives fricated, so it is written <b>th</b> or <b>sth</b>; a reversed
+         <b>k</b> becomes <b>kh</b>; most pieces open on a breath. Odd as it looks, saying it that way
+         reverses back cleaner than the tidy spelling would. Trust your ears where they disagree.</p>
     </section>
 
     <section id="step3" class="step">
