@@ -30,12 +30,13 @@ for key, ents in idx.items():
     k = enc(key.split())
     if not k: continue
     seen, parts = set(), []
-    for spell, cost in ents:
+    for spell, cost, isword in ents:
         if spell in seen: continue
         seen.add(spell)
         d = min(35, max(0, round(cost * 20)))
-        parts.append(f"{'0123456789abcdefghijklmnopqrstuvwxyz'[d]}{spell}")
-        if len(parts) == 3: break
+        # "!" marks an invented syllable, so the search can price it separately
+        parts.append(f"{'0123456789abcdefghijklmnopqrstuvwxyz'[d]}{'' if isword else '!'}{spell}")
+        if len(parts) == 4: break
     rows.append(f"{k}\t{'|'.join(parts)}")
 idx_txt = "\n".join(sorted(rows))
 

@@ -72,7 +72,11 @@ function parseIdx(text) {
   for (const line of text.split("\n")) {
     const t = line.indexOf("\t");
     if (t < 0) continue;
-    const ents = line.slice(t + 1).split("|").map(s => [s.slice(1), parseInt(s[0], 36) / 20]);
+    const ents = line.slice(t + 1).split("|").map((s) => {
+      const cost = parseInt(s[0], 36) / 20;
+      const word = s[1] !== "!";               // "!" marks an invented syllable
+      return [word ? s.slice(1) : s.slice(2), cost, word];
+    });
     m.set(line.slice(0, t), ents);
   }
   return m;

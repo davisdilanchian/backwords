@@ -26,6 +26,7 @@ class Cfg:
     chunk        = 0.55    # bias toward fewer, longer pieces
     maxlen       = 7
     max_err      = 2
+    w_nonword    = 0.0     # what an invented syllable costs against a real word
 
 def _variants(want, cfg):
     """(index-key, error-cost, n-errors) within one or two edits of `want`."""
@@ -49,8 +50,8 @@ def edges(target, i, cfg):
         for key, ecost, ne in _variants(want, cfg):
             ent = IDX.get(key)
             if not ent: continue
-            for spell, c in ent[:3]:
-                out.append((j, spell, c + cfg.w_err*ecost))
+            for spell, c, isword in ent[:4]:
+                out.append((j, spell, c + cfg.w_err*ecost + (0 if isword else cfg.w_nonword), isword))
     return out
 
 def assemble(target, cfg=Cfg):
@@ -58,8 +59,8 @@ def assemble(target, cfg=Cfg):
     best = [INF]*(n+1); back = [None]*(n+1); best[0] = 0.0
     for i in range(n):
         if best[i] == INF: continue
-        cand = edges(target, i, cfg) or [(i+1, "uh", cfg.w_err*4)]
-        for j, spell, c in cand:
+        cand = edges(target, i, cfg) or [(i+1, "uh", cfg.w_err*4, 0)]
+        for j, spell, c, isword in cand:
             v = best[i] + c + cfg.chunk
             if v < best[j]:
                 best[j] = v; back[j] = (i, spell)

@@ -14,23 +14,23 @@ BAD = set("""a i o e u ng sh th ch mm hm zz ss ll nn tt pp bb dd ff gg rr vv""".
 for w, ph in esp.items():
     if len(w) < 2 or w in BAD: continue
     z = zipf_frequency(w, 'en')
-    if z < 2.6: continue                       # keep it to words people read on sight
+    if z < 1.8: continue                       # a wider net; the search decides what is readable
     key = " ".join(atomize(ph))
     n = len(key.split())
     if n > 8: continue
     # cheaper for commoner words; real words beat invented spellings
-    cost = max(0.05, 0.75 - 0.09*(z - 2.6))
-    idx[key].append([w, round(cost,3)])
+    cost = max(0.05, 0.95 - 0.11*(z - 1.8))
+    idx[key].append([w, round(cost,3), 1])   # 1 = a real word
 
 nreal = sum(len(v) for v in idx.values())
 for rawkey, spells in syl.items():
     key = " ".join(atomize(rawkey.split()))
     for s in sorted(spells, key=len)[:2]:
-        idx[key].append([s, 1.05 + 0.03*len(s)])
+        idx[key].append([s, 1.05 + 0.03*len(s), 0])   # 0 = invented syllable
 
 for k in idx:
     idx[k].sort(key=lambda x: x[1])
-    idx[k] = idx[k][:6]
+    idx[k] = idx[k][:8]
 
 print('index keys:', len(idx), ' real-word entries:', nreal,
       ' total entries:', sum(len(v) for v in idx.values()))

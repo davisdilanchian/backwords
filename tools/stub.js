@@ -6,7 +6,7 @@ navigator.mediaDevices.getUserMedia = async () => {
   const dest = ctx.createMediaStreamDestination();
   const src = ctx.createBufferSource();
   src.buffer = buf; src.connect(dest);
-  src.start(ctx.currentTime + 0.45);        // let the recorder come up first
-  window.__feedMs = buf.duration * 1000 + 450;
+  src.start(ctx.currentTime + 1.2);         // generous: setup must never clip the head
+  window.__feedMs = buf.duration * 1000 + 1200;
   return dest.stream;
 };
