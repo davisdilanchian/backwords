@@ -1,0 +1,4 @@
+
+# never let a key near the repo
+*.env
+secret/
