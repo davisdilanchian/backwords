@@ -50,8 +50,10 @@
         </div>
         <canvas id="wave2" class="wave"></canvas>
       </div>
-      <p class="kicker">Written out, one piece per word, last word first</p>
+      <p class="kicker">Easier to read — real words where they exist</p>
       <p id="script"></p>
+      <p class="kicker">Closer to the sound — from recorded answers about reversed speech</p>
+      <p id="script2"></p>
       <p id="meter" class="meter"></p>
       <div class="row"><button id="copy" type="button" class="ghost">Copy script</button></div>
 
@@ -67,7 +69,8 @@
         <button id="exportmine" type="button" class="ghost" hidden>Download my lines</button>
       </div>
       <p id="minecount" class="meter"></p>
-      <p class="legend">Spelled from recorded answers about what reversed speech actually sounds like:
+      <p class="legend">The second line comes from recorded answers about what reversed speech
+         actually sounds like:
          a reversed <b>t</b> arrives fricated, so it is written <b>th</b> or <b>sth</b>; a reversed
          <b>k</b> becomes <b>kh</b>; most pieces open on a breath. Odd as it looks, saying it that way
          reverses back cleaner than the tidy spelling would. Trust your ears where they disagree.</p>
@@ -75,13 +78,14 @@
 
     <section id="step3" class="step">
       <h2><span class="n">3</span> Say it backwards</h2>
-      <p class="lede">Two ways to do this, and they answer different questions.
-         Reading the script tests the spelling. Copying the sound tests you.
-         Flat, even and slightly slow works either way.</p>
+      <p class="lede">Which one did you read? The two spellings disagree and there is no way to
+         settle it from here, so whichever you use gets scored and the averages below say which
+         actually works. Flat, even and slightly slow helps either way.</p>
       <div class="row">
         <span class="rates" role="group" aria-label="What are you reading from">
-          <button type="button" data-mode="script" class="ghost sel">Reading the script</button>
-          <button type="button" data-mode="ear" class="ghost">Copying the sound</button>
+          <button type="button" data-mode="words" class="ghost sel">Reading the words</button>
+          <button type="button" data-mode="sound" class="ghost">Reading the sounds</button>
+          <button type="button" data-mode="ear" class="ghost">Copying the audio</button>
         </span>
       </div>
       <div class="row"><button id="rec2" type="button">Record attempt</button></div>

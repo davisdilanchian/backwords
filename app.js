@@ -17,11 +17,13 @@ const S = {
   result: null,      // their attempt, flipped back
   rate: 1,
   recording: null,
-  mode: "script",     // reading the spelling, or copying what you heard
+  mode: "words",      // which of the two spellings, or copying the audio
 };
 
 // Every attempt is kept with what it was read from, because a score only means
 // something once you know whether it was testing the spelling or the listener.
+const MODES = { words: "reading the words", sound: "reading the sounds",
+                ear: "copying the audio" };
 const RUNS_KEY = "backwords-runs-v1";
 const runs = () => { try { return JSON.parse(localStorage.getItem(RUNS_KEY) || "[]"); } catch (e) { return []; } };
 function logRun(row) {
@@ -35,7 +37,7 @@ function showTally() {
   const byMode = {};
   for (const r of all) (byMode[r.mode] ||= []).push(r.score);
   $("tally").textContent = Object.entries(byMode)
-    .map(([m, xs]) => `${m === "script" ? "reading the script" : "copying the sound"}: `
+    .map(([m, xs]) => `${MODES[m] || m}: `
       + `${Math.round(100 * xs.reduce((a, b) => a + b, 0) / xs.length)}% average over ${xs.length}`)
     .join(" · ");
   $("exportruns").hidden = !all.length;
@@ -74,19 +76,23 @@ function setStep(now, avail = now) {
   }
 }
 
+function paint(el, parts) {
+  el.textContent = "";
+  parts.forEach((p, i) => {
+    const b = document.createElement("span");
+    b.className = "bit" + (p.off ? " approx" : "");
+    b.textContent = p.spell;
+    el.appendChild(b);
+    if (i < parts.length - 1) el.appendChild(document.createTextNode(" "));
+  });
+}
+
 function renderScript() {
   if (!SCRIPTER.pieces || !S.text) return;
   const { parts, unknown } = SCRIPTER.make(S.text);
-  const el = $("script");
-  el.textContent = "";
-  parts.forEach((p, i) => {
-    const s = document.createElement("span");
-    s.className = "bit" + (p.off ? " approx" : "");
-    s.textContent = p.spell;
-    el.appendChild(s);
-    if (i < parts.length - 1) el.appendChild(document.createTextNode(" "));
-  });
-  $("meter").textContent = "One piece per word, last word first"
+  paint($("script"), parts);
+  paint($("script2"), SCRIPTER.byEar(S.text));
+  $("meter").textContent = "Both say the same line. Read either one"
     + (unknown.length ? ` · sounded out by rule: ${unknown.join(", ")}` : "");
 }
 
@@ -131,10 +137,11 @@ async function recordInto(which, btn) {
     show("resultwrap");
     const sim = BW.similarity(S.result, S.forward);
     const pct = Math.round(sim * 100);
-    logRun({ line: S.text, mode: S.mode, score: sim, script: plain(),
+    logRun({ line: S.text, mode: S.mode, score: sim,
+             script: plain(), sounds: plain("script2"),
              at: new Date().toISOString() });
     $("bar").style.width = `${Math.max(3, pct)}%`;
-    const what = S.mode === "script" ? "reading the script" : "copying the sound";
+    const what = MODES[S.mode] || S.mode;
     $("verdict").textContent =
       sim >= 0.6 ? `That lands — ${what} got ${pct}%.`
       : sim >= 0.38 ? `Close — recognisable but soft. ${what}, ${pct}%.`
@@ -235,7 +242,7 @@ $("save").addEventListener("click", () => {
 // the letters; only full lines show the glides, the squashed vowel runs and the
 // dropped final breaths, because those are things you do at word length.
 const LINES_KEY = "backwords-lines-v1";
-const plain = () => [...$("script").querySelectorAll(".bit")].map((b) => b.textContent).join(" ");
+const plain = (id = "script") => [...$(id).querySelectorAll(".bit")].map((b) => b.textContent).join(" ");
 const lines = () => { try { return JSON.parse(localStorage.getItem(LINES_KEY) || "[]"); } catch (e) { return []; } };
 function countLines() {
   const n = lines().length;
@@ -270,11 +277,12 @@ $("copy").addEventListener("click", async () => {
 
 Promise.all([
   fetch("data/lex.txt").then((r) => r.text()),
+  fetch("data/idx.txt").then((r) => r.text()),
   fetch("data/style.json").then((r) => r.text()),
-]).then(([lex, style]) => {
-  SCRIPTER.load(lex, style);
+]).then(([lex, idx, style]) => {
+  SCRIPTER.load(lex, idx, style);
   $("status").textContent =
-    `${SCRIPTER.words.toLocaleString()} words, spelled the way ${SCRIPTER.pieces} recorded answers say you hear them. Everything runs in your browser; nothing is uploaded.`;
+    `${SCRIPTER.words.toLocaleString()} words, ${SCRIPTER.pieces.toLocaleString()} checked sound pieces. Everything runs in your browser; nothing is uploaded.`;
   if (S.text) renderScript();
 }).catch(() => {
   $("status").textContent = "Couldn’t load the spelling data — the audio loop still works.";
