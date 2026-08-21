@@ -71,19 +71,23 @@ function renderScript() {
 async function recordInto(which, btn) {
   if (S.recording) { S.recording.stop(); return; }
   if (which === "attempt" && !S.forward) return;
-  btn.classList.add("rec");
-  btn.textContent = "Stop";
+  btn.disabled = true;
+  btn.textContent = "Getting ready…";
   let rec;
   try {
     rec = BW.record();
-  } catch (e) { micFail(e); btn.classList.remove("rec"); return; }
+    await rec.ready;                    // only claim to be recording once we are
+  } catch (e) { micFail(e); btn.disabled = false; btn.textContent = btn.dataset.label; return; }
   S.recording = rec;
+  btn.disabled = false;
+  btn.classList.add("rec");
+  btn.textContent = "Stop";
   let buf;
   try {
     buf = BW.trim(await rec.done);
   } catch (e) {
     micFail(e); S.recording = null; btn.classList.remove("rec");
-    btn.textContent = btn.dataset.label; return;
+    btn.disabled = false; btn.textContent = btn.dataset.label; return;
   }
   S.recording = null;
   btn.classList.remove("rec");
@@ -144,6 +148,7 @@ function start() {
   setStep(1);
   $("say").textContent = t;
   gate();
+  BW.warm();                            // this click is our chance to open the audio graph
   $("work").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 

@@ -60,7 +60,10 @@ def main():
 
             def rec(feed, btn):
                 pg.evaluate(f"window.__feed = {feed!r}")
-                pg.click(btn); pg.wait_for_timeout(400)
+                pg.click(btn)
+                # wait for the app to say it is genuinely capturing, not just clicked
+                pg.wait_for_function(
+                    f"document.querySelector({btn!r}).textContent === 'Stop'", timeout=15000)
                 pg.wait_for_timeout(int(pg.evaluate("window.__feedMs || 2000")) + 350)
                 pg.click(btn); pg.wait_for_timeout(1600)
 

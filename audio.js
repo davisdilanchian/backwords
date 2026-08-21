@@ -39,8 +39,24 @@ const BW = (() => {
   `;
   let workletReady = null;
 
+  // Getting the graph up costs a few hundred milliseconds the first time, and
+  // that is time the user thinks they are being recorded. Do it early, on a
+  // gesture, so pressing record is instant.
+  async function warm() {
+    const ctx = audio();
+    if (ctx.state === "suspended") await ctx.resume();
+    try {
+      workletReady ||= ctx.audioWorklet.addModule(
+        URL.createObjectURL(new Blob([WORKLET], { type: "application/javascript" })));
+      await workletReady;
+    } catch (e) { /* ScriptProcessor fallback needs no module */ }
+  }
+
   function record() {
-    let stop;
+    let stop, live;
+    // resolves the moment samples are actually being collected, so the UI can
+    // wait and never claim to be recording before it is
+    const ready = new Promise((res) => (live = res));
     const done = (async () => {
       const ctx = audio();
       if (ctx.state === "suspended") await ctx.resume();
@@ -62,6 +78,7 @@ const BW = (() => {
           node.onaudioprocess = (ev) => chunks.push(new Float32Array(ev.inputBuffer.getChannelData(0)));
         }
         src.connect(node); node.connect(sink); sink.connect(ctx.destination);
+        live();
         await new Promise((res) => (stop = res));
         await new Promise((res) => setTimeout(res, 120));   // let the tail arrive
       } finally {
@@ -78,7 +95,8 @@ const BW = (() => {
       for (const c of chunks) { d.set(c, o); o += c.length; }
       return buf;
     })();
-    return { stop: () => stop && stop(), done };
+    done.catch(() => live());          // never leave a caller awaiting ready
+    return { stop: () => stop && stop(), done, ready };
   }
 
   // ---- shaping ------------------------------------------------------------
@@ -274,7 +292,7 @@ const BW = (() => {
     return Math.max(0, Math.min(1, 1 - (d - 0.10) / 0.50));
   }
 
-  return { audio, record, reverse, trim, play, stop, toWav, mfcc, dtw, similarity };
+  return { audio, warm, record, reverse, trim, play, stop, toWav, mfcc, dtw, similarity };
 })();
 
 if (typeof module !== "undefined") module.exports = BW;
