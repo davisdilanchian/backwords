@@ -35,15 +35,19 @@ def load_hand():
     return out
 
 def main():
-    from render_style import script_for, load_style
-    style = load_style()
+    import learn_style, render_style
+    from render_style import script_for
     hand = load_hand()
     if not hand:
         print("no hand-written lines yet — save some from the page, then drop the")
         print("download into tools/calibration/lines-<name>.json")
         return 0
+    print("leave-one-line-out: each line is scored by a style trained without it\n")
     exact = close = tot = 0
     for line, theirs in hand:
+        (cnt, head), _ = learn_style.build(skip=line)     # hold this line out
+        learn_style.save(cnt, head)
+        style = render_style.load_style()
         mine = script_for(line, style)
         a, b = theirs.lower().split(), mine.split()
         print(f"\n  {line}\n    theirs {theirs}\n    mine   {mine}")
@@ -53,6 +57,8 @@ def main():
             elif x[:3] == y[:3] or x[-3:] == y[-3:]: close += 1; mark = "close"
             else: mark = ""
             if mark: print(f"      {x:<14s} {y:<14s} {mark}")
+    (cnt, head), _ = learn_style.build()                 # leave it trained on everything
+    learn_style.save(cnt, head)
     print(f"\n  {len(hand)} line(s), {tot} tokens: {exact} exact, {close} close"
           f" ({100*(exact+close)/max(1,tot):.0f}% within reach)")
     return 0

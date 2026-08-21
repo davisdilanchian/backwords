@@ -142,7 +142,10 @@ function spellChunk(ph) {
       if (i === 0 && (cur === "IY" || cur === "IH")) { out.push("y"); continue; }
       if (i === 0 && (cur === "UW" || cur === "UH")) { out.push("w"); continue; }
     }
-    out.push((STYLE.phone[cur] || ["?"])[0]);
+    // an empty spelling is a real answer, not a missing one: it is how a vowel
+    // run gets squashed, so `||` would quietly turn the right answer into "?"
+    const g = STYLE.phone[cur];
+    out.push(g === undefined ? "?" : g);
   }
   const body = out.join("");
   return (STYLE.headBefore.includes(body[0]) ? "h" : "") + body;
