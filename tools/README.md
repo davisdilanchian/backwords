@@ -45,6 +45,31 @@ scores come out in the right order. If a faithful imitation stops scoring above
 `evaluate.py` covers the written script only. `testset.txt` is what the cost
 weights were tuned on; `holdout.txt` was never used for tuning.
 
+## Teaching it a person's spelling
+
+The build verifies spellings with espeak-ng, which reads invented syllables as
+fluently as it reads words. That is the whole blind spot: it cannot tell
+`moss is a dour tissue` from `slesh eess sless eesh`, and only one of those can
+be read aloud. A person can tell instantly, so ask one.
+
+    python3 pick_units.py       # rank chunks by how much work they do -> units.json
+                                #   54 chunks cover 50% of everything the app emits
+                                #   155 cover 70%, 300 cover 85%
+
+Then open `calibrate.html` in the browser. It walks the ranked list: say the
+prompt word, it plays your own voice back reversed, and you write down what you
+would have to read to make that sound. Answers persist in the browser, so the
+session can be stopped and resumed, and a partial pass is still useful because
+the list is ordered by value. Download the result at the end.
+
+    python3 build_index.py
+    python3 apply_calibration.py backwords-spellings.json   # --preview to look first
+    python3 pack.py
+
+Your spelling outranks everything else for the chunks you answered. Where
+espeak disagrees with you, the tool says so and ships your answer regardless —
+you are the one who has to read it.
+
 ## Measurements
 
     python3 reversal_matrix.py      # what each phone becomes when reversed

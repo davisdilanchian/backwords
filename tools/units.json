@@ -1,0 +1,9542 @@
+[
+ {
+  "key": "IY",
+  "say": "ee",
+  "weight": 57282.2,
+  "now": "ee"
+ },
+ {
+  "key": "AH DH",
+  "say": "the",
+  "weight": 55274.0,
+  "now": "uthe"
+ },
+ {
+  "key": "UW",
+  "say": "ou",
+  "weight": 40009.8,
+  "now": "ou"
+ },
+ {
+  "key": "AH",
+  "say": "uh",
+  "weight": 35491.5,
+  "now": "uh"
+ },
+ {
+  "key": "AA",
+  "say": "ah",
+  "weight": 31107.9,
+  "now": "ah"
+ },
+ {
+  "key": "UW T",
+  "say": "to",
+  "weight": 30917.4,
+  "now": "oot"
+ },
+ {
+  "key": "D N AH",
+  "say": "und",
+  "weight": 26325.8,
+  "now": null
+ },
+ {
+  "key": "N IH",
+  "say": "in",
+  "weight": 25966.5,
+  "now": "nih"
+ },
+ {
+  "key": "V AH",
+  "say": "of",
+  "weight": 25193.0,
+  "now": "vuh"
+ },
+ {
+  "key": "Z IH",
+  "say": "is",
+  "weight": 16351.3,
+  "now": "zih"
+ },
+ {
+  "key": "R AH",
+  "say": "er",
+  "weight": 14520.7,
+  "now": "ruh"
+ },
+ {
+  "key": "L AH",
+  "say": "ull",
+  "weight": 12589.1,
+  "now": "le"
+ },
+ {
+  "key": "AO",
+  "say": "aw",
+  "weight": 12295.9,
+  "now": "aw"
+ },
+ {
+  "key": "R AO F",
+  "say": "for",
+  "weight": 11360.2,
+  "now": "rauf"
+ },
+ {
+  "key": "T AE DH",
+  "say": "that",
+  "weight": 10332.9,
+  "now": null
+ },
+ {
+  "key": "T IY",
+  "say": "eat",
+  "weight": 9887.2,
+  "now": "tea"
+ },
+ {
+  "key": "T IH",
+  "say": "it",
+  "weight": 9700.5,
+  "now": "tih"
+ },
+ {
+  "key": "N AA",
+  "say": "ahn",
+  "weight": 8871.6,
+  "now": "na"
+ },
+ {
+  "key": "T UW",
+  "say": "oot",
+  "weight": 8278.5,
+  "now": "to"
+ },
+ {
+  "key": "Z AE",
+  "say": "as",
+  "weight": 8258.4,
+  "now": null
+ },
+ {
+  "key": "NG IH",
+  "say": "ing",
+  "weight": 7511.7,
+  "now": null
+ },
+ {
+  "key": "N UW",
+  "say": "oon",
+  "weight": 7458.1,
+  "now": "new"
+ },
+ {
+  "key": "N AH",
+  "say": "un",
+  "weight": 7408.0,
+  "now": "nuh"
+ },
+ {
+  "key": "IY B",
+  "say": "be",
+  "weight": 7385.1,
+  "now": "eab"
+ },
+ {
+  "key": "R AH T",
+  "say": "ter",
+  "weight": 7254.0,
+  "now": "rut"
+ },
+ {
+  "key": "DH IH W",
+  "say": "with",
+  "weight": 7079.5,
+  "now": null
+ },
+ {
+  "key": "R AA",
+  "say": "are",
+  "weight": 6826.4,
+  "now": "ra"
+ },
+ {
+  "key": "S IH DH",
+  "say": "this",
+  "weight": 6806.9,
+  "now": null
+ },
+ {
+  "key": "Z AA W",
+  "say": "waas",
+  "weight": 6806.9,
+  "now": "zaaw"
+ },
+ {
+  "key": "EH M",
+  "say": "meh",
+  "weight": 6632.5,
+  "now": "em"
+ },
+ {
+  "key": "AA M",
+  "say": "ma",
+  "weight": 6224.7,
+  "now": "om"
+ },
+ {
+  "key": "IY L",
+  "say": "lee",
+  "weight": 6198.9,
+  "now": "eel"
+ },
+ {
+  "key": "K IY",
+  "say": "eke",
+  "weight": 6087.2,
+  "now": "key"
+ },
+ {
+  "key": "K",
+  "say": "qu",
+  "weight": 6036.7,
+  "now": "qu"
+ },
+ {
+  "key": "R AO",
+  "say": "or",
+  "weight": 5967.1,
+  "now": "raw"
+ },
+ {
+  "key": "AA L",
+  "say": "laa",
+  "weight": 5605.0,
+  "now": "ahl"
+ },
+ {
+  "key": "D IY",
+  "say": "eid",
+  "weight": 5520.2,
+  "now": "di"
+ },
+ {
+  "key": "N IY",
+  "say": "een",
+  "weight": 5367.2,
+  "now": "knee"
+ },
+ {
+  "key": "EH R",
+  "say": "reh",
+  "weight": 5363.8,
+  "now": "air"
+ },
+ {
+  "key": "V AE",
+  "say": "av",
+  "weight": 5155.5,
+  "now": null
+ },
+ {
+  "key": "AA B",
+  "say": "ba",
+  "weight": 5099.6,
+  "now": "ob"
+ },
+ {
+  "key": "T AE",
+  "say": "at",
+  "weight": 5098.0,
+  "now": null
+ },
+ {
+  "key": "L AO",
+  "say": "all",
+  "weight": 5063.4,
+  "now": "law"
+ },
+ {
+  "key": "M IY",
+  "say": "eem",
+  "weight": 5017.4,
+  "now": "me"
+ },
+ {
+  "key": "T AA N",
+  "say": "not",
+  "weight": 4897.8,
+  "now": "tahn"
+ },
+ {
+  "key": "AO N",
+  "say": "naw",
+  "weight": 4811.7,
+  "now": "on"
+ },
+ {
+  "key": "Z IY",
+  "say": "ease",
+  "weight": 4466.2,
+  "now": "zee"
+ },
+ {
+  "key": "N AE",
+  "say": "an",
+  "weight": 4295.6,
+  "now": null
+ },
+ {
+  "key": "T AH B",
+  "say": "but",
+  "weight": 4290.9,
+  "now": "tub"
+ },
+ {
+  "key": "M AH R F",
+  "say": "from",
+  "weight": 4265.8,
+  "now": "murph"
+ },
+ {
+  "key": "AO S",
+  "say": "saw",
+  "weight": 4234.7,
+  "now": "auss"
+ },
+ {
+  "key": "R EH DH",
+  "say": "their",
+  "weight": 4179.7,
+  "now": "wrethe"
+ },
+ {
+  "key": "N AH M",
+  "say": "mun",
+  "weight": 4171.1,
+  "now": "numb"
+ },
+ {
+  "key": "N EH",
+  "say": "en",
+  "weight": 4007.2,
+  "now": null
+ },
+ {
+  "key": "N AH W",
+  "say": "one",
+  "weight": 3910.4,
+  "now": "nuw"
+ },
+ {
+  "key": "IY M",
+  "say": "me",
+  "weight": 3839.1,
+  "now": "eem"
+ },
+ {
+  "key": "AA T",
+  "say": "ta",
+  "weight": 3814.0,
+  "now": "ot"
+ },
+ {
+  "key": "S IY",
+  "say": "eess",
+  "weight": 3797.2,
+  "now": "see"
+ },
+ {
+  "key": "IY W",
+  "say": "we",
+  "weight": 3752.5,
+  "now": "eew"
+ },
+ {
+  "key": "NG IH TH",
+  "say": "thing",
+  "weight": 3702.9,
+  "now": null
+ },
+ {
+  "key": "AA W",
+  "say": "wa",
+  "weight": 3610.2,
+  "now": "aaw"
+ },
+ {
+  "key": "N AH SH",
+  "say": "shun",
+  "weight": 3547.4,
+  "now": "nush"
+ },
+ {
+  "key": "R AH W",
+  "say": "were",
+  "weight": 3504.4,
+  "now": "ruw"
+ },
+ {
+  "key": "R AO Y",
+  "say": "yore",
+  "weight": 3488.4,
+  "now": null
+ },
+ {
+  "key": "IY EH DH",
+  "say": "they",
+  "weight": 3462.3,
+  "now": null
+ },
+ {
+  "key": "N AE K",
+  "say": "can",
+  "weight": 3425.8,
+  "now": "knack"
+ },
+ {
+  "key": "AA F",
+  "say": "fa",
+  "weight": 3417.5,
+  "now": "ahf"
+ },
+ {
+  "key": "AH P",
+  "say": "puh",
+  "weight": 3376.6,
+  "now": "up"
+ },
+ {
+  "key": "IH R",
+  "say": "rih",
+  "weight": 3344.2,
+  "now": "ear"
+ },
+ {
+  "key": "Z UW",
+  "say": "ooze",
+  "weight": 3300.7,
+  "now": "zoo"
+ },
+ {
+  "key": "V IY",
+  "say": "eve",
+  "weight": 3288.1,
+  "now": "ve"
+ },
+ {
+  "key": "M AH K",
+  "say": "come",
+  "weight": 3249.9,
+  "now": "muck"
+ },
+ {
+  "key": "AO G",
+  "say": "gaw",
+  "weight": 3186.9,
+  "now": "aug"
+ },
+ {
+  "key": "AH S",
+  "say": "suh",
+  "weight": 3125.2,
+  "now": "us"
+ },
+ {
+  "key": "AA R",
+  "say": "ra",
+  "weight": 3106.6,
+  "now": "are"
+ },
+ {
+  "key": "IY T",
+  "say": "tea",
+  "weight": 3106.0,
+  "now": "eat"
+ },
+ {
+  "key": "M AH S",
+  "say": "some",
+  "weight": 3084.4,
+  "now": "mus"
+ },
+ {
+  "key": "F IH",
+  "say": "if",
+  "weight": 3001.5,
+  "now": "fih"
+ },
+ {
+  "key": "T S AH",
+  "say": "ust",
+  "weight": 2977.4,
+  "now": null
+ },
+ {
+  "key": "L IH W",
+  "say": "will",
+  "weight": 2974.9,
+  "now": "lyw"
+ },
+ {
+  "key": "SH IY",
+  "say": "eesh",
+  "weight": 2966.1,
+  "now": "she"
+ },
+ {
+  "key": "IH B",
+  "say": "bih",
+  "weight": 2941.9,
+  "now": "ib"
+ },
+ {
+  "key": "R AH F",
+  "say": "fur",
+  "weight": 2928.5,
+  "now": "rough"
+ },
+ {
+  "key": "D AE",
+  "say": "add",
+  "weight": 2899.9,
+  "now": null
+ },
+ {
+  "key": "D AH",
+  "say": "ud",
+  "weight": 2869.0,
+  "now": "de"
+ },
+ {
+  "key": "UW D",
+  "say": "do",
+  "weight": 2860.7,
+  "now": "ood"
+ },
+ {
+  "key": "P AH",
+  "say": "up",
+  "weight": 2850.0,
+  "now": "puh"
+ },
+ {
+  "key": "S AH",
+  "say": "us",
+  "weight": 2822.7,
+  "now": "suh"
+ },
+ {
+  "key": "B AH",
+  "say": "ub",
+  "weight": 2730.7,
+  "now": "buh"
+ },
+ {
+  "key": "N EH W",
+  "say": "when",
+  "weight": 2728.9,
+  "now": null
+ },
+ {
+  "key": "R AH V",
+  "say": "ver",
+  "weight": 2715.3,
+  "now": "ruvve"
+ },
+ {
+  "key": "AA N",
+  "say": "na",
+  "weight": 2690.0,
+  "now": "ahn"
+ },
+ {
+  "key": "T AH W",
+  "say": "what",
+  "weight": 2665.9,
+  "now": "tuw"
+ },
+ {
+  "key": "R AO M",
+  "say": "more",
+  "weight": 2659.8,
+  "now": "rawm"
+ },
+ {
+  "key": "M IH",
+  "say": "im",
+  "weight": 2652.3,
+  "now": "mih"
+ },
+ {
+  "key": "N AH K",
+  "say": "kun",
+  "weight": 2598.8,
+  "now": "nuk"
+ },
+ {
+  "key": "AA S",
+  "say": "sa",
+  "weight": 2500.2,
+  "now": "oss"
+ },
+ {
+  "key": "T N AH",
+  "say": "unt",
+  "weight": 2384.4,
+  "now": null
+ },
+ {
+  "key": "AO L",
+  "say": "law",
+  "weight": 2361.2,
+  "now": "all"
+ },
+ {
+  "key": "IY SH",
+  "say": "she",
+  "weight": 2319.7,
+  "now": "eesh"
+ },
+ {
+  "key": "IY S",
+  "say": "see",
+  "weight": 2305.2,
+  "now": "eess"
+ },
+ {
+  "key": "Z R AH",
+  "say": "ers",
+  "weight": 2223.6,
+  "now": null
+ },
+ {
+  "key": "L IY",
+  "say": "eel",
+  "weight": 2207.2,
+  "now": "lee"
+ },
+ {
+  "key": "R AH HH",
+  "say": "her",
+  "weight": 2155.5,
+  "now": null
+ },
+ {
+  "key": "R AH P",
+  "say": "per",
+  "weight": 2144.7,
+  "now": "rupp"
+ },
+ {
+  "key": "AA R P",
+  "say": "pra",
+  "weight": 2097.2,
+  "now": "arp"
+ },
+ {
+  "key": "T IH W",
+  "say": "wit",
+  "weight": 2029.9,
+  "now": "tyw"
+ },
+ {
+  "key": "T EH G",
+  "say": "get",
+  "weight": 2020.3,
+  "now": "teg"
+ },
+ {
+  "key": "D N IY",
+  "say": "eand",
+  "weight": 1992.0,
+  "now": null
+ },
+ {
+  "key": "IH D",
+  "say": "dih",
+  "weight": 1984.0,
+  "now": "ydd"
+ },
+ {
+  "key": "UW N",
+  "say": "new",
+  "weight": 1980.4,
+  "now": "oon"
+ },
+ {
+  "key": "N IH B",
+  "say": "been",
+  "weight": 1962.1,
+  "now": "nib"
+ },
+ {
+  "key": "D UH W",
+  "say": "would",
+  "weight": 1950.5,
+  "now": null
+ },
+ {
+  "key": "IH M",
+  "say": "mih",
+  "weight": 1934.4,
+  "now": "im"
+ },
+ {
+  "key": "IY R",
+  "say": "re",
+  "weight": 1853.5,
+  "now": null
+ },
+ {
+  "key": "R AH B",
+  "say": "burr",
+  "weight": 1845.5,
+  "now": "rub"
+ },
+ {
+  "key": "T S UW",
+  "say": "oost",
+  "weight": 1837.7,
+  "now": "tsu"
+ },
+ {
+  "key": "IY D",
+  "say": "di",
+  "weight": 1828.7,
+  "now": "eid"
+ },
+ {
+  "key": "R AH S",
+  "say": "sir",
+  "weight": 1826.4,
+  "now": "russ"
+ },
+ {
+  "key": "R AH D",
+  "say": "durr",
+  "weight": 1821.0,
+  "now": "rudd"
+ },
+ {
+  "key": "NG IH K",
+  "say": "king",
+  "weight": 1818.0,
+  "now": null
+ },
+ {
+  "key": "L UW",
+  "say": "uhl",
+  "weight": 1812.7,
+  "now": "lou"
+ },
+ {
+  "key": "P IY P",
+  "say": "peep",
+  "weight": 1802.3,
+  "now": "peep"
+ },
+ {
+  "key": "B IY",
+  "say": "eab",
+  "weight": 1784.5,
+  "now": "be"
+ },
+ {
+  "key": "DH AH",
+  "say": "uthe",
+  "weight": 1784.3,
+  "now": "the"
+ },
+ {
+  "key": "V UW",
+  "say": "oove",
+  "weight": 1766.9,
+  "now": "vu"
+ },
+ {
+  "key": "AA K",
+  "say": "ca",
+  "weight": 1750.7,
+  "now": "och"
+ },
+ {
+  "key": "AO M",
+  "say": "maw",
+  "weight": 1738.8,
+  "now": "awm"
+ },
+ {
+  "key": "D L UW",
+  "say": "oold",
+  "weight": 1707.2,
+  "now": null
+ },
+ {
+  "key": "AH M",
+  "say": "muh",
+  "weight": 1703.0,
+  "now": "um"
+ },
+ {
+  "key": "R EH",
+  "say": "air",
+  "weight": 1695.7,
+  "now": "reh"
+ },
+ {
+  "key": "M EH DH",
+  "say": "them",
+  "weight": 1693.4,
+  "now": "methe"
+ },
+ {
+  "key": "G",
+  "say": "gue",
+  "weight": 1650.4,
+  "now": "gue"
+ },
+ {
+  "key": "R EH W",
+  "say": "where",
+  "weight": 1582.4,
+  "now": "rew"
+ },
+ {
+  "key": "D UH G",
+  "say": "good",
+  "weight": 1558.1,
+  "now": null
+ },
+ {
+  "key": "AO R",
+  "say": "raw",
+  "weight": 1550.9,
+  "now": "or"
+ },
+ {
+  "key": "S L AO",
+  "say": "awlse",
+  "weight": 1548.8,
+  "now": "slaw"
+ },
+ {
+  "key": "AA P",
+  "say": "pa",
+  "weight": 1541.6,
+  "now": "op"
+ },
+ {
+  "key": "AA D",
+  "say": "da",
+  "weight": 1521.2,
+  "now": "odd"
+ },
+ {
+  "key": "K AE",
+  "say": "acc",
+  "weight": 1499.6,
+  "now": null
+ },
+ {
+  "key": "NG IH T",
+  "say": "ting",
+  "weight": 1442.2,
+  "now": null
+ },
+ {
+  "key": "NG IH R",
+  "say": "ring",
+  "weight": 1435.1,
+  "now": null
+ },
+ {
+  "key": "F AO",
+  "say": "off",
+  "weight": 1431.5,
+  "now": "faw"
+ },
+ {
+  "key": "S T IH",
+  "say": "its",
+  "weight": 1425.1,
+  "now": "stih"
+ },
+ {
+  "key": "D IY N",
+  "say": "need",
+  "weight": 1419.0,
+  "now": "dean"
+ },
+ {
+  "key": "AH N",
+  "say": "nuh",
+  "weight": 1399.7,
+  "now": "un"
+ },
+ {
+  "key": "F AE",
+  "say": "af",
+  "weight": 1393.3,
+  "now": null
+ },
+ {
+  "key": "IY N",
+  "say": "knee",
+  "weight": 1390.6,
+  "now": "een"
+ },
+ {
+  "key": "N AH S",
+  "say": "son",
+  "weight": 1383.6,
+  "now": "nus"
+ },
+ {
+  "key": "R AH SH T",
+  "say": "chur",
+  "weight": 1383.3,
+  "now": "rushed"
+ },
+ {
+  "key": "K R AH W",
+  "say": "work",
+  "weight": 1350.4,
+  "now": "kruw"
+ },
+ {
+  "key": "N EH S",
+  "say": "sen",
+  "weight": 1346.1,
+  "now": "ness"
+ },
+ {
+  "key": "M UW",
+  "say": "oom",
+  "weight": 1342.2,
+  "now": "mu"
+ },
+ {
+  "key": "D IH D",
+  "say": "did",
+  "weight": 1313.5,
+  "now": "did"
+ },
+ {
+  "key": "N AA W",
+  "say": "wahn",
+  "weight": 1301.2,
+  "now": "naaw"
+ },
+ {
+  "key": "AO F",
+  "say": "faw",
+  "weight": 1297.5,
+  "now": "off"
+ },
+ {
+  "key": "Z UW Y",
+  "say": "yous",
+  "weight": 1295.6,
+  "now": null
+ },
+ {
+  "key": "AH R",
+  "say": "ruh",
+  "weight": 1277.7,
+  "now": "er"
+ },
+ {
+  "key": "AO P",
+  "say": "paw",
+  "weight": 1264.5,
+  "now": "aup"
+ },
+ {
+  "key": "NG IH D",
+  "say": "ding",
+  "weight": 1264.1,
+  "now": null
+ },
+ {
+  "key": "K AE B",
+  "say": "back",
+  "weight": 1255.4,
+  "now": "cab"
+ },
+ {
+  "key": "F IY",
+  "say": "eaf",
+  "weight": 1246.0,
+  "now": "fee"
+ },
+ {
+  "key": "S UW",
+  "say": "ooss",
+  "weight": 1238.1,
+  "now": "sue"
+ },
+ {
+  "key": "S K IH",
+  "say": "yx",
+  "weight": 1228.5,
+  "now": "skih"
+ },
+ {
+  "key": "L EH W",
+  "say": "well",
+  "weight": 1228.5,
+  "now": null
+ },
+ {
+  "key": "L AH K",
+  "say": "cul",
+  "weight": 1223.0,
+  "now": "luck"
+ },
+ {
+  "key": "D IH T",
+  "say": "tid",
+  "weight": 1220.2,
+  "now": "dit"
+ },
+ {
+  "key": "V IH G",
+  "say": "give",
+  "weight": 1218.3,
+  "now": "vig"
+ },
+ {
+  "key": "AO T",
+  "say": "taw",
+  "weight": 1215.9,
+  "now": "ought"
+ },
+ {
+  "key": "AO B",
+  "say": "baugh",
+  "weight": 1212.1,
+  "now": "awb"
+ },
+ {
+  "key": "D R AH",
+  "say": "erred",
+  "weight": 1185.5,
+  "now": "druh"
+ },
+ {
+  "key": "Z M IY",
+  "say": "eames",
+  "weight": 1177.4,
+  "now": null
+ },
+ {
+  "key": "N EH DH",
+  "say": "then",
+  "weight": 1174.9,
+  "now": "nethe"
+ },
+ {
+  "key": "Z AH",
+  "say": "uz",
+  "weight": 1173.4,
+  "now": "zuh"
+ },
+ {
+  "key": "IH T",
+  "say": "tih",
+  "weight": 1166.9,
+  "now": "it"
+ },
+ {
+  "key": "S IH",
+  "say": "iss",
+  "weight": 1161.6,
+  "now": "sy"
+ },
+ {
+  "key": "NG IH N",
+  "say": "ning",
+  "weight": 1161.5,
+  "now": null
+ },
+ {
+  "key": "D UH K",
+  "say": "could",
+  "weight": 1148.2,
+  "now": "dook"
+ },
+ {
+  "key": "IH F",
+  "say": "fih",
+  "weight": 1147.7,
+  "now": "if"
+ },
+ {
+  "key": "N AH T",
+  "say": "ton",
+  "weight": 1145.9,
+  "now": "nut"
+ },
+ {
+  "key": "S IH D",
+  "say": "dis",
+  "weight": 1135.5,
+  "now": "sid"
+ },
+ {
+  "key": "D R AO",
+  "say": "ord",
+  "weight": 1124.8,
+  "now": "draw"
+ },
+ {
+  "key": "TH UW",
+  "say": "ooth",
+  "weight": 1098.8,
+  "now": "thoo"
+ },
+ {
+  "key": "Z IY DH",
+  "say": "these",
+  "weight": 1096.5,
+  "now": "zeathe"
+ },
+ {
+  "key": "IH L",
+  "say": "lih",
+  "weight": 1084.0,
+  "now": "ill"
+ },
+ {
+  "key": "AH T",
+  "say": "tuh",
+  "weight": 1078.3,
+  "now": "utt"
+ },
+ {
+  "key": "R IH",
+  "say": "ear",
+  "weight": 1073.8,
+  "now": "rih"
+ },
+ {
+  "key": "Z AO K",
+  "say": "cause",
+  "weight": 1071.5,
+  "now": "zawk"
+ },
+ {
+  "key": "L IH B",
+  "say": "bill",
+  "weight": 1057.6,
+  "now": "lib"
+ },
+ {
+  "key": "K IH",
+  "say": "iq",
+  "weight": 1042.4,
+  "now": "kih"
+ },
+ {
+  "key": "D UW",
+  "say": "ood",
+  "weight": 1040.4,
+  "now": "do"
+ },
+ {
+  "key": "SH IH",
+  "say": "ish",
+  "weight": 1039.6,
+  "now": "shih"
+ },
+ {
+  "key": "D EH S",
+  "say": "said",
+  "weight": 1023.3,
+  "now": "des"
+ },
+ {
+  "key": "T R AO P",
+  "say": "port",
+  "weight": 1022.8,
+  "now": "traup"
+ },
+ {
+  "key": "R AH N",
+  "say": "nur",
+  "weight": 1004.7,
+  "now": "run"
+ },
+ {
+  "key": "IH S",
+  "say": "sy",
+  "weight": 997.4,
+  "now": "iss"
+ },
+ {
+  "key": "N AH D",
+  "say": "done",
+  "weight": 979.8,
+  "now": "nud"
+ },
+ {
+  "key": "W IY",
+  "say": "eew",
+  "weight": 977.3,
+  "now": "we"
+ },
+ {
+  "key": "D UH SH",
+  "say": "should",
+  "weight": 977.2,
+  "now": null
+ },
+ {
+  "key": "N UW Y",
+  "say": "yoon",
+  "weight": 976.4,
+  "now": null
+ },
+ {
+  "key": "N AA K",
+  "say": "con",
+  "weight": 973.9,
+  "now": "knock"
+ },
+ {
+  "key": "IH W",
+  "say": "wih",
+  "weight": 972.7,
+  "now": "yw"
+ },
+ {
+  "key": "T S IY",
+  "say": "east",
+  "weight": 957.7,
+  "now": "tse"
+ },
+ {
+  "key": "V EH N",
+  "say": "nevve",
+  "weight": 955.5,
+  "now": "venn"
+ },
+ {
+  "key": "F L EH S",
+  "say": "self",
+  "weight": 950.2,
+  "now": "fless"
+ },
+ {
+  "key": "AH K",
+  "say": "cuh",
+  "weight": 948.7,
+  "now": "uck"
+ },
+ {
+  "key": "T R AA P",
+  "say": "part",
+  "weight": 920.8,
+  "now": "trop"
+ },
+ {
+  "key": "IH Y",
+  "say": "yih",
+  "weight": 912.0,
+  "now": null
+ },
+ {
+  "key": "AO SH",
+  "say": "shaw",
+  "weight": 907.8,
+  "now": "aush"
+ },
+ {
+  "key": "AA G",
+  "say": "ga",
+  "weight": 903.2,
+  "now": "og"
+ },
+ {
+  "key": "R AH DH",
+  "say": "ther",
+  "weight": 900.2,
+  "now": null
+ },
+ {
+  "key": "AA R T",
+  "say": "tra",
+  "weight": 899.4,
+  "now": "art"
+ },
+ {
+  "key": "D EH R",
+  "say": "red",
+  "weight": 892.2,
+  "now": "dare"
+ },
+ {
+  "key": "AO K",
+  "say": "caw",
+  "weight": 887.6,
+  "now": "auch"
+ },
+ {
+  "key": "R AH G",
+  "say": "gurr",
+  "weight": 872.3,
+  "now": "rug"
+ },
+ {
+  "key": "IY V",
+  "say": "ve",
+  "weight": 853.4,
+  "now": "eve"
+ },
+ {
+  "key": "F IH B",
+  "say": "biff",
+  "weight": 851.1,
+  "now": "fib"
+ },
+ {
+  "key": "P IY",
+  "say": "eap",
+  "weight": 841.0,
+  "now": "pee"
+ },
+ {
+  "key": "N AH R",
+  "say": "run",
+  "weight": 837.9,
+  "now": "nur"
+ },
+ {
+  "key": "L IH T S",
+  "say": "still",
+  "weight": 831.8,
+  "now": "lyts"
+ },
+ {
+  "key": "V AH L",
+  "say": "love",
+  "weight": 831.6,
+  "now": "vul"
+ },
+ {
+  "key": "S T IY",
+  "say": "eats",
+  "weight": 829.6,
+  "now": "ste"
+ },
+ {
+  "key": "T S AE L",
+  "say": "last",
+  "weight": 824.4,
+  "now": "tsal"
+ },
+ {
+  "key": "T IH B",
+  "say": "bit",
+  "weight": 823.3,
+  "now": "tib"
+ },
+ {
+  "key": "AH V",
+  "say": "vuh",
+  "weight": 822.9,
+  "now": "of"
+ },
+ {
+  "key": "L AH SH",
+  "say": "shull",
+  "weight": 821.1,
+  "now": "lush"
+ },
+ {
+  "key": "T S EH W",
+  "say": "west",
+  "weight": 820.0,
+  "now": null
+ },
+ {
+  "key": "T AA G",
+  "say": "got",
+  "weight": 812.8,
+  "now": "tog"
+ },
+ {
+  "key": "N AE M",
+  "say": "man",
+  "weight": 811.3,
+  "now": "nam"
+ },
+ {
+  "key": "AH R P",
+  "say": "pruh",
+  "weight": 809.3,
+  "now": "earp"
+ },
+ {
+  "key": "T S EH B",
+  "say": "best",
+  "weight": 791.8,
+  "now": "tseb"
+ },
+ {
+  "key": "NG AO L",
+  "say": "long",
+  "weight": 790.2,
+  "now": null
+ },
+ {
+  "key": "AH D",
+  "say": "de",
+  "weight": 789.9,
+  "now": "ud"
+ },
+ {
+  "key": "N AE T S",
+  "say": "stan",
+  "weight": 789.6,
+  "now": "nats"
+ },
+ {
+  "key": "P L EH HH",
+  "say": "help",
+  "weight": 780.3,
+  "now": null
+ },
+ {
+  "key": "S UW Y",
+  "say": "use",
+  "weight": 774.0,
+  "now": null
+ },
+ {
+  "key": "Z N AH",
+  "say": "uns",
+  "weight": 771.3,
+  "now": null
+ },
+ {
+  "key": "UW R TH",
+  "say": "through",
+  "weight": 770.2,
+  "now": null
+ },
+ {
+  "key": "M AH T",
+  "say": "tum",
+  "weight": 768.6,
+  "now": "mutt"
+ },
+ {
+  "key": "N AH ZH",
+  "say": "zhun",
+  "weight": 749.6,
+  "now": null
+ },
+ {
+  "key": "V UW M",
+  "say": "move",
+  "weight": 747.2,
+  "now": "voom"
+ },
+ {
+  "key": "R AH T S",
+  "say": "stir",
+  "weight": 745.3,
+  "now": "ruts"
+ },
+ {
+  "key": "N AH Z",
+  "say": "zun",
+  "weight": 744.4,
+  "now": "nuz"
+ },
+ {
+  "key": "IY R T",
+  "say": "tree",
+  "weight": 742.1,
+  "now": null
+ },
+ {
+  "key": "V IH T",
+  "say": "tivve",
+  "weight": 739.0,
+  "now": "vit"
+ },
+ {
+  "key": "T IH L",
+  "say": "lit",
+  "weight": 730.0,
+  "now": "till"
+ },
+ {
+  "key": "N AH F",
+  "say": "fun",
+  "weight": 725.0,
+  "now": "nuf"
+ },
+ {
+  "key": "S EH",
+  "say": "ess",
+  "weight": 724.4,
+  "now": null
+ },
+ {
+  "key": "Z N AH SH",
+  "say": "shuns",
+  "weight": 716.9,
+  "now": null
+ },
+ {
+  "key": "IY D IY",
+  "say": "eadie",
+  "weight": 700.0,
+  "now": "eadie"
+ },
+ {
+  "key": "L AH N",
+  "say": "null",
+  "weight": 695.7,
+  "now": "lun"
+ },
+ {
+  "key": "N R AH",
+  "say": "earn",
+  "weight": 694.2,
+  "now": null
+ },
+ {
+  "key": "AO W",
+  "say": "waugh",
+  "weight": 691.3,
+  "now": "auw"
+ },
+ {
+  "key": "R AH M",
+  "say": "mer",
+  "weight": 690.3,
+  "now": "rum"
+ },
+ {
+  "key": "N EH T",
+  "say": "ten",
+  "weight": 686.8,
+  "now": "net"
+ },
+ {
+  "key": "B AA",
+  "say": "ob",
+  "weight": 686.1,
+  "now": "ba"
+ },
+ {
+  "key": "K EH R",
+  "say": "wreck",
+  "weight": 684.8,
+  "now": "care"
+ },
+ {
+  "key": "R AA K",
+  "say": "car",
+  "weight": 674.9,
+  "now": "rock"
+ },
+ {
+  "key": "Z AH S",
+  "say": "suz",
+  "weight": 667.8,
+  "now": "zus"
+ },
+ {
+  "key": "N IH W",
+  "say": "win",
+  "weight": 665.6,
+  "now": "niw"
+ },
+ {
+  "key": "N IY W",
+  "say": "wien",
+  "weight": 661.3,
+  "now": "neew"
+ },
+ {
+  "key": "K EH S",
+  "say": "sec",
+  "weight": 661.3,
+  "now": "kes"
+ },
+ {
+  "key": "NG IH V",
+  "say": "ving",
+  "weight": 660.5,
+  "now": null
+ },
+ {
+  "key": "AH G",
+  "say": "guh",
+  "weight": 658.8,
+  "now": "ugh"
+ },
+ {
+  "key": "NG IH K IY",
+  "say": "eking",
+  "weight": 647.2,
+  "now": null
+ },
+ {
+  "key": "G IH",
+  "say": "yg",
+  "weight": 646.9,
+  "now": null
+ },
+ {
+  "key": "IY R TH",
+  "say": "three",
+  "weight": 645.2,
+  "now": null
+ },
+ {
+  "key": "M EH M",
+  "say": "mem",
+  "weight": 644.6,
+  "now": "mem"
+ },
+ {
+  "key": "R IH P",
+  "say": "peer",
+  "weight": 644.3,
+  "now": "rip"
+ },
+ {
+  "key": "L IY F",
+  "say": "feel",
+  "weight": 642.4,
+  "now": "leaf"
+ },
+ {
+  "key": "K EH T",
+  "say": "tech",
+  "weight": 642.2,
+  "now": "kett"
+ },
+ {
+  "key": "M EH",
+  "say": "em",
+  "weight": 640.9,
+  "now": "meh"
+ },
+ {
+  "key": "IH Z",
+  "say": "zih",
+  "weight": 640.8,
+  "now": "is"
+ },
+ {
+  "key": "L EH T",
+  "say": "tell",
+  "weight": 639.7,
+  "now": "let"
+ },
+ {
+  "key": "NG IH L",
+  "say": "ling",
+  "weight": 637.1,
+  "now": null
+ },
+ {
+  "key": "T AH",
+  "say": "utt",
+  "weight": 634.7,
+  "now": "tuh"
+ },
+ {
+  "key": "L IY R",
+  "say": "reel",
+  "weight": 633.3,
+  "now": null
+ },
+ {
+  "key": "T EH L",
+  "say": "let",
+  "weight": 632.9,
+  "now": "tell"
+ },
+ {
+  "key": "M AE",
+  "say": "am",
+  "weight": 624.9,
+  "now": null
+ },
+ {
+  "key": "N EH M",
+  "say": "men",
+  "weight": 618.2,
+  "now": "nem"
+ },
+ {
+  "key": "K IH P",
+  "say": "pick",
+  "weight": 616.7,
+  "now": "kip"
+ },
+ {
+  "key": "T AA",
+  "say": "ot",
+  "weight": 616.0,
+  "now": "ta"
+ },
+ {
+  "key": "M AH N",
+  "say": "numb",
+  "weight": 613.2,
+  "now": "mun"
+ },
+ {
+  "key": "IH TH",
+  "say": "thih",
+  "weight": 609.8,
+  "now": "yth"
+ },
+ {
+  "key": "B AH S",
+  "say": "sub",
+  "weight": 609.5,
+  "now": "bus"
+ },
+ {
+  "key": "S AE",
+  "say": "ass",
+  "weight": 609.5,
+  "now": null
+ },
+ {
+  "key": "T UH P",
+  "say": "put",
+  "weight": 606.4,
+  "now": null
+ },
+ {
+  "key": "SH T IY",
+  "say": "each",
+  "weight": 604.6,
+  "now": null
+ },
+ {
+  "key": "NG IH T IY",
+  "say": "eating",
+  "weight": 604.5,
+  "now": null
+ },
+ {
+  "key": "S IH S",
+  "say": "sis",
+  "weight": 603.6,
+  "now": "sis"
+ },
+ {
+  "key": "R AO T S",
+  "say": "store",
+  "weight": 601.2,
+  "now": "rawts"
+ },
+ {
+  "key": "D EH",
+  "say": "ed",
+  "weight": 598.6,
+  "now": null
+ },
+ {
+  "key": "NG IH S",
+  "say": "sing",
+  "weight": 594.2,
+  "now": null
+ },
+ {
+  "key": "T AH K",
+  "say": "cut",
+  "weight": 593.8,
+  "now": "tuck"
+ },
+ {
+  "key": "N AH P",
+  "say": "pun",
+  "weight": 591.6,
+  "now": "nup"
+ },
+ {
+  "key": "R AH SH",
+  "say": "sher",
+  "weight": 589.3,
+  "now": "rush"
+ },
+ {
+  "key": "AA R D",
+  "say": "dra",
+  "weight": 589.3,
+  "now": "ard"
+ },
+ {
+  "key": "Z IY L P",
+  "say": "please",
+  "weight": 584.6,
+  "now": "zeelp"
+ },
+ {
+  "key": "L AH F",
+  "say": "ful",
+  "weight": 573.1,
+  "now": "lough"
+ },
+ {
+  "key": "T N UW",
+  "say": "oont",
+  "weight": 571.5,
+  "now": null
+ },
+ {
+  "key": "IY P",
+  "say": "pee",
+  "weight": 570.2,
+  "now": "eap"
+ },
+ {
+  "key": "T R AA",
+  "say": "art",
+  "weight": 569.0,
+  "now": "tra"
+ },
+ {
+  "key": "SH UW",
+  "say": "oosh",
+  "weight": 565.8,
+  "now": "shoe"
+ },
+ {
+  "key": "S N IH S",
+  "say": "since",
+  "weight": 562.3,
+  "now": "sniss"
+ },
+ {
+  "key": "R UH SH",
+  "say": "sure",
+  "weight": 553.3,
+  "now": null
+ },
+ {
+  "key": "P UW",
+  "say": "oop",
+  "weight": 553.3,
+  "now": "poo"
+ },
+ {
+  "key": "D R AH W",
+  "say": "word",
+  "weight": 551.0,
+  "now": "druw"
+ },
+ {
+  "key": "S K IY",
+  "say": "eex",
+  "weight": 550.5,
+  "now": "ski"
+ },
+ {
+  "key": "DH AH N",
+  "say": "nuthe",
+  "weight": 549.5,
+  "now": "than"
+ },
+ {
+  "key": "Z AH D",
+  "say": "does",
+  "weight": 549.5,
+  "now": "zud"
+ },
+ {
+  "key": "AH F",
+  "say": "fuh",
+  "weight": 548.3,
+  "now": "uf"
+ },
+ {
+  "key": "K EH N",
+  "say": "neck",
+  "weight": 543.8,
+  "now": "ken"
+ },
+ {
+  "key": "AO R P",
+  "say": "praw",
+  "weight": 541.5,
+  "now": "orp"
+ },
+ {
+  "key": "R AA P",
+  "say": "par",
+  "weight": 536.1,
+  "now": "rop"
+ },
+ {
+  "key": "F AH",
+  "say": "uf",
+  "weight": 534.0,
+  "now": "fuh"
+ },
+ {
+  "key": "AA R K",
+  "say": "kra",
+  "weight": 531.0,
+  "now": "arc"
+ },
+ {
+  "key": "IH N",
+  "say": "nih",
+  "weight": 527.6,
+  "now": "in"
+ },
+ {
+  "key": "AA V",
+  "say": "va",
+  "weight": 525.4,
+  "now": "aave"
+ },
+ {
+  "key": "L AO K",
+  "say": "call",
+  "weight": 523.6,
+  "now": "lauk"
+ },
+ {
+  "key": "T IH R",
+  "say": "writ",
+  "weight": 520.8,
+  "now": "tear"
+ },
+ {
+  "key": "R EH K",
+  "say": "care",
+  "weight": 518.6,
+  "now": "wreck"
+ },
+ {
+  "key": "R AA T S",
+  "say": "star",
+  "weight": 517.8,
+  "now": "rots"
+ },
+ {
+  "key": "F EH L",
+  "say": "leff",
+  "weight": 516.9,
+  "now": "fell"
+ },
+ {
+  "key": "L UW K S",
+  "say": "school",
+  "weight": 512.9,
+  "now": "lukes"
+ },
+ {
+  "key": "T S AH M",
+  "say": "must",
+  "weight": 509.5,
+  "now": null
+ },
+ {
+  "key": "N IY S",
+  "say": "seen",
+  "weight": 507.6,
+  "now": "niece"
+ },
+ {
+  "key": "R AH L",
+  "say": "lur",
+  "weight": 503.0,
+  "now": "rul"
+ },
+ {
+  "key": "P AA T S",
+  "say": "stop",
+  "weight": 500.3,
+  "now": "pots"
+ },
+ {
+  "key": "IY R F",
+  "say": "free",
+  "weight": 499.0,
+  "now": null
+ },
+ {
+  "key": "AH T S",
+  "say": "stuh",
+  "weight": 497.8,
+  "now": "utz"
+ },
+ {
+  "key": "K AE F",
+  "say": "fac",
+  "weight": 494.1,
+  "now": "calf"
+ },
+ {
+  "key": "Z EH R P",
+  "say": "prez",
+  "weight": 492.0,
+  "now": null
+ },
+ {
+  "key": "TH IH W",
+  "say": "wyth",
+  "weight": 489.8,
+  "now": "thiw"
+ },
+ {
+  "key": "S UW AO L",
+  "say": "lohse",
+  "weight": 476.9,
+  "now": "sewall"
+ },
+ {
+  "key": "V IY L",
+  "say": "leave",
+  "weight": 475.9,
+  "now": "veal"
+ },
+ {
+  "key": "D IH",
+  "say": "ydd",
+  "weight": 474.5,
+  "now": "dih"
+ },
+ {
+  "key": "Z IH D",
+  "say": "diz",
+  "weight": 473.0,
+  "now": "zid"
+ },
+ {
+  "key": "R AA M",
+  "say": "mar",
+  "weight": 472.6,
+  "now": "rom"
+ },
+ {
+  "key": "T EH S",
+  "say": "set",
+  "weight": 470.9,
+  "now": "tess"
+ },
+ {
+  "key": "T IY M",
+  "say": "meet",
+  "weight": 470.1,
+  "now": "team"
+ },
+ {
+  "key": "R AO W",
+  "say": "war",
+  "weight": 470.0,
+  "now": "rauw"
+ },
+ {
+  "key": "G IH B",
+  "say": "big",
+  "weight": 467.7,
+  "now": "gibb"
+ },
+ {
+  "key": "M IY T",
+  "say": "team",
+  "weight": 467.7,
+  "now": "meet"
+ },
+ {
+  "key": "P EH S",
+  "say": "sep",
+  "weight": 467.2,
+  "now": "pesce"
+ },
+ {
+  "key": "R IH S",
+  "say": "sear",
+  "weight": 462.0,
+  "now": "riss"
+ },
+ {
+  "key": "N EH R F",
+  "say": "fren",
+  "weight": 460.4,
+  "now": null
+ },
+ {
+  "key": "AA SH T",
+  "say": "cha",
+  "weight": 460.1,
+  "now": "oshed"
+ },
+ {
+  "key": "D IH R",
+  "say": "rid",
+  "weight": 458.1,
+  "now": "dear"
+ },
+ {
+  "key": "S EH L",
+  "say": "less",
+  "weight": 458.0,
+  "now": "sell"
+ },
+ {
+  "key": "M AE F",
+  "say": "pham",
+  "weight": 457.1,
+  "now": "maf"
+ },
+ {
+  "key": "P IY K",
+  "say": "keep",
+  "weight": 457.1,
+  "now": "peak"
+ },
+ {
+  "key": "T N IY",
+  "say": "eent",
+  "weight": 456.8,
+  "now": null
+ },
+ {
+  "key": "K AH",
+  "say": "uck",
+  "weight": 455.4,
+  "now": "cuh"
+ },
+ {
+  "key": "S AH M",
+  "say": "mus",
+  "weight": 449.7,
+  "now": "some"
+ },
+ {
+  "key": "IH R P",
+  "say": "prih",
+  "weight": 447.9,
+  "now": null
+ },
+ {
+  "key": "K IY W",
+  "say": "week",
+  "weight": 445.9,
+  "now": "keew"
+ },
+ {
+  "key": "P AH S",
+  "say": "sup",
+  "weight": 445.0,
+  "now": "pus"
+ },
+ {
+  "key": "R EH P",
+  "say": "pair",
+  "weight": 439.6,
+  "now": "rep"
+ },
+ {
+  "key": "D AH T",
+  "say": "tud",
+  "weight": 438.2,
+  "now": "dutt"
+ },
+ {
+  "key": "D R AA L",
+  "say": "lard",
+  "weight": 431.7,
+  "now": "drol"
+ },
+ {
+  "key": "L AE",
+  "say": "al",
+  "weight": 429.6,
+  "now": "la"
+ },
+ {
+  "key": "NG AO",
+  "say": "aung",
+  "weight": 425.9,
+  "now": null
+ },
+ {
+  "key": "AO V",
+  "say": "vaw",
+  "weight": 424.6,
+  "now": "awve"
+ },
+ {
+  "key": "L UH F",
+  "say": "full",
+  "weight": 424.4,
+  "now": null
+ },
+ {
+  "key": "N AH L",
+  "say": "lun",
+  "weight": 420.6,
+  "now": "null"
+ },
+ {
+  "key": "T R AH S",
+  "say": "cert",
+  "weight": 419.6,
+  "now": "truss"
+ },
+ {
+  "key": "D IY R",
+  "say": "read",
+  "weight": 419.3,
+  "now": null
+ },
+ {
+  "key": "AO D",
+  "say": "daw",
+  "weight": 416.9,
+  "now": "aud"
+ },
+ {
+  "key": "IH R B",
+  "say": "brih",
+  "weight": 414.8,
+  "now": null
+ },
+ {
+  "key": "S N AH K",
+  "say": "cunce",
+  "weight": 412.9,
+  "now": "snuck"
+ },
+ {
+  "key": "NG AO R",
+  "say": "wrong",
+  "weight": 411.4,
+  "now": null
+ },
+ {
+  "key": "T AA L",
+  "say": "lot",
+  "weight": 407.4,
+  "now": "tol"
+ },
+ {
+  "key": "IY R P",
+  "say": "pre",
+  "weight": 403.4,
+  "now": null
+ },
+ {
+  "key": "Z L IY",
+  "say": "eels",
+  "weight": 402.6,
+  "now": null
+ },
+ {
+  "key": "K AH T",
+  "say": "tuck",
+  "weight": 399.5,
+  "now": "cut"
+ },
+ {
+  "key": "R AA F",
+  "say": "far",
+  "weight": 399.4,
+  "now": "roff"
+ },
+ {
+  "key": "S EH Y",
+  "say": "yes",
+  "weight": 397.5,
+  "now": null
+ },
+ {
+  "key": "D AA G",
+  "say": "god",
+  "weight": 396.7,
+  "now": "dog"
+ },
+ {
+  "key": "K AH R",
+  "say": "ruck",
+  "weight": 395.5,
+  "now": "cur"
+ },
+ {
+  "key": "S AH R",
+  "say": "russ",
+  "weight": 392.9,
+  "now": "sir"
+ },
+ {
+  "key": "D L IY",
+  "say": "eald",
+  "weight": 392.0,
+  "now": null
+ },
+ {
+  "key": "D L AO K",
+  "say": "called",
+  "weight": 389.0,
+  "now": null
+ },
+ {
+  "key": "T AO TH",
+  "say": "thought",
+  "weight": 389.0,
+  "now": "tawth"
+ },
+ {
+  "key": "G AH",
+  "say": "ugh",
+  "weight": 387.1,
+  "now": "guh"
+ },
+ {
+  "key": "L EH S",
+  "say": "sell",
+  "weight": 386.8,
+  "now": "less"
+ },
+ {
+  "key": "L AO M S",
+  "say": "small",
+  "weight": 386.7,
+  "now": null
+ },
+ {
+  "key": "AH N UW",
+  "say": "oona",
+  "weight": 385.6,
+  "now": "anew"
+ },
+ {
+  "key": "S N AH W",
+  "say": "once",
+  "weight": 384.1,
+  "now": "snuw"
+ },
+ {
+  "key": "D UW L K",
+  "say": "clued",
+  "weight": 382.9,
+  "now": "dewlk"
+ },
+ {
+  "key": "Z IH S",
+  "say": "cyz",
+  "weight": 380.2,
+  "now": "zis"
+ },
+ {
+  "key": "T IH S",
+  "say": "sit",
+  "weight": 378.2,
+  "now": "tyss"
+ },
+ {
+  "key": "L AH G",
+  "say": "gull",
+  "weight": 377.3,
+  "now": "lug"
+ },
+ {
+  "key": "L EH",
+  "say": "el",
+  "weight": 376.7,
+  "now": null
+ },
+ {
+  "key": "T AA W",
+  "say": "watt",
+  "weight": 376.0,
+  "now": "taaw"
+ },
+ {
+  "key": "P IH SH",
+  "say": "ship",
+  "weight": 375.2,
+  "now": "pish"
+ },
+ {
+  "key": "NG AH",
+  "say": "ung",
+  "weight": 374.5,
+  "now": null
+ },
+ {
+  "key": "N AE L P",
+  "say": "plan",
+  "weight": 372.9,
+  "now": "nalp"
+ },
+ {
+  "key": "P UW R G",
+  "say": "group",
+  "weight": 371.5,
+  "now": null
+ },
+ {
+  "key": "K IH L B",
+  "say": "blick",
+  "weight": 371.5,
+  "now": "kylb"
+ },
+ {
+  "key": "P AA T",
+  "say": "top",
+  "weight": 371.5,
+  "now": "pot"
+ },
+ {
+  "key": "T AH N",
+  "say": "nut",
+  "weight": 370.2,
+  "now": "ton"
+ },
+ {
+  "key": "IY Z IY",
+  "say": "easy",
+  "weight": 370.0,
+  "now": "easy"
+ },
+ {
+  "key": "N IY M",
+  "say": "mean",
+  "weight": 369.0,
+  "now": "neam"
+ },
+ {
+  "key": "L AH P",
+  "say": "pul",
+  "weight": 368.5,
+  "now": "lup"
+ },
+ {
+  "key": "UW L K",
+  "say": "clue",
+  "weight": 367.4,
+  "now": "oolk"
+ },
+ {
+  "key": "B UW",
+  "say": "oob",
+  "weight": 367.2,
+  "now": "boo"
+ },
+ {
+  "key": "D AE B",
+  "say": "bad",
+  "weight": 366.4,
+  "now": "dab"
+ },
+ {
+  "key": "NG IH P",
+  "say": "ping",
+  "weight": 366.4,
+  "now": null
+ },
+ {
+  "key": "V AH K",
+  "say": "cuvve",
+  "weight": 365.9,
+  "now": "vuk"
+ },
+ {
+  "key": "W AH",
+  "say": "uw",
+  "weight": 364.1,
+  "now": "wuh"
+ },
+ {
+  "key": "D AA B",
+  "say": "bod",
+  "weight": 363.3,
+  "now": "dob"
+ },
+ {
+  "key": "T R AA T S",
+  "say": "start",
+  "weight": 363.1,
+  "now": "trots"
+ },
+ {
+  "key": "D R AA",
+  "say": "ard",
+  "weight": 361.8,
+  "now": "dra"
+ },
+ {
+  "key": "V AH R P",
+  "say": "pruvve",
+  "weight": 361.5,
+  "now": "vurp"
+ },
+ {
+  "key": "P AH K",
+  "say": "cup",
+  "weight": 359.5,
+  "now": "puck"
+ },
+ {
+  "key": "V IH S",
+  "say": "sieve",
+  "weight": 359.0,
+  "now": "vis"
+ },
+ {
+  "key": "S IH R",
+  "say": "riss",
+  "weight": 357.4,
+  "now": "sear"
+ },
+ {
+  "key": "D IY L",
+  "say": "lead",
+  "weight": 357.2,
+  "now": "deal"
+ },
+ {
+  "key": "NG IH SH",
+  "say": "shing",
+  "weight": 357.2,
+  "now": null
+ },
+ {
+  "key": "S EH S",
+  "say": "sess",
+  "weight": 356.9,
+  "now": "sess"
+ },
+ {
+  "key": "S K EH",
+  "say": "ex",
+  "weight": 352.1,
+  "now": null
+ },
+ {
+  "key": "D EH L",
+  "say": "led",
+  "weight": 350.3,
+  "now": "del"
+ },
+ {
+  "key": "K EH L IH",
+  "say": "elek",
+  "weight": 349.8,
+  "now": null
+ },
+ {
+  "key": "AO R G",
+  "say": "graw",
+  "weight": 348.6,
+  "now": "org"
+ },
+ {
+  "key": "K UH B",
+  "say": "book",
+  "weight": 348.6,
+  "now": null
+ },
+ {
+  "key": "IY ZH",
+  "say": "zhe",
+  "weight": 347.8,
+  "now": null
+ },
+ {
+  "key": "S IY R",
+  "say": "reese",
+  "weight": 347.6,
+  "now": null
+ },
+ {
+  "key": "T EH Y",
+  "say": "yet",
+  "weight": 346.7,
+  "now": null
+ },
+ {
+  "key": "M UW R",
+  "say": "room",
+  "weight": 345.3,
+  "now": null
+ },
+ {
+  "key": "K EH",
+  "say": "ek",
+  "weight": 340.4,
+  "now": null
+ },
+ {
+  "key": "D AA R P",
+  "say": "prod",
+  "weight": 340.2,
+  "now": "darp"
+ },
+ {
+  "key": "D IH L",
+  "say": "lid",
+  "weight": 335.9,
+  "now": "dill"
+ },
+ {
+  "key": "S AH V",
+  "say": "vus",
+  "weight": 335.3,
+  "now": "suvve"
+ },
+ {
+  "key": "IY F",
+  "say": "fee",
+  "weight": 333.9,
+  "now": "eaf"
+ },
+ {
+  "key": "S AH N",
+  "say": "nus",
+  "weight": 332.6,
+  "now": "son"
+ },
+ {
+  "key": "T IH SH",
+  "say": "shit",
+  "weight": 331.5,
+  "now": "tish"
+ },
+ {
+  "key": "D IH V",
+  "say": "vyd",
+  "weight": 330.8,
+  "now": "dyvve"
+ },
+ {
+  "key": "M AH",
+  "say": "um",
+  "weight": 328.7,
+  "now": "muh"
+ },
+ {
+  "key": "D UW T S",
+  "say": "stewed",
+  "weight": 328.2,
+  "now": "dewts"
+ },
+ {
+  "key": "R IH N",
+  "say": "near",
+  "weight": 326.6,
+  "now": "rinne"
+ },
+ {
+  "key": "G UW",
+  "say": "oog",
+  "weight": 326.2,
+  "now": "goo"
+ },
+ {
+  "key": "NG IH Z",
+  "say": "zing",
+  "weight": 325.3,
+  "now": null
+ },
+ {
+  "key": "K AH F",
+  "say": "fuck",
+  "weight": 325.1,
+  "now": "cuff"
+ },
+ {
+  "key": "K UH T",
+  "say": "took",
+  "weight": 323.6,
+  "now": null
+ },
+ {
+  "key": "R EH T",
+  "say": "terre",
+  "weight": 321.9,
+  "now": "ret"
+ },
+ {
+  "key": "R AH K",
+  "say": "cur",
+  "weight": 318.1,
+  "now": "ruck"
+ },
+ {
+  "key": "M AA K",
+  "say": "calm",
+  "weight": 317.9,
+  "now": "mock"
+ },
+ {
+  "key": "T S EH T",
+  "say": "test",
+  "weight": 316.9,
+  "now": "tset"
+ },
+ {
+  "key": "AO R T",
+  "say": "traw",
+  "weight": 315.8,
+  "now": "ort"
+ },
+ {
+  "key": "Z UW N",
+  "say": "news",
+  "weight": 315.2,
+  "now": "zoon"
+ },
+ {
+  "key": "DH IY",
+  "say": "eethe",
+  "weight": 313.8,
+  "now": "thee"
+ },
+ {
+  "key": "T S AE P",
+  "say": "past",
+  "weight": 312.3,
+  "now": "tsap"
+ },
+ {
+  "key": "K AH R T",
+  "say": "truck",
+  "weight": 312.2,
+  "now": "kurt"
+ },
+ {
+  "key": "L AO B",
+  "say": "ball",
+  "weight": 309.5,
+  "now": "laub"
+ },
+ {
+  "key": "UW SH T",
+  "say": "chew",
+  "weight": 309.0,
+  "now": "ooshed"
+ },
+ {
+  "key": "Z EH S",
+  "say": "says",
+  "weight": 309.0,
+  "now": "zess"
+ },
+ {
+  "key": "N UW S",
+  "say": "soon",
+  "weight": 308.9,
+  "now": "noose"
+ },
+ {
+  "key": "D AA M",
+  "say": "mod",
+  "weight": 307.3,
+  "now": "dom"
+ },
+ {
+  "key": "R AH ZH",
+  "say": "zhur",
+  "weight": 307.3,
+  "now": null
+ },
+ {
+  "key": "T IY F",
+  "say": "feet",
+  "weight": 306.6,
+  "now": "teef"
+ },
+ {
+  "key": "M AH L",
+  "say": "lum",
+  "weight": 306.1,
+  "now": "mull"
+ },
+ {
+  "key": "T EH N",
+  "say": "net",
+  "weight": 305.3,
+  "now": "ten"
+ },
+ {
+  "key": "K AO T",
+  "say": "talk",
+  "weight": 304.7,
+  "now": "caught"
+ },
+ {
+  "key": "UW SH",
+  "say": "shoe",
+  "weight": 304.0,
+  "now": "oosh"
+ },
+ {
+  "key": "N IH T",
+  "say": "tin",
+  "weight": 303.3,
+  "now": "knit"
+ },
+ {
+  "key": "M AE R",
+  "say": "ram",
+  "weight": 302.8,
+  "now": null
+ },
+ {
+  "key": "NG AE TH",
+  "say": "thang",
+  "weight": 302.0,
+  "now": null
+ },
+ {
+  "key": "Z N IY",
+  "say": "eens",
+  "weight": 301.7,
+  "now": null
+ },
+ {
+  "key": "R AO N",
+  "say": "nor",
+  "weight": 300.7,
+  "now": "raun"
+ },
+ {
+  "key": "S IY P",
+  "say": "piece",
+  "weight": 300.7,
+  "now": "seep"
+ },
+ {
+  "key": "K AH D",
+  "say": "duck",
+  "weight": 298.3,
+  "now": "kud"
+ },
+ {
+  "key": "AE L",
+  "say": "la",
+  "weight": 297.8,
+  "now": "al"
+ },
+ {
+  "key": "R AO K",
+  "say": "core",
+  "weight": 296.9,
+  "now": "rawk"
+ },
+ {
+  "key": "Z M AH K",
+  "say": "comes",
+  "weight": 296.7,
+  "now": null
+ },
+ {
+  "key": "K IH W",
+  "say": "wick",
+  "weight": 295.5,
+  "now": "kiw"
+ },
+ {
+  "key": "D IH S",
+  "say": "sid",
+  "weight": 295.5,
+  "now": "dis"
+ },
+ {
+  "key": "UW L",
+  "say": "lou",
+  "weight": 295.4,
+  "now": "uhl"
+ },
+ {
+  "key": "L IH SH T",
+  "say": "chill",
+  "weight": 295.1,
+  "now": "lished"
+ },
+ {
+  "key": "N AH R D",
+  "say": "drun",
+  "weight": 295.1,
+  "now": "nerd"
+ },
+ {
+  "key": "P AA P",
+  "say": "pop",
+  "weight": 294.0,
+  "now": "pop"
+ },
+ {
+  "key": "AH L EH V",
+  "say": "vela",
+  "weight": 293.3,
+  "now": "aleve"
+ },
+ {
+  "key": "D EH D",
+  "say": "dead",
+  "weight": 292.9,
+  "now": "dead"
+ },
+ {
+  "key": "AO L K",
+  "say": "claw",
+  "weight": 290.3,
+  "now": "awlk"
+ },
+ {
+  "key": "V UW R P",
+  "say": "prove",
+  "weight": 289.5,
+  "now": null
+ },
+ {
+  "key": "K AE L B",
+  "say": "black",
+  "weight": 288.4,
+  "now": "kalb"
+ },
+ {
+  "key": "D IH K",
+  "say": "kid",
+  "weight": 288.3,
+  "now": "dick"
+ },
+ {
+  "key": "S AE L K",
+  "say": "class",
+  "weight": 288.0,
+  "now": "salk"
+ },
+ {
+  "key": "L AH T",
+  "say": "tull",
+  "weight": 286.1,
+  "now": "lut"
+ },
+ {
+  "key": "L AH V",
+  "say": "vul",
+  "weight": 285.5,
+  "now": "love"
+ },
+ {
+  "key": "P AH R",
+  "say": "rupp",
+  "weight": 285.4,
+  "now": "per"
+ },
+ {
+  "key": "T IY L P",
+  "say": "pleat",
+  "weight": 284.8,
+  "now": "teelp"
+ },
+ {
+  "key": "K IH R",
+  "say": "rick",
+  "weight": 284.4,
+  "now": "kier"
+ },
+ {
+  "key": "S AH L",
+  "say": "lus",
+  "weight": 283.9,
+  "now": "sul"
+ },
+ {
+  "key": "T S AH R T",
+  "say": "trust",
+  "weight": 282.8,
+  "now": "tsirt"
+ },
+ {
+  "key": "D UW F",
+  "say": "food",
+  "weight": 276.9,
+  "now": "duef"
+ },
+ {
+  "key": "K EH L",
+  "say": "lek",
+  "weight": 276.1,
+  "now": "kell"
+ },
+ {
+  "key": "S R AO K",
+  "say": "course",
+  "weight": 275.4,
+  "now": null
+ },
+ {
+  "key": "T S IY L",
+  "say": "least",
+  "weight": 275.4,
+  "now": "tseel"
+ },
+ {
+  "key": "Z N IY M",
+  "say": "means",
+  "weight": 275.4,
+  "now": null
+ },
+ {
+  "key": "M EH T",
+  "say": "tem",
+  "weight": 274.2,
+  "now": "met"
+ },
+ {
+  "key": "L AH B",
+  "say": "bul",
+  "weight": 273.9,
+  "now": "lub"
+ },
+ {
+  "key": "S AH K",
+  "say": "cus",
+  "weight": 273.6,
+  "now": "suck"
+ },
+ {
+  "key": "AA R B",
+  "say": "bra",
+  "weight": 272.6,
+  "now": "arb"
+ },
+ {
+  "key": "M IH S",
+  "say": "sim",
+  "weight": 270.7,
+  "now": "miss"
+ },
+ {
+  "key": "S L EH",
+  "say": "else",
+  "weight": 268.7,
+  "now": null
+ },
+ {
+  "key": "M AE K",
+  "say": "cam",
+  "weight": 268.1,
+  "now": "mac"
+ },
+ {
+  "key": "Z AH ZH",
+  "say": "sias",
+  "weight": 267.6,
+  "now": null
+ },
+ {
+  "key": "N EH P",
+  "say": "pen",
+  "weight": 266.3,
+  "now": "nep"
+ },
+ {
+  "key": "B AH D",
+  "say": "dub",
+  "weight": 264.5,
+  "now": "bud"
+ },
+ {
+  "key": "S AH R T",
+  "say": "truss",
+  "weight": 263.0,
+  "now": "cert"
+ },
+ {
+  "key": "T IH Z",
+  "say": "zyt",
+  "weight": 262.9,
+  "now": "tis"
+ },
+ {
+  "key": "D V IY",
+  "say": "eved",
+  "weight": 262.4,
+  "now": null
+ },
+ {
+  "key": "M IY R",
+  "say": "ream",
+  "weight": 261.2,
+  "now": null
+ },
+ {
+  "key": "M AH D",
+  "say": "dumb",
+  "weight": 261.1,
+  "now": "mud"
+ },
+ {
+  "key": "R IH L K",
+  "say": "clear",
+  "weight": 261.0,
+  "now": "rilk"
+ },
+ {
+  "key": "K IH M",
+  "say": "mick",
+  "weight": 260.5,
+  "now": "kim"
+ },
+ {
+  "key": "T R AO K",
+  "say": "court",
+  "weight": 257.0,
+  "now": "trawk"
+ },
+ {
+  "key": "F AE HH",
+  "say": "half",
+  "weight": 257.0,
+  "now": null
+ },
+ {
+  "key": "L AH V EH L",
+  "say": "level",
+  "weight": 257.0,
+  "now": "lovell"
+ },
+ {
+  "key": "T AH T",
+  "say": "tut",
+  "weight": 256.7,
+  "now": "tut"
+ },
+ {
+  "key": "R AO D",
+  "say": "door",
+  "weight": 254.9,
+  "now": "rawd"
+ },
+ {
+  "key": "N EH Z",
+  "say": "zen",
+  "weight": 251.5,
+  "now": "nez"
+ },
+ {
+  "key": "TH EH D",
+  "say": "death",
+  "weight": 251.2,
+  "now": "thed"
+ },
+ {
+  "key": "B AA R P",
+  "say": "prob",
+  "weight": 251.2,
+  "now": "barp"
+ },
+ {
+  "key": "UW R T",
+  "say": "true",
+  "weight": 251.2,
+  "now": null
+ },
+ {
+  "key": "K UW",
+  "say": "ook",
+  "weight": 250.8,
+  "now": "ku"
+ },
+ {
+  "key": "AA L F",
+  "say": "fla",
+  "weight": 249.9,
+  "now": "olf"
+ },
+ {
+  "key": "L AH M",
+  "say": "mull",
+  "weight": 248.4,
+  "now": "lum"
+ },
+ {
+  "key": "P EH R",
+  "say": "rep",
+  "weight": 247.2,
+  "now": "pair"
+ },
+ {
+  "key": "P IH R",
+  "say": "rip",
+  "weight": 245.6,
+  "now": "peer"
+ },
+ {
+  "key": "T S AO L",
+  "say": "lost",
+  "weight": 245.5,
+  "now": "tsaul"
+ },
+ {
+  "key": "L AH R V",
+  "say": "vrul",
+  "weight": 245.5,
+  "now": "lurve"
+ },
+ {
+  "key": "L IH",
+  "say": "ill",
+  "weight": 244.8,
+  "now": "lih"
+ },
+ {
+  "key": "T R AO SH",
+  "say": "short",
+  "weight": 243.3,
+  "now": "traush"
+ },
+ {
+  "key": "K EH F",
+  "say": "feck",
+  "weight": 241.0,
+  "now": "kef"
+ },
+ {
+  "key": "S IH M",
+  "say": "miss",
+  "weight": 240.9,
+  "now": "sim"
+ },
+ {
+  "key": "K IH F",
+  "say": "fick",
+  "weight": 240.6,
+  "now": "kif"
+ },
+ {
+  "key": "D IY M",
+  "say": "mead",
+  "weight": 240.3,
+  "now": "deem"
+ },
+ {
+  "key": "L AA V",
+  "say": "vaal",
+  "weight": 239.3,
+  "now": "laave"
+ },
+ {
+  "key": "K EH SH T",
+  "say": "check",
+  "weight": 238.8,
+  "now": "keshed"
+ },
+ {
+  "key": "K AA",
+  "say": "och",
+  "weight": 238.4,
+  "now": "ca"
+ },
+ {
+  "key": "AH ZH",
+  "say": "zhuh",
+  "weight": 237.7,
+  "now": null
+ },
+ {
+  "key": "IY K",
+  "say": "key",
+  "weight": 237.3,
+  "now": "eke"
+ },
+ {
+  "key": "K IY R",
+  "say": "wreak",
+  "weight": 236.9,
+  "now": null
+ },
+ {
+  "key": "Z L AH",
+  "say": "ulls",
+  "weight": 236.4,
+  "now": null
+ },
+ {
+  "key": "UW L B",
+  "say": "blue",
+  "weight": 234.9,
+  "now": "oolb"
+ },
+ {
+  "key": "T S AE F",
+  "say": "fast",
+  "weight": 234.9,
+  "now": "tsaf"
+ },
+ {
+  "key": "N AE F",
+  "say": "fan",
+  "weight": 234.5,
+  "now": "naff"
+ },
+ {
+  "key": "B AH B",
+  "say": "bub",
+  "weight": 234.4,
+  "now": "bub"
+ },
+ {
+  "key": "K R AO Y",
+  "say": "york",
+  "weight": 234.4,
+  "now": null
+ },
+ {
+  "key": "S AH D",
+  "say": "dus",
+  "weight": 232.5,
+  "now": "sud"
+ },
+ {
+  "key": "R UH Y K",
+  "say": "cure",
+  "weight": 230.3,
+  "now": null
+ },
+ {
+  "key": "K IH S",
+  "say": "sick",
+  "weight": 230.0,
+  "now": "kiss"
+ },
+ {
+  "key": "S K UH L",
+  "say": "looks",
+  "weight": 229.1,
+  "now": null
+ },
+ {
+  "key": "M AE Z",
+  "say": "zam",
+  "weight": 228.9,
+  "now": "maz"
+ },
+ {
+  "key": "F R AH P",
+  "say": "purf",
+  "weight": 228.7,
+  "now": "frup"
+ },
+ {
+  "key": "S AH P",
+  "say": "pus",
+  "weight": 228.5,
+  "now": "sup"
+ },
+ {
+  "key": "AA R G",
+  "say": "gra",
+  "weight": 227.1,
+  "now": "argh"
+ },
+ {
+  "key": "M AE D",
+  "say": "damn",
+  "weight": 227.0,
+  "now": "mad"
+ },
+ {
+  "key": "AO SH T",
+  "say": "chaw",
+  "weight": 225.3,
+  "now": "aushed"
+ },
+ {
+  "key": "IH V",
+  "say": "vih",
+  "weight": 224.3,
+  "now": "yve"
+ },
+ {
+  "key": "Z AA K",
+  "say": "coz",
+  "weight": 223.9,
+  "now": "zok"
+ },
+ {
+  "key": "V IY EH S",
+  "say": "save",
+  "weight": 223.7,
+  "now": "vs"
+ },
+ {
+  "key": "S K R AH W",
+  "say": "works",
+  "weight": 223.2,
+  "now": "scruw"
+ },
+ {
+  "key": "D EH M",
+  "say": "med",
+  "weight": 222.8,
+  "now": "demme"
+ },
+ {
+  "key": "T IY R",
+  "say": "reat",
+  "weight": 220.6,
+  "now": null
+ },
+ {
+  "key": "IY L IY",
+  "say": "ely",
+  "weight": 220.2,
+  "now": "ely"
+ },
+ {
+  "key": "K IY P S",
+  "say": "speak",
+  "weight": 219.3,
+  "now": "keeps"
+ },
+ {
+  "key": "F IH D",
+  "say": "diff",
+  "weight": 219.3,
+  "now": "fid"
+ },
+ {
+  "key": "TH R AO N",
+  "say": "north",
+  "weight": 218.8,
+  "now": "thrawn"
+ },
+ {
+  "key": "R EH R",
+  "say": "rare",
+  "weight": 218.7,
+  "now": "rare"
+ },
+ {
+  "key": "AO R TH",
+  "say": "thraw",
+  "weight": 217.8,
+  "now": "orth"
+ },
+ {
+  "key": "D IH M",
+  "say": "mid",
+  "weight": 217.4,
+  "now": "dim"
+ },
+ {
+  "key": "N AH B",
+  "say": "bun",
+  "weight": 217.3,
+  "now": "nub"
+ },
+ {
+  "key": "TH R AH",
+  "say": "earth",
+  "weight": 214.8,
+  "now": "thruh"
+ },
+ {
+  "key": "UW S",
+  "say": "sue",
+  "weight": 214.7,
+  "now": "ooss"
+ },
+ {
+  "key": "L IH M",
+  "say": "mill",
+  "weight": 214.1,
+  "now": "limb"
+ },
+ {
+  "key": "S IY L",
+  "say": "lease",
+  "weight": 213.8,
+  "now": "seal"
+ },
+ {
+  "key": "K AA D",
+  "say": "doc",
+  "weight": 213.1,
+  "now": "cod"
+ },
+ {
+  "key": "S N AH ZH",
+  "say": "zhunce",
+  "weight": 211.4,
+  "now": null
+ },
+ {
+  "key": "T S AH G",
+  "say": "gust",
+  "weight": 211.0,
+  "now": null
+ },
+ {
+  "key": "V IH D",
+  "say": "dyvve",
+  "weight": 210.5,
+  "now": "vyd"
+ },
+ {
+  "key": "Z IY R T",
+  "say": "trees",
+  "weight": 210.2,
+  "now": null
+ },
+ {
+  "key": "D AH R T",
+  "say": "trud",
+  "weight": 209.8,
+  "now": "dirt"
+ },
+ {
+  "key": "D UW AO R",
+  "say": "road",
+  "weight": 209.3,
+  "now": "dewar"
+ },
+ {
+  "key": "L IY D",
+  "say": "deal",
+  "weight": 208.9,
+  "now": "lead"
+ },
+ {
+  "key": "D R AH TH",
+  "say": "third",
+  "weight": 208.9,
+  "now": null
+ },
+ {
+  "key": "P IY R",
+  "say": "reap",
+  "weight": 208.2,
+  "now": null
+ },
+ {
+  "key": "P IH D",
+  "say": "dip",
+  "weight": 206.1,
+  "now": "pyd"
+ },
+ {
+  "key": "N AE D",
+  "say": "dan",
+  "weight": 205.7,
+  "now": "nad"
+ },
+ {
+  "key": "IY Z",
+  "say": "zee",
+  "weight": 205.6,
+  "now": "ease"
+ },
+ {
+  "key": "L EH F",
+  "say": "fell",
+  "weight": 205.5,
+  "now": "leff"
+ },
+ {
+  "key": "T S EH R",
+  "say": "rest",
+  "weight": 205.3,
+  "now": null
+ },
+ {
+  "key": "NG AH M",
+  "say": "mung",
+  "weight": 204.2,
+  "now": null
+ },
+ {
+  "key": "S T AH N",
+  "say": "nuts",
+  "weight": 204.2,
+  "now": "stun"
+ },
+ {
+  "key": "K R AA M",
+  "say": "mark",
+  "weight": 204.1,
+  "now": "crom"
+ },
+ {
+  "key": "IY EH HH",
+  "say": "hey",
+  "weight": 203.7,
+  "now": null
+ },
+ {
+  "key": "R EH F",
+  "say": "fair",
+  "weight": 203.0,
+  "now": "ref"
+ },
+ {
+  "key": "T UH F",
+  "say": "foot",
+  "weight": 203.0,
+  "now": null
+ },
+ {
+  "key": "NG IH F",
+  "say": "fing",
+  "weight": 202.6,
+  "now": null
+ },
+ {
+  "key": "L UW R",
+  "say": "rule",
+  "weight": 201.9,
+  "now": null
+ },
+ {
+  "key": "T S AO",
+  "say": "aust",
+  "weight": 199.9,
+  "now": "tsaw"
+ },
+ {
+  "key": "S N AH D",
+  "say": "dunce",
+  "weight": 199.0,
+  "now": "snud"
+ },
+ {
+  "key": "D AA",
+  "say": "odd",
+  "weight": 198.6,
+  "now": "da"
+ },
+ {
+  "key": "R EH SH",
+  "say": "share",
+  "weight": 198.3,
+  "now": "resh"
+ },
+ {
+  "key": "P AA",
+  "say": "op",
+  "weight": 198.2,
+  "now": "pa"
+ },
+ {
+  "key": "S R AO F",
+  "say": "force",
+  "weight": 198.0,
+  "now": null
+ },
+ {
+  "key": "D AE M",
+  "say": "mad",
+  "weight": 195.7,
+  "now": "damn"
+ },
+ {
+  "key": "S EH R",
+  "say": "ress",
+  "weight": 195.2,
+  "now": "sare"
+ },
+ {
+  "key": "N AA N",
+  "say": "non",
+  "weight": 195.0,
+  "now": "non"
+ },
+ {
+  "key": "S K IH S",
+  "say": "six",
+  "weight": 195.0,
+  "now": "scis"
+ },
+ {
+  "key": "D R AA SH T",
+  "say": "charred",
+  "weight": 194.3,
+  "now": "droshed"
+ },
+ {
+  "key": "S UW D",
+  "say": "duce",
+  "weight": 192.6,
+  "now": "sued"
+ },
+ {
+  "key": "R EH M",
+  "say": "mare",
+  "weight": 192.5,
+  "now": "rem"
+ },
+ {
+  "key": "N UW AO L",
+  "say": "loan",
+  "weight": 192.4,
+  "now": "newall"
+ },
+ {
+  "key": "S EH R P",
+  "say": "press",
+  "weight": 192.4,
+  "now": null
+ },
+ {
+  "key": "AA K S",
+  "say": "ska",
+  "weight": 192.3,
+  "now": "ox"
+ },
+ {
+  "key": "S K EH S",
+  "say": "sex",
+  "weight": 192.3,
+  "now": "skess"
+ },
+ {
+  "key": "K AE R T",
+  "say": "track",
+  "weight": 191.8,
+  "now": null
+ },
+ {
+  "key": "D R AH F",
+  "say": "ferd",
+  "weight": 191.6,
+  "now": "druf"
+ },
+ {
+  "key": "SH IH T",
+  "say": "tish",
+  "weight": 191.2,
+  "now": "shit"
+ },
+ {
+  "key": "B AH L K",
+  "say": "club",
+  "weight": 190.8,
+  "now": "bulk"
+ },
+ {
+  "key": "N AH R F",
+  "say": "frun",
+  "weight": 190.5,
+  "now": "nurf"
+ },
+ {
+  "key": "T S IH L",
+  "say": "list",
+  "weight": 190.5,
+  "now": "tsil"
+ },
+ {
+  "key": "N AH V",
+  "say": "vun",
+  "weight": 189.9,
+  "now": "nuvve"
+ },
+ {
+  "key": "D AH D",
+  "say": "dud",
+  "weight": 188.6,
+  "now": "dud"
+ },
+ {
+  "key": "D Z IY",
+  "say": "eased",
+  "weight": 188.3,
+  "now": null
+ },
+ {
+  "key": "Z IY L",
+  "say": "lees",
+  "weight": 187.1,
+  "now": "zeal"
+ },
+ {
+  "key": "M IY S",
+  "say": "seem",
+  "weight": 186.3,
+  "now": "meese"
+ },
+ {
+  "key": "S K AE T",
+  "say": "tax",
+  "weight": 185.9,
+  "now": "scat"
+ },
+ {
+  "key": "T IY B",
+  "say": "beat",
+  "weight": 185.5,
+  "now": "teab"
+ },
+ {
+  "key": "R IH T",
+  "say": "tear",
+  "weight": 184.9,
+  "now": "writ"
+ },
+ {
+  "key": "S N AH T",
+  "say": "tunce",
+  "weight": 184.0,
+  "now": "snut"
+ },
+ {
+  "key": "Z M AH T",
+  "say": "tums",
+  "weight": 184.0,
+  "now": null
+ },
+ {
+  "key": "T S IH D",
+  "say": "dist",
+  "weight": 183.5,
+  "now": "tsyd"
+ },
+ {
+  "key": "S AH S",
+  "say": "sus",
+  "weight": 183.5,
+  "now": "sus"
+ },
+ {
+  "key": "S N AE SH T",
+  "say": "chance",
+  "weight": 182.0,
+  "now": "snashed"
+ },
+ {
+  "key": "DH AA F",
+  "say": "fothe",
+  "weight": 182.0,
+  "now": null
+ },
+ {
+  "key": "NG AO S",
+  "say": "song",
+  "weight": 182.0,
+  "now": null
+ },
+ {
+  "key": "N IH S",
+  "say": "sin",
+  "weight": 181.9,
+  "now": "nis"
+ },
+ {
+  "key": "K AE R P",
+  "say": "prak",
+  "weight": 180.5,
+  "now": null
+ },
+ {
+  "key": "F EH",
+  "say": "ef",
+  "weight": 180.3,
+  "now": null
+ },
+ {
+  "key": "V IH",
+  "say": "yve",
+  "weight": 178.9,
+  "now": "vih"
+ },
+ {
+  "key": "L AH R",
+  "say": "rul",
+  "weight": 178.3,
+  "now": "lur"
+ },
+ {
+  "key": "B EH W",
+  "say": "web",
+  "weight": 178.0,
+  "now": null
+ },
+ {
+  "key": "S AO R",
+  "say": "ross",
+  "weight": 177.8,
+  "now": "sore"
+ },
+ {
+  "key": "S T EH G",
+  "say": "gets",
+  "weight": 177.8,
+  "now": "steg"
+ },
+ {
+  "key": "D AH W",
+  "say": "wud",
+  "weight": 176.7,
+  "now": "duw"
+ },
+ {
+  "key": "N AH G",
+  "say": "gun",
+  "weight": 175.1,
+  "now": "nug"
+ },
+ {
+  "key": "T R AH P",
+  "say": "pert",
+  "weight": 174.5,
+  "now": "trup"
+ },
+ {
+  "key": "Z N AH P",
+  "say": "puns",
+  "weight": 174.4,
+  "now": null
+ },
+ {
+  "key": "D R AO B",
+  "say": "board",
+  "weight": 173.8,
+  "now": "draub"
+ },
+ {
+  "key": "T S AA K",
+  "say": "kost",
+  "weight": 173.8,
+  "now": "tsok"
+ },
+ {
+  "key": "D L IY F",
+  "say": "field",
+  "weight": 173.8,
+  "now": null
+ },
+ {
+  "key": "D EH T",
+  "say": "ted",
+  "weight": 173.8,
+  "now": "debt"
+ },
+ {
+  "key": "R AH DH AH M",
+  "say": "mother",
+  "weight": 173.8,
+  "now": null
+ },
+ {
+  "key": "Z M IY S",
+  "say": "seems",
+  "weight": 173.8,
+  "now": null
+ },
+ {
+  "key": "AH L P",
+  "say": "pluh",
+  "weight": 173.1,
+  "now": "ulp"
+ },
+ {
+  "key": "S AH ZH",
+  "say": "zhuss",
+  "weight": 172.6,
+  "now": null
+ },
+ {
+  "key": "T IY HH",
+  "say": "heat",
+  "weight": 172.4,
+  "now": null
+ },
+ {
+  "key": "N AE V",
+  "say": "van",
+  "weight": 171.8,
+  "now": "nav"
+ },
+ {
+  "key": "AO R B",
+  "say": "braw",
+  "weight": 171.8,
+  "now": "orb"
+ },
+ {
+  "key": "Z N AH Z",
+  "say": "zuns",
+  "weight": 170.7,
+  "now": null
+ },
+ {
+  "key": "N IH G",
+  "say": "gyn",
+  "weight": 169.2,
+  "now": "nigg"
+ },
+ {
+  "key": "K IH T",
+  "say": "tick",
+  "weight": 167.8,
+  "now": "kit"
+ },
+ {
+  "key": "S T R AA T S",
+  "say": "starts",
+  "weight": 167.6,
+  "now": "strots"
+ },
+ {
+  "key": "D R AH D",
+  "say": "durd",
+  "weight": 167.4,
+  "now": "drud"
+ },
+ {
+  "key": "W AH T",
+  "say": "tuw",
+  "weight": 167.3,
+  "now": "what"
+ },
+ {
+  "key": "D EH F",
+  "say": "fed",
+  "weight": 167.3,
+  "now": "deaf"
+ },
+ {
+  "key": "K AO W",
+  "say": "walk",
+  "weight": 167.0,
+  "now": "kauw"
+ },
+ {
+  "key": "NG AE B",
+  "say": "bang",
+  "weight": 166.9,
+  "now": null
+ },
+ {
+  "key": "D L IH K",
+  "say": "killed",
+  "weight": 166.0,
+  "now": null
+ },
+ {
+  "key": "T AA SH",
+  "say": "shot",
+  "weight": 166.0,
+  "now": "tosh"
+ },
+ {
+  "key": "V IH L",
+  "say": "liv",
+  "weight": 165.0,
+  "now": "ville"
+ },
+ {
+  "key": "Z L UW",
+  "say": "oolls",
+  "weight": 164.8,
+  "now": null
+ },
+ {
+  "key": "V AH D",
+  "say": "dove",
+  "weight": 164.6,
+  "now": "vud"
+ },
+ {
+  "key": "P AE K",
+  "say": "cap",
+  "weight": 163.8,
+  "now": "pack"
+ },
+ {
+  "key": "SH EH P",
+  "say": "pesh",
+  "weight": 162.2,
+  "now": "shep"
+ },
+ {
+  "key": "T AH L",
+  "say": "lut",
+  "weight": 161.1,
+  "now": "tull"
+ },
+ {
+  "key": "S N AE R T",
+  "say": "trance",
+  "weight": 160.4,
+  "now": null
+ },
+ {
+  "key": "K AA L",
+  "say": "lock",
+  "weight": 159.3,
+  "now": "coll"
+ },
+ {
+  "key": "AO L P",
+  "say": "plaw",
+  "weight": 158.8,
+  "now": "awlp"
+ },
+ {
+  "key": "T IY R T",
+  "say": "treat",
+  "weight": 158.6,
+  "now": null
+ },
+ {
+  "key": "V AH B",
+  "say": "buvve",
+  "weight": 158.5,
+  "now": "vub"
+ },
+ {
+  "key": "T N AH L",
+  "say": "lunt",
+  "weight": 157.8,
+  "now": null
+ },
+ {
+  "key": "K IH T S",
+  "say": "stick",
+  "weight": 157.8,
+  "now": "kits"
+ },
+ {
+  "key": "K AE P",
+  "say": "pack",
+  "weight": 157.7,
+  "now": "cap"
+ },
+ {
+  "key": "Z L EH S",
+  "say": "cells",
+  "weight": 156.2,
+  "now": null
+ },
+ {
+  "key": "N AE ZH D",
+  "say": "jan",
+  "weight": 155.4,
+  "now": null
+ },
+ {
+  "key": "T IH F",
+  "say": "fit",
+  "weight": 155.2,
+  "now": "tiff"
+ },
+ {
+  "key": "SH IH L G",
+  "say": "glysh",
+  "weight": 154.9,
+  "now": "shilg"
+ },
+ {
+  "key": "N AO",
+  "say": "on",
+  "weight": 154.9,
+  "now": "naw"
+ },
+ {
+  "key": "Z M AH L B",
+  "say": "blums",
+  "weight": 154.9,
+  "now": null
+ },
+ {
+  "key": "S N EH S",
+  "say": "sense",
+  "weight": 154.9,
+  "now": "sness"
+ },
+ {
+  "key": "S K IY W",
+  "say": "weeks",
+  "weight": 154.9,
+  "now": "skeew"
+ },
+ {
+  "key": "B AH Z",
+  "say": "zub",
+  "weight": 154.1,
+  "now": "buzz"
+ },
+ {
+  "key": "K IH V",
+  "say": "vic",
+  "weight": 153.9,
+  "now": "kyvve"
+ },
+ {
+  "key": "AA T S",
+  "say": "sta",
+  "weight": 152.8,
+  "now": "ots"
+ },
+ {
+  "key": "L IH K",
+  "say": "kill",
+  "weight": 152.5,
+  "now": "lick"
+ },
+ {
+  "key": "AH K EH",
+  "say": "eka",
+  "weight": 152.2,
+  "now": null
+ },
+ {
+  "key": "NG AE L",
+  "say": "lang",
+  "weight": 152.2,
+  "now": null
+ },
+ {
+  "key": "B AE",
+  "say": "ab",
+  "weight": 152.1,
+  "now": null
+ },
+ {
+  "key": "V R AH S",
+  "say": "serve",
+  "weight": 151.9,
+  "now": "vruss"
+ },
+ {
+  "key": "AH P S",
+  "say": "spuh",
+  "weight": 151.8,
+  "now": "ups"
+ },
+ {
+  "key": "AO R D",
+  "say": "draw",
+  "weight": 151.8,
+  "now": "ord"
+ },
+ {
+  "key": "Z IY N",
+  "say": "knees",
+  "weight": 151.4,
+  "now": "zine"
+ },
+ {
+  "key": "T L AH Z",
+  "say": "zult",
+  "weight": 151.4,
+  "now": null
+ },
+ {
+  "key": "R AA S",
+  "say": "sar",
+  "weight": 151.4,
+  "now": "raass"
+ },
+ {
+  "key": "SH IH W",
+  "say": "wish",
+  "weight": 151.4,
+  "now": "shiw"
+ },
+ {
+  "key": "L AH S",
+  "say": "sul",
+  "weight": 151.1,
+  "now": "lus"
+ },
+ {
+  "key": "M EH S",
+  "say": "sem",
+  "weight": 149.8,
+  "now": "mess"
+ },
+ {
+  "key": "N AO G",
+  "say": "gone",
+  "weight": 147.9,
+  "now": "naug"
+ },
+ {
+  "key": "S EH G",
+  "say": "guess",
+  "weight": 147.9,
+  "now": "seg"
+ },
+ {
+  "key": "W AH SH T",
+  "say": "chuw",
+  "weight": 146.7,
+  "now": "wushed"
+ },
+ {
+  "key": "D EH B",
+  "say": "bed",
+  "weight": 146.3,
+  "now": "deb"
+ },
+ {
+  "key": "F IH S",
+  "say": "syf",
+  "weight": 146.1,
+  "now": "fis"
+ },
+ {
+  "key": "S K AA F",
+  "say": "fox",
+  "weight": 145.7,
+  "now": "scof"
+ },
+ {
+  "key": "K L IH M",
+  "say": "milk",
+  "weight": 145.7,
+  "now": "klim"
+ },
+ {
+  "key": "S P AE",
+  "say": "apps",
+  "weight": 145.4,
+  "now": null
+ },
+ {
+  "key": "AH R T S",
+  "say": "struh",
+  "weight": 145.3,
+  "now": "ertz"
+ },
+ {
+  "key": "T AO R B",
+  "say": "brought",
+  "weight": 144.5,
+  "now": "torb"
+ },
+ {
+  "key": "UW M",
+  "say": "mu",
+  "weight": 144.5,
+  "now": "oom"
+ },
+ {
+  "key": "K R AA P",
+  "say": "park",
+  "weight": 144.5,
+  "now": "crop"
+ },
+ {
+  "key": "S N AH M",
+  "say": "munce",
+  "weight": 144.5,
+  "now": "snum"
+ },
+ {
+  "key": "TH R AH W",
+  "say": "worth",
+  "weight": 144.5,
+  "now": "thruw"
+ },
+ {
+  "key": "R IH R",
+  "say": "rear",
+  "weight": 144.4,
+  "now": "rear"
+ },
+ {
+  "key": "AA L K",
+  "say": "kla",
+  "weight": 143.0,
+  "now": "olk"
+ },
+ {
+  "key": "G R AH F",
+  "say": "ferg",
+  "weight": 142.7,
+  "now": "gruff"
+ },
+ {
+  "key": "S N AH R",
+  "say": "runce",
+  "weight": 142.1,
+  "now": "snur"
+ },
+ {
+  "key": "S K UH B",
+  "say": "books",
+  "weight": 141.3,
+  "now": null
+ },
+ {
+  "key": "L UW K",
+  "say": "cool",
+  "weight": 141.3,
+  "now": "luke"
+ },
+ {
+  "key": "K AE Z",
+  "say": "zach",
+  "weight": 141.3,
+  "now": "kaz"
+ },
+ {
+  "key": "S R AO S",
+  "say": "source",
+  "weight": 141.3,
+  "now": null
+ },
+ {
+  "key": "K AH L",
+  "say": "luck",
+  "weight": 140.2,
+  "now": "cul"
+ },
+ {
+  "key": "P IY D",
+  "say": "deep",
+  "weight": 139.7,
+  "now": "peed"
+ },
+ {
+  "key": "K IH D",
+  "say": "dick",
+  "weight": 139.6,
+  "now": "kid"
+ },
+ {
+  "key": "IH ZH",
+  "say": "zhih",
+  "weight": 138.8,
+  "now": null
+ },
+ {
+  "key": "Z N UW",
+  "say": "oons",
+  "weight": 138.8,
+  "now": null
+ },
+ {
+  "key": "D R EH P",
+  "say": "paired",
+  "weight": 138.1,
+  "now": "drep"
+ },
+ {
+  "key": "F AH T S",
+  "say": "stuff",
+  "weight": 138.0,
+  "now": "futs"
+ },
+ {
+  "key": "AH W",
+  "say": "wuh",
+  "weight": 138.0,
+  "now": "uw"
+ },
+ {
+  "key": "V EH T",
+  "say": "tevve",
+  "weight": 138.0,
+  "now": "vet"
+ },
+ {
+  "key": "F AH T",
+  "say": "tough",
+  "weight": 137.9,
+  "now": "fut"
+ },
+ {
+  "key": "L IH F",
+  "say": "fill",
+  "weight": 137.0,
+  "now": "lyf"
+ },
+ {
+  "key": "IY L S",
+  "say": "slee",
+  "weight": 136.3,
+  "now": "eelse"
+ },
+ {
+  "key": "D AH S",
+  "say": "sud",
+  "weight": 135.0,
+  "now": "dus"
+ },
+ {
+  "key": "SH IH N",
+  "say": "nysh",
+  "weight": 135.0,
+  "now": "shin"
+ },
+ {
+  "key": "L AO F",
+  "say": "fall",
+  "weight": 134.9,
+  "now": "lawf"
+ },
+ {
+  "key": "T L EH F",
+  "say": "felt",
+  "weight": 134.9,
+  "now": null
+ },
+ {
+  "key": "N IY R G",
+  "say": "green",
+  "weight": 134.9,
+  "now": null
+ },
+ {
+  "key": "P EH T S",
+  "say": "step",
+  "weight": 134.9,
+  "now": "pets"
+ },
+ {
+  "key": "B AE T",
+  "say": "tab",
+  "weight": 134.6,
+  "now": "bat"
+ },
+ {
+  "key": "T AE K",
+  "say": "cat",
+  "weight": 134.4,
+  "now": "tack"
+ },
+ {
+  "key": "R UH T",
+  "say": "tour",
+  "weight": 134.0,
+  "now": null
+ },
+ {
+  "key": "IH L B",
+  "say": "blih",
+  "weight": 133.4,
+  "now": "ylb"
+ },
+ {
+  "key": "L AO T",
+  "say": "tall",
+  "weight": 133.1,
+  "now": "lawt"
+ },
+ {
+  "key": "G AH R D",
+  "say": "drug",
+  "weight": 133.0,
+  "now": "gird"
+ },
+ {
+  "key": "D M IY",
+  "say": "eamed",
+  "weight": 132.8,
+  "now": null
+ },
+ {
+  "key": "L AO W",
+  "say": "wall",
+  "weight": 132.6,
+  "now": "lauw"
+ },
+ {
+  "key": "N AA P",
+  "say": "pon",
+  "weight": 132.1,
+  "now": "nop"
+ },
+ {
+  "key": "L AH R T",
+  "say": "trul",
+  "weight": 131.8,
+  "now": "lurt"
+ },
+ {
+  "key": "N AH L G",
+  "say": "glun",
+  "weight": 131.8,
+  "now": "nulg"
+ },
+ {
+  "key": "S P UW R G",
+  "say": "groups",
+  "weight": 131.8,
+  "now": null
+ },
+ {
+  "key": "M AA M",
+  "say": "mom",
+  "weight": 131.8,
+  "now": "mom"
+ },
+ {
+  "key": "N AA P AH",
+  "say": "upon",
+  "weight": 131.8,
+  "now": "napa"
+ },
+ {
+  "key": "B EH F",
+  "say": "feb",
+  "weight": 131.1,
+  "now": "beff"
+ },
+ {
+  "key": "NG IH R D",
+  "say": "dring",
+  "weight": 130.7,
+  "now": null
+ },
+ {
+  "key": "T IH G",
+  "say": "git",
+  "weight": 130.2,
+  "now": "tig"
+ },
+ {
+  "key": "T UW L",
+  "say": "loot",
+  "weight": 130.2,
+  "now": "tool"
+ },
+ {
+  "key": "P AE",
+  "say": "app",
+  "weight": 130.0,
+  "now": null
+ },
+ {
+  "key": "SH AA W",
+  "say": "wash",
+  "weight": 128.8,
+  "now": "shaaw"
+ },
+ {
+  "key": "F IY SH T",
+  "say": "chief",
+  "weight": 128.8,
+  "now": "feashed"
+ },
+ {
+  "key": "L AA W",
+  "say": "wahl",
+  "weight": 128.8,
+  "now": "laaw"
+ },
+ {
+  "key": "R AO T",
+  "say": "tore",
+  "weight": 127.5,
+  "now": "wrought"
+ },
+ {
+  "key": "Z IH ZH",
+  "say": "zhyz",
+  "weight": 126.3,
+  "now": null
+ },
+ {
+  "key": "D AH L B",
+  "say": "blood",
+  "weight": 125.9,
+  "now": "dulb"
+ },
+ {
+  "key": "G AO D",
+  "say": "dawg",
+  "weight": 125.9,
+  "now": "gawd"
+ },
+ {
+  "key": "D R AO L",
+  "say": "lord",
+  "weight": 125.9,
+  "now": "drawl"
+ },
+ {
+  "key": "T AH D",
+  "say": "dutt",
+  "weight": 125.7,
+  "now": "tud"
+ },
+ {
+  "key": "K AH R T S",
+  "say": "struck",
+  "weight": 125.7,
+  "now": "kurtz"
+ },
+ {
+  "key": "N AE P",
+  "say": "pan",
+  "weight": 124.9,
+  "now": "nap"
+ },
+ {
+  "key": "N AE S",
+  "say": "san",
+  "weight": 124.2,
+  "now": "nass"
+ },
+ {
+  "key": "S EH T",
+  "say": "tess",
+  "weight": 123.7,
+  "now": "set"
+ },
+ {
+  "key": "N AH SH T",
+  "say": "chun",
+  "weight": 123.7,
+  "now": "nushed"
+ },
+ {
+  "key": "N EH D",
+  "say": "den",
+  "weight": 123.6,
+  "now": "ned"
+ },
+ {
+  "key": "T AE B",
+  "say": "bat",
+  "weight": 123.4,
+  "now": "tab"
+ },
+ {
+  "key": "K AE T",
+  "say": "tack",
+  "weight": 123.0,
+  "now": "cat"
+ },
+ {
+  "key": "T EH M",
+  "say": "met",
+  "weight": 123.0,
+  "now": "tem"
+ },
+ {
+  "key": "L AA N",
+  "say": "nol",
+  "weight": 123.0,
+  "now": "lon"
+ },
+ {
+  "key": "S AO",
+  "say": "auss",
+  "weight": 122.9,
+  "now": "saw"
+ },
+ {
+  "key": "T IH D",
+  "say": "dit",
+  "weight": 122.4,
+  "now": "tid"
+ },
+ {
+  "key": "NG IH NG",
+  "say": "nging",
+  "weight": 121.8,
+  "now": "nging"
+ },
+ {
+  "key": "G IH D",
+  "say": "dig",
+  "weight": 121.8,
+  "now": "gid"
+ },
+ {
+  "key": "N AH N",
+  "say": "none",
+  "weight": 121.4,
+  "now": "none"
+ },
+ {
+  "key": "N AH T S",
+  "say": "stun",
+  "weight": 121.0,
+  "now": "nuts"
+ },
+ {
+  "key": "N AE N",
+  "say": "nan",
+  "weight": 120.2,
+  "now": "nan"
+ },
+ {
+  "key": "S IY R K",
+  "say": "crease",
+  "weight": 120.2,
+  "now": null
+ },
+ {
+  "key": "Z UW L",
+  "say": "lose",
+  "weight": 120.2,
+  "now": "zul"
+ },
+ {
+  "key": "IY L P",
+  "say": "plea",
+  "weight": 120.2,
+  "now": "ealp"
+ },
+ {
+  "key": "F AE T S",
+  "say": "staff",
+  "weight": 120.2,
+  "now": "fats"
+ },
+ {
+  "key": "TH AO",
+  "say": "auth",
+  "weight": 120.0,
+  "now": "thaw"
+ },
+ {
+  "key": "D N AE M",
+  "say": "manned",
+  "weight": 119.3,
+  "now": null
+ },
+ {
+  "key": "IY TH",
+  "say": "theee",
+  "weight": 118.6,
+  "now": "eeth"
+ },
+ {
+  "key": "T AA B",
+  "say": "bot",
+  "weight": 118.4,
+  "now": "tob"
+ },
+ {
+  "key": "G EH",
+  "say": "egg",
+  "weight": 118.3,
+  "now": null
+ },
+ {
+  "key": "R IH F",
+  "say": "fear",
+  "weight": 118.0,
+  "now": "riff"
+ },
+ {
+  "key": "K EH P",
+  "say": "peck",
+  "weight": 117.5,
+  "now": "kep"
+ },
+ {
+  "key": "N AE G",
+  "say": "gan",
+  "weight": 117.5,
+  "now": "nag"
+ },
+ {
+  "key": "T L IH B",
+  "say": "built",
+  "weight": 117.5,
+  "now": null
+ },
+ {
+  "key": "T L AH K",
+  "say": "cult",
+  "weight": 117.5,
+  "now": null
+ },
+ {
+  "key": "T IH P S",
+  "say": "spit",
+  "weight": 117.5,
+  "now": "tips"
+ },
+ {
+  "key": "S AO L",
+  "say": "loss",
+  "weight": 117.5,
+  "now": "saul"
+ },
+ {
+  "key": "Z N AH W",
+  "say": "ones",
+  "weight": 117.5,
+  "now": null
+ },
+ {
+  "key": "S T R AA P",
+  "say": "parts",
+  "weight": 117.5,
+  "now": "strop"
+ },
+ {
+  "key": "T SH IH L B",
+  "say": "blished",
+  "weight": 117.5,
+  "now": "chylb"
+ },
+ {
+  "key": "T AE M",
+  "say": "matt",
+  "weight": 117.5,
+  "now": "tam"
+ },
+ {
+  "key": "S N EH F",
+  "say": "fence",
+  "weight": 117.5,
+  "now": "snef"
+ },
+ {
+  "key": "TH R AH B",
+  "say": "birth",
+  "weight": 116.4,
+  "now": "thrub"
+ },
+ {
+  "key": "R AA B",
+  "say": "bar",
+  "weight": 115.3,
+  "now": "rob"
+ },
+ {
+  "key": "S AH T",
+  "say": "tus",
+  "weight": 114.8,
+  "now": "sut"
+ },
+ {
+  "key": "D UW Y",
+  "say": "ude",
+  "weight": 114.1,
+  "now": null
+ },
+ {
+  "key": "AO L S",
+  "say": "slaw",
+  "weight": 113.5,
+  "now": "awlse"
+ },
+ {
+  "key": "F AH R",
+  "say": "rough",
+  "weight": 113.0,
+  "now": "fur"
+ },
+ {
+  "key": "L UH P",
+  "say": "pull",
+  "weight": 112.8,
+  "now": null
+ },
+ {
+  "key": "S T UW",
+  "say": "oots",
+  "weight": 112.8,
+  "now": "stew"
+ },
+ {
+  "key": "N IH P",
+  "say": "pin",
+  "weight": 112.8,
+  "now": "nip"
+ },
+ {
+  "key": "L AO L",
+  "say": "lall",
+  "weight": 112.2,
+  "now": "lall"
+ },
+ {
+  "key": "NG IH S IH M",
+  "say": "missing",
+  "weight": 112.2,
+  "now": null
+ },
+ {
+  "key": "S AE P",
+  "say": "pass",
+  "weight": 112.2,
+  "now": "sap"
+ },
+ {
+  "key": "SH EH F",
+  "say": "fesh",
+  "weight": 112.2,
+  "now": "chef"
+ },
+ {
+  "key": "Z L UW K S",
+  "say": "schools",
+  "weight": 112.2,
+  "now": null
+ },
+ {
+  "key": "P IY L S",
+  "say": "sleep",
+  "weight": 112.2,
+  "now": "pealse"
+ },
+ {
+  "key": "TH UW R T",
+  "say": "truth",
+  "weight": 112.2,
+  "now": null
+ },
+ {
+  "key": "N AE R",
+  "say": "ran",
+  "weight": 112.1,
+  "now": null
+ },
+ {
+  "key": "R EH SH T",
+  "say": "chair",
+  "weight": 112.1,
+  "now": "reshed"
+ },
+ {
+  "key": "D AE D",
+  "say": "dad",
+  "weight": 112.0,
+  "now": "dad"
+ },
+ {
+  "key": "IY L K",
+  "say": "klee",
+  "weight": 111.9,
+  "now": "ealk"
+ },
+ {
+  "key": "AA L P",
+  "say": "pla",
+  "weight": 111.3,
+  "now": "olp"
+ },
+ {
+  "key": "D AH TH",
+  "say": "thud",
+  "weight": 111.0,
+  "now": "doth"
+ },
+ {
+  "key": "S N AH T S",
+  "say": "stunce",
+  "weight": 109.9,
+  "now": "snuts"
+ },
+ {
+  "key": "S K AA B",
+  "say": "box",
+  "weight": 109.6,
+  "now": "scob"
+ },
+ {
+  "key": "D L IH B",
+  "say": "build",
+  "weight": 109.6,
+  "now": null
+ },
+ {
+  "key": "D R AA K",
+  "say": "card",
+  "weight": 109.6,
+  "now": "drok"
+ },
+ {
+  "key": "K R AA D",
+  "say": "dark",
+  "weight": 109.6,
+  "now": "krod"
+ },
+ {
+  "key": "P AA K",
+  "say": "cop",
+  "weight": 109.2,
+  "now": "pock"
+ },
+ {
+  "key": "K IH R T",
+  "say": "trick",
+  "weight": 109.0,
+  "now": null
+ },
+ {
+  "key": "T R AH F",
+  "say": "furt",
+  "weight": 108.9,
+  "now": "truf"
+ },
+ {
+  "key": "M AE SH T",
+  "say": "cham",
+  "weight": 108.0,
+  "now": "mashed"
+ },
+ {
+  "key": "S AH F",
+  "say": "fuss",
+  "weight": 107.4,
+  "now": "suf"
+ },
+ {
+  "key": "K IH ZH",
+  "say": "zhyk",
+  "weight": 107.4,
+  "now": null
+ },
+ {
+  "key": "R EH B",
+  "say": "bear",
+  "weight": 107.3,
+  "now": "rebbe"
+ },
+ {
+  "key": "Z N AE F",
+  "say": "fans",
+  "weight": 107.2,
+  "now": null
+ },
+ {
+  "key": "L AO P",
+  "say": "paul",
+  "weight": 107.2,
+  "now": "lawp"
+ },
+ {
+  "key": "S N AA P S",
+  "say": "sponce",
+  "weight": 107.2,
+  "now": "snops"
+ },
+ {
+  "key": "V IH R",
+  "say": "rivve",
+  "weight": 107.2,
+  "now": "veer"
+ },
+ {
+  "key": "K AA R",
+  "say": "rock",
+  "weight": 107.2,
+  "now": "car"
+ },
+ {
+  "key": "L AE SH",
+  "say": "shall",
+  "weight": 107.2,
+  "now": "lash"
+ },
+ {
+  "key": "S T AH K",
+  "say": "cuts",
+  "weight": 106.9,
+  "now": "stuck"
+ },
+ {
+  "key": "AH IY R",
+  "say": "rea",
+  "weight": 106.5,
+  "now": null
+ },
+ {
+  "key": "S K IH F",
+  "say": "fix",
+  "weight": 106.4,
+  "now": "schiff"
+ },
+ {
+  "key": "L AH V IY",
+  "say": "evil",
+  "weight": 105.9,
+  "now": "lovie"
+ },
+ {
+  "key": "D R AH V",
+  "say": "verde",
+  "weight": 105.8,
+  "now": "druvve"
+ },
+ {
+  "key": "AO L F",
+  "say": "flaw",
+  "weight": 105.4,
+  "now": "awlf"
+ },
+ {
+  "key": "B AH R T",
+  "say": "trub",
+  "weight": 105.3,
+  "now": "bert"
+ },
+ {
+  "key": "S R AO",
+  "say": "orce",
+  "weight": 105.0,
+  "now": null
+ },
+ {
+  "key": "M AH B",
+  "say": "bum",
+  "weight": 104.7,
+  "now": "mub"
+ },
+ {
+  "key": "S AA B",
+  "say": "bos",
+  "weight": 104.3,
+  "now": "sob"
+ },
+ {
+  "key": "N AE SH T",
+  "say": "chan",
+  "weight": 103.2,
+  "now": "nashed"
+ },
+ {
+  "key": "AH L AE",
+  "say": "allah",
+  "weight": 102.7,
+  "now": "ala"
+ },
+ {
+  "key": "AA TH",
+  "say": "tha",
+  "weight": 102.5,
+  "now": "oth"
+ },
+ {
+  "key": "IY T N AE",
+  "say": "ante",
+  "weight": 102.3,
+  "now": null
+ },
+ {
+  "key": "S AE G",
+  "say": "gas",
+  "weight": 102.3,
+  "now": "sag"
+ },
+ {
+  "key": "Z N AE L P",
+  "say": "plans",
+  "weight": 102.3,
+  "now": null
+ },
+ {
+  "key": "R AO P",
+  "say": "pour",
+  "weight": 101.8,
+  "now": "raup"
+ },
+ {
+  "key": "IH K",
+  "say": "kih",
+  "weight": 101.6,
+  "now": "iq"
+ },
+ {
+  "key": "M IY R T",
+  "say": "treem",
+  "weight": 101.5,
+  "now": null
+ },
+ {
+  "key": "IY R K",
+  "say": "cree",
+  "weight": 100.7,
+  "now": null
+ },
+ {
+  "key": "R AA HH",
+  "say": "har",
+  "weight": 100.6,
+  "now": "rahe"
+ },
+ {
+  "key": "T AA K S",
+  "say": "scott",
+  "weight": 100.3,
+  "now": "tox"
+ },
+ {
+  "key": "SH UW T",
+  "say": "tewsh",
+  "weight": 100.0,
+  "now": "shoot"
+ },
+ {
+  "key": "L AE K",
+  "say": "cal",
+  "weight": 100.0,
+  "now": "lack"
+ },
+ {
+  "key": "S AO R K",
+  "say": "cross",
+  "weight": 100.0,
+  "now": "sork"
+ },
+ {
+  "key": "W AH ZH",
+  "say": "zhuw",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "P EH K",
+  "say": "kep",
+  "weight": 100.0,
+  "now": "peck"
+ },
+ {
+  "key": "D V AH L",
+  "say": "loved",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "T R AO S",
+  "say": "sort",
+  "weight": 100.0,
+  "now": "tross"
+ },
+ {
+  "key": "D IY P S",
+  "say": "speed",
+  "weight": 100.0,
+  "now": "deaps"
+ },
+ {
+  "key": "IH T S",
+  "say": "stih",
+  "weight": 100.0,
+  "now": "its"
+ },
+ {
+  "key": "B IY P",
+  "say": "peeb",
+  "weight": 100.0,
+  "now": "beep"
+ },
+ {
+  "key": "L IH R",
+  "say": "rill",
+  "weight": 100.0,
+  "now": "lear"
+ },
+ {
+  "key": "N UW D",
+  "say": "dune",
+  "weight": 100.0,
+  "now": "nude"
+ },
+ {
+  "key": "B L IH",
+  "say": "ylb",
+  "weight": 100.0,
+  "now": "blih"
+ },
+ {
+  "key": "Z L EH SH",
+  "say": "shells",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "N AA T",
+  "say": "tahn",
+  "weight": 100.0,
+  "now": "not"
+ },
+ {
+  "key": "K R AO M",
+  "say": "mork",
+  "weight": 100.0,
+  "now": "crawm"
+ },
+ {
+  "key": "T R AA T",
+  "say": "tart",
+  "weight": 100.0,
+  "now": "trot"
+ },
+ {
+  "key": "SH IY W",
+  "say": "weash",
+  "weight": 100.0,
+  "now": "sheew"
+ },
+ {
+  "key": "N AH DH",
+  "say": "than",
+  "weight": 100.0,
+  "now": "nuthe"
+ },
+ {
+  "key": "L IY HH",
+  "say": "heal",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "Z L EH M",
+  "say": "mells",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "T EH K",
+  "say": "kett",
+  "weight": 100.0,
+  "now": "tech"
+ },
+ {
+  "key": "W IY W",
+  "say": "wew",
+  "weight": 100.0,
+  "now": "wew"
+ },
+ {
+  "key": "R AA Z",
+  "say": "czar",
+  "weight": 100.0,
+  "now": "ras"
+ },
+ {
+  "key": "F AA",
+  "say": "ahf",
+  "weight": 100.0,
+  "now": "fa"
+ },
+ {
+  "key": "T N AH R",
+  "say": "runt",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "S AE L",
+  "say": "lass",
+  "weight": 100.0,
+  "now": "sal"
+ },
+ {
+  "key": "TH UW R",
+  "say": "ruth",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "F IY W",
+  "say": "weef",
+  "weight": 100.0,
+  "now": "feaw"
+ },
+ {
+  "key": "M AO R D",
+  "say": "drawm",
+  "weight": 100.0,
+  "now": "mord"
+ },
+ {
+  "key": "NG AE S",
+  "say": "sang",
+  "weight": 100.0,
+  "now": null
+ },
+ {
+  "key": "K IH N",
+  "say": "nick",
+  "weight": 99.5,
+  "now": "kin"
+ },
+ {
+  "key": "Z N AH K",
+  "say": "kunze",
+  "weight": 99.2,
+  "now": null
+ },
+ {
+  "key": "K AH M",
+  "say": "muck",
+  "weight": 98.1,
+  "now": "come"
+ },
+ {
+  "key": "F AH S",
+  "say": "suf",
+  "weight": 97.9,
+  "now": "fuss"
+ },
+ {
+  "key": "P AA R D",
+  "say": "drop",
+  "weight": 97.7,
+  "now": "pard"
+ },
+ {
+  "key": "AH Z",
+  "say": "zuh",
+  "weight": 97.7,
+  "now": "uz"
+ },
+ {
+  "key": "M IH ZH D",
+  "say": "jim",
+  "weight": 96.1,
+  "now": null
+ },
+ {
+  "key": "T UW R",
+  "say": "root",
+  "weight": 95.9,
+  "now": null
+ },
+ {
+  "key": "G AH S",
+  "say": "sugg",
+  "weight": 95.5,
+  "now": "gus"
+ },
+ {
+  "key": "D AH T S",
+  "say": "stud",
+  "weight": 95.5,
+  "now": "duts"
+ },
+ {
+  "key": "N AE L",
+  "say": "lan",
+  "weight": 94.9,
+  "now": "nal"
+ },
+ {
+  "key": "R AO K S",
+  "say": "score",
+  "weight": 94.5,
+  "now": "raux"
+ },
+ {
+  "key": "D N AH L",
+  "say": "lund",
+  "weight": 93.6,
+  "now": null
+ },
+ {
+  "key": "D AH N",
+  "say": "nud",
+  "weight": 93.3,
+  "now": "done"
+ },
+ {
+  "key": "N IY L K",
+  "say": "clean",
+  "weight": 93.3,
+  "now": "neelk"
+ },
+ {
+  "key": "S AH T S",
+  "say": "stuss",
+  "weight": 93.3,
+  "now": "suts"
+ },
+ {
+  "key": "Z L AH V",
+  "say": "vulls",
+  "weight": 93.3,
+  "now": null
+ },
+ {
+  "key": "Z M IY T",
+  "say": "teams",
+  "weight": 93.3,
+  "now": null
+ },
+ {
+  "key": "N IH R P",
+  "say": "prynne",
+  "weight": 93.3,
+  "now": null
+ },
+ {
+  "key": "TH R AO F",
+  "say": "fourth",
+  "weight": 92.7,
+  "now": "thrauf"
+ },
+ {
+  "key": "D IY D",
+  "say": "deed",
+  "weight": 92.6,
+  "now": "deed"
+ },
+ {
+  "key": "L AH Z",
+  "say": "zull",
+  "weight": 92.5,
+  "now": "luz"
+ },
+ {
+  "key": "K EH P S",
+  "say": "spec",
+  "weight": 92.0,
+  "now": "keps"
+ },
+ {
+  "key": "D AH R D",
+  "say": "drud",
+  "weight": 92.0,
+  "now": "durd"
+ },
+ {
+  "key": "NG AH F",
+  "say": "fung",
+  "weight": 91.9,
+  "now": null
+ },
+ {
+  "key": "N AO L",
+  "say": "lawn",
+  "weight": 91.6,
+  "now": "nall"
+ },
+ {
+  "key": "S AA K",
+  "say": "cos",
+  "weight": 91.2,
+  "now": "sock"
+ },
+ {
+  "key": "F EH D",
+  "say": "deaf",
+  "weight": 91.2,
+  "now": "fed"
+ },
+ {
+  "key": "AA R F",
+  "say": "fra",
+  "weight": 91.2,
+  "now": "arf"
+ },
+ {
+  "key": "D AH B",
+  "say": "bud",
+  "weight": 91.2,
+  "now": "dub"
+ },
+ {
+  "key": "V IY SH T",
+  "say": "cheeve",
+  "weight": 91.0,
+  "now": "veeshed"
+ },
+ {
+  "key": "P IY T",
+  "say": "tepe",
+  "weight": 90.9,
+  "now": "pete"
+ },
+ {
+  "key": "R IH M",
+  "say": "mere",
+  "weight": 89.3,
+  "now": "rim"
+ },
+ {
+  "key": "D R AH SH",
+  "say": "sheard",
+  "weight": 89.2,
+  "now": "drush"
+ },
+ {
+  "key": "AO L G",
+  "say": "glaw",
+  "weight": 89.1,
+  "now": "awlg"
+ },
+ {
+  "key": "S AH L P",
+  "say": "plus",
+  "weight": 89.1,
+  "now": "sulp"
+ },
+ {
+  "key": "AH R K",
+  "say": "cruh",
+  "weight": 89.1,
+  "now": "irk"
+ },
+ {
+  "key": "L IH S",
+  "say": "sill",
+  "weight": 89.1,
+  "now": "lis"
+ },
+ {
+  "key": "AO T S",
+  "say": "staw",
+  "weight": 88.8,
+  "now": "awts"
+ },
+ {
+  "key": "G AE B",
+  "say": "bag",
+  "weight": 88.6,
+  "now": "gab"
+ },
+ {
+  "key": "T SH IH N",
+  "say": "nyshed",
+  "weight": 87.1,
+  "now": "chin"
+ },
+ {
+  "key": "R AO L F",
+  "say": "floor",
+  "weight": 87.1,
+  "now": "rawlf"
+ },
+ {
+  "key": "S N AE R F",
+  "say": "france",
+  "weight": 87.1,
+  "now": null
+ },
+ {
+  "key": "T R AH",
+  "say": "urt",
+  "weight": 87.1,
+  "now": "truh"
+ },
+ {
+  "key": "D AH M",
+  "say": "mud",
+  "weight": 87.1,
+  "now": "dumb"
+ },
+ {
+  "key": "AO ZH",
+  "say": "zhaw",
+  "weight": 87.1,
+  "now": null
+ },
+ {
+  "key": "S T R AO P S",
+  "say": "sports",
+  "weight": 87.1,
+  "now": "strawps"
+ },
+ {
+  "key": "P UW T S",
+  "say": "stoop",
+  "weight": 87.1,
+  "now": "poots"
+ },
+ {
+  "key": "D AH R",
+  "say": "rudd",
+  "weight": 86.3,
+  "now": "durr"
+ },
+ {
+  "key": "T S AE K",
+  "say": "cast",
+  "weight": 86.2,
+  "now": "tsak"
+ },
+ {
+  "key": "R AA SH T",
+  "say": "char",
+  "weight": 85.8,
+  "now": "roshed"
+ },
+ {
+  "key": "S K AE M",
+  "say": "max",
+  "weight": 85.5,
+  "now": "scam"
+ },
+ {
+  "key": "S T EH S",
+  "say": "sets",
+  "weight": 85.3,
+  "now": "stes"
+ },
+ {
+  "key": "T S IH N",
+  "say": "nist",
+  "weight": 85.1,
+  "now": "tsin"
+ },
+ {
+  "key": "S N AE D",
+  "say": "dance",
+  "weight": 85.1,
+  "now": "snad"
+ },
+ {
+  "key": "AH SH AH R",
+  "say": "russia",
+  "weight": 85.1,
+  "now": "usher"
+ },
+ {
+  "key": "K AA T S",
+  "say": "stock",
+  "weight": 85.1,
+  "now": "cots"
+ },
+ {
+  "key": "M AH R T",
+  "say": "trum",
+  "weight": 85.1,
+  "now": "murt"
+ },
+ {
+  "key": "N EH K",
+  "say": "ken",
+  "weight": 85.1,
+  "now": "neck"
+ },
+ {
+  "key": "F IH G",
+  "say": "gif",
+  "weight": 84.2,
+  "now": "fig"
+ },
+ {
+  "key": "N AE B",
+  "say": "ban",
+  "weight": 84.0,
+  "now": "nab"
+ },
+ {
+  "key": "D R AA G",
+  "say": "guard",
+  "weight": 83.9,
+  "now": "drog"
+ },
+ {
+  "key": "S P IH SH",
+  "say": "ships",
+  "weight": 83.3,
+  "now": "spish"
+ },
+ {
+  "key": "K AH R F",
+  "say": "fruk",
+  "weight": 83.2,
+  "now": "kurf"
+ },
+ {
+  "key": "SH AE K",
+  "say": "cash",
+  "weight": 83.2,
+  "now": "shack"
+ },
+ {
+  "key": "K AE L",
+  "say": "lack",
+  "weight": 83.2,
+  "now": "cal"
+ },
+ {
+  "key": "P AH T",
+  "say": "tup",
+  "weight": 83.2,
+  "now": "putt"
+ },
+ {
+  "key": "T AH R K",
+  "say": "krut",
+  "weight": 83.2,
+  "now": "turk"
+ },
+ {
+  "key": "R AO HH",
+  "say": "whore",
+  "weight": 82.6,
+  "now": null
+ },
+ {
+  "key": "N EH F",
+  "say": "fen",
+  "weight": 82.3,
+  "now": "neff"
+ },
+ {
+  "key": "K EH M",
+  "say": "meck",
+  "weight": 81.9,
+  "now": "chem"
+ },
+ {
+  "key": "Z L AO K",
+  "say": "calls",
+  "weight": 81.3,
+  "now": null
+ },
+ {
+  "key": "Z UW SH T",
+  "say": "choose",
+  "weight": 81.3,
+  "now": "zooshed"
+ },
+ {
+  "key": "M IY R D",
+  "say": "dream",
+  "weight": 81.3,
+  "now": null
+ },
+ {
+  "key": "T S IY R K",
+  "say": "kreest",
+  "weight": 81.3,
+  "now": null
+ },
+ {
+  "key": "N IH K S",
+  "say": "skin",
+  "weight": 81.3,
+  "now": "knicks"
+ },
+ {
+  "key": "S AH DH",
+  "say": "thus",
+  "weight": 81.3,
+  "now": "suthe"
+ },
+ {
+  "key": "T AH R",
+  "say": "rut",
+  "weight": 80.8,
+  "now": "ter"
+ },
+ {
+  "key": "P AH R P",
+  "say": "prup",
+  "weight": 80.8,
+  "now": "purp"
+ },
+ {
+  "key": "K AH S",
+  "say": "suck",
+  "weight": 80.4,
+  "now": "cus"
+ },
+ {
+  "key": "AO M S",
+  "say": "smaw",
+  "weight": 79.9,
+  "now": null
+ },
+ {
+  "key": "AA SH",
+  "say": "shah",
+  "weight": 79.5,
+  "now": "osh"
+ },
+ {
+  "key": "T AA K",
+  "say": "cot",
+  "weight": 79.4,
+  "now": "tock"
+ },
+ {
+  "key": "NG AA K",
+  "say": "kong",
+  "weight": 79.4,
+  "now": null
+ },
+ {
+  "key": "S AH R G",
+  "say": "gruss",
+  "weight": 79.4,
+  "now": "surg"
+ },
+ {
+  "key": "T SH IH L",
+  "say": "lished",
+  "weight": 79.4,
+  "now": "chill"
+ },
+ {
+  "key": "Z L IY F",
+  "say": "feels",
+  "weight": 79.4,
+  "now": null
+ },
+ {
+  "key": "SH IH F",
+  "say": "fish",
+  "weight": 79.4,
+  "now": "shif"
+ },
+ {
+  "key": "D AE L G",
+  "say": "glad",
+  "weight": 79.4,
+  "now": "dalg"
+ },
+ {
+  "key": "SH AH M",
+  "say": "mush",
+  "weight": 79.4,
+  "now": "shum"
+ },
+ {
+  "key": "P IH R T",
+  "say": "trip",
+  "weight": 79.4,
+  "now": "peart"
+ },
+ {
+  "key": "AH L EH",
+  "say": "ella",
+  "weight": 79.0,
+  "now": null
+ },
+ {
+  "key": "T S IH",
+  "say": "yst",
+  "weight": 78.9,
+  "now": "tsih"
+ },
+ {
+  "key": "L AA HH",
+  "say": "holl",
+  "weight": 78.8,
+  "now": null
+ },
+ {
+  "key": "S T R AA",
+  "say": "arts",
+  "weight": 77.7,
+  "now": "stra"
+ },
+ {
+  "key": "Z AO L",
+  "say": "laws",
+  "weight": 77.6,
+  "now": "zaul"
+ },
+ {
+  "key": "TH IH M S",
+  "say": "smith",
+  "weight": 77.6,
+  "now": null
+ },
+ {
+  "key": "T AA P S",
+  "say": "spot",
+  "weight": 77.6,
+  "now": "tops"
+ },
+ {
+  "key": "S R AH W",
+  "say": "worse",
+  "weight": 77.6,
+  "now": null
+ },
+ {
+  "key": "S K IH M",
+  "say": "mix",
+  "weight": 77.6,
+  "now": "skim"
+ },
+ {
+  "key": "M AE S",
+  "say": "sam",
+  "weight": 77.5,
+  "now": "mass"
+ },
+ {
+  "key": "AH B",
+  "say": "buh",
+  "weight": 77.0,
+  "now": "ub"
+ },
+ {
+  "key": "L IY T S",
+  "say": "steel",
+  "weight": 77.0,
+  "now": "leats"
+ },
+ {
+  "key": "K IH K",
+  "say": "kick",
+  "weight": 76.5,
+  "now": "kick"
+ },
+ {
+  "key": "K AA L B",
+  "say": "block",
+  "weight": 75.9,
+  "now": "kolb"
+ },
+ {
+  "key": "P IH W",
+  "say": "whip",
+  "weight": 75.9,
+  "now": "piw"
+ },
+ {
+  "key": "D V IH L",
+  "say": "lived",
+  "weight": 75.9,
+  "now": null
+ },
+ {
+  "key": "S T AA L",
+  "say": "lots",
+  "weight": 75.9,
+  "now": "stahl"
+ },
+ {
+  "key": "P AA SH",
+  "say": "shop",
+  "weight": 75.9,
+  "now": "posh"
+ },
+ {
+  "key": "R IH TH",
+  "say": "thier",
+  "weight": 75.9,
+  "now": "ryth"
+ },
+ {
+  "key": "N IH M",
+  "say": "min",
+  "weight": 75.3,
+  "now": "nym"
+ },
+ {
+  "key": "D UH T S",
+  "say": "stood",
+  "weight": 75.2,
+  "now": null
+ },
+ {
+  "key": "D EH K S",
+  "say": "sked",
+  "weight": 75.0,
+  "now": "decks"
+ },
+ {
+  "key": "L UH",
+  "say": "ul",
+  "weight": 75.0,
+  "now": null
+ },
+ {
+  "key": "L IH D",
+  "say": "dill",
+  "weight": 74.4,
+  "now": "lid"
+ },
+ {
+  "key": "M AH R",
+  "say": "rum",
+  "weight": 74.3,
+  "now": "mer"
+ },
+ {
+  "key": "K EH Z",
+  "say": "zek",
+  "weight": 74.1,
+  "now": "kez"
+ },
+ {
+  "key": "S AE M",
+  "say": "mass",
+  "weight": 74.1,
+  "now": "sam"
+ },
+ {
+  "key": "N IY AA N",
+  "say": "nine",
+  "weight": 74.1,
+  "now": "neon"
+ },
+ {
+  "key": "T S UW D",
+  "say": "dewst",
+  "weight": 74.1,
+  "now": "tsud"
+ },
+ {
+  "key": "T AE T S",
+  "say": "stat",
+  "weight": 74.1,
+  "now": "tats"
+ },
+ {
+  "key": "L UW R T",
+  "say": "trewl",
+  "weight": 74.1,
+  "now": null
+ },
+ {
+  "key": "L UW P",
+  "say": "pool",
+  "weight": 73.7,
+  "now": "loop"
+ },
+ {
+  "key": "Z IY R",
+  "say": "reez",
+  "weight": 73.6,
+  "now": null
+ },
+ {
+  "key": "N EH B",
+  "say": "ben",
+  "weight": 73.5,
+  "now": "neb"
+ },
+ {
+  "key": "S IH K",
+  "say": "kiss",
+  "weight": 73.5,
+  "now": "sick"
+ },
+ {
+  "key": "K UH K",
+  "say": "cook",
+  "weight": 72.9,
+  "now": "cook"
+ },
+ {
+  "key": "F AA K",
+  "say": "cof",
+  "weight": 72.4,
+  "now": "fok"
+ },
+ {
+  "key": "S K EH L P",
+  "say": "plex",
+  "weight": 72.4,
+  "now": "skelp"
+ },
+ {
+  "key": "SH IH D",
+  "say": "dish",
+  "weight": 72.4,
+  "now": "shid"
+ },
+ {
+  "key": "G UW G",
+  "say": "goog",
+  "weight": 72.4,
+  "now": "goog"
+ },
+ {
+  "key": "M AA",
+  "say": "om",
+  "weight": 72.4,
+  "now": "ma"
+ },
+ {
+  "key": "Z R AA T S",
+  "say": "stars",
+  "weight": 72.4,
+  "now": null
+ },
+ {
+  "key": "TH AH",
+  "say": "uth",
+  "weight": 72.2,
+  "now": "thuh"
+ },
+ {
+  "key": "S EH M",
+  "say": "mess",
+  "weight": 71.8,
+  "now": "sem"
+ },
+ {
+  "key": "D AH F",
+  "say": "fud",
+  "weight": 71.6,
+  "now": "duff"
+ },
+ {
+  "key": "P M AH",
+  "say": "ump",
+  "weight": 71.4,
+  "now": null
+ },
+ {
+  "key": "T IH K",
+  "say": "kit",
+  "weight": 71.0,
+  "now": "tick"
+ },
+ {
+  "key": "T AE F",
+  "say": "fat",
+  "weight": 70.8,
+  "now": "taff"
+ },
+ {
+  "key": "S AE L G",
+  "say": "glass",
+  "weight": 70.8,
+  "now": "salg"
+ },
+ {
+  "key": "T R AH B",
+  "say": "bert",
+  "weight": 70.8,
+  "now": "trub"
+ },
+ {
+  "key": "SH IY P S",
+  "say": "speesh",
+  "weight": 70.8,
+  "now": "sheeps"
+ },
+ {
+  "key": "T IY P S",
+  "say": "speet",
+  "weight": 70.8,
+  "now": "teeps"
+ },
+ {
+  "key": "S P IY",
+  "say": "eeps",
+  "weight": 70.8,
+  "now": "spe"
+ },
+ {
+  "key": "S EH IY V",
+  "say": "vs",
+  "weight": 70.8,
+  "now": "save"
+ },
+ {
+  "key": "T R AO F",
+  "say": "fort",
+  "weight": 69.9,
+  "now": "trough"
+ },
+ {
+  "key": "AH SH",
+  "say": "schuh",
+  "weight": 69.9,
+  "now": "ush"
+ },
+ {
+  "key": "B AH T",
+  "say": "tub",
+  "weight": 69.7,
+  "now": "but"
+ },
+ {
+  "key": "G IH R",
+  "say": "rig",
+  "weight": 69.7,
+  "now": "gear"
+ },
+ {
+  "key": "D R AA Y",
+  "say": "yard",
+  "weight": 69.5,
+  "now": null
+ },
+ {
+  "key": "IH L IH",
+  "say": "ilya",
+  "weight": 69.3,
+  "now": "ilya"
+ },
+ {
+  "key": "L AH W",
+  "say": "wul",
+  "weight": 69.2,
+  "now": "luw"
+ },
+ {
+  "key": "Z L AH M",
+  "say": "mulls",
+  "weight": 69.2,
+  "now": null
+ },
+ {
+  "key": "T S EH V",
+  "say": "vest",
+  "weight": 69.2,
+  "now": "tsevve"
+ },
+ {
+  "key": "Z N AH R",
+  "say": "runs",
+  "weight": 69.2,
+  "now": null
+ },
+ {
+  "key": "D AE S",
+  "say": "sad",
+  "weight": 69.2,
+  "now": "das"
+ },
+ {
+  "key": "R AO S",
+  "say": "sore",
+  "weight": 69.2,
+  "now": "ross"
+ },
+ {
+  "key": "DH AH S",
+  "say": "suthe",
+  "weight": 69.2,
+  "now": "thus"
+ },
+ {
+  "key": "AA W T",
+  "say": "trois",
+  "weight": 69.2,
+  "now": null
+ },
+ {
+  "key": "Z L AH P",
+  "say": "puls",
+  "weight": 69.0,
+  "now": null
+ },
+ {
+  "key": "AO P S",
+  "say": "spaw",
+  "weight": 68.9,
+  "now": "awps"
+ },
+ {
+  "key": "IH SH",
+  "say": "shih",
+  "weight": 67.8,
+  "now": "ish"
+ },
+ {
+  "key": "D IH Z",
+  "say": "zid",
+  "weight": 67.6,
+  "now": "diz"
+ },
+ {
+  "key": "D R IH P",
+  "say": "peered",
+  "weight": 67.6,
+  "now": "drip"
+ },
+ {
+  "key": "S AH B",
+  "say": "bus",
+  "weight": 67.6,
+  "now": "sub"
+ },
+ {
+  "key": "K AH SH",
+  "say": "shuck",
+  "weight": 67.6,
+  "now": "kush"
+ },
+ {
+  "key": "L AH K IH T",
+  "say": "tickle",
+  "weight": 67.6,
+  "now": "luckett"
+ },
+ {
+  "key": "T AH ZH",
+  "say": "zhut",
+  "weight": 67.6,
+  "now": null
+ },
+ {
+  "key": "SH EH R F",
+  "say": "fresh",
+  "weight": 67.6,
+  "now": null
+ },
+ {
+  "key": "T S IH M",
+  "say": "missed",
+  "weight": 67.6,
+  "now": "tsym"
+ },
+ {
+  "key": "T R AA M S",
+  "say": "smart",
+  "weight": 67.6,
+  "now": null
+ },
+ {
+  "key": "M AA T",
+  "say": "tom",
+  "weight": 67.6,
+  "now": "mott"
+ },
+ {
+  "key": "T L AO S",
+  "say": "salt",
+  "weight": 67.4,
+  "now": null
+ },
+ {
+  "key": "AH R F",
+  "say": "fruh",
+  "weight": 66.1,
+  "now": "urf"
+ },
+ {
+  "key": "T IH ZH",
+  "say": "zhit",
+  "weight": 66.1,
+  "now": null
+ },
+ {
+  "key": "K IH L K",
+  "say": "click",
+  "weight": 66.1,
+  "now": "kilk"
+ },
+ {
+  "key": "TH IY",
+  "say": "eeth",
+  "weight": 66.1,
+  "now": "theee"
+ },
+ {
+  "key": "SH AE F",
+  "say": "fash",
+  "weight": 66.1,
+  "now": "schaff"
+ },
+ {
+  "key": "K AE ZH D",
+  "say": "jack",
+  "weight": 66.1,
+  "now": null
+ },
+ {
+  "key": "F UW",
+  "say": "oof",
+  "weight": 66.1,
+  "now": "fu"
+ },
+ {
+  "key": "SH UH P",
+  "say": "push",
+  "weight": 66.1,
+  "now": null
+ },
+ {
+  "key": "T IY S",
+  "say": "seat",
+  "weight": 66.1,
+  "now": "teess"
+ },
+ {
+  "key": "R AA T",
+  "say": "tar",
+  "weight": 66.1,
+  "now": "rot"
+ },
+ {
+  "key": "T AH G",
+  "say": "gut",
+  "weight": 66.1,
+  "now": "tug"
+ },
+ {
+  "key": "L IH V",
+  "say": "ville",
+  "weight": 66.1,
+  "now": "liv"
+ },
+ {
+  "key": "UW R D",
+  "say": "drew",
+  "weight": 66.0,
+  "now": null
+ },
+ {
+  "key": "R AH TH",
+  "say": "thur",
+  "weight": 65.7,
+  "now": null
+ },
+ {
+  "key": "Z AH Z",
+  "say": "zuz",
+  "weight": 65.6,
+  "now": "zuz"
+ },
+ {
+  "key": "AO R T S",
+  "say": "straw",
+  "weight": 65.0,
+  "now": null
+ },
+ {
+  "key": "T IH M",
+  "say": "mit",
+  "weight": 64.9,
+  "now": "tim"
+ },
+ {
+  "key": "IY L B",
+  "say": "ble",
+  "weight": 64.7,
+  "now": "eelb"
+ },
+ {
+  "key": "AO TH",
+  "say": "thaw",
+  "weight": 64.6,
+  "now": "auth"
+ },
+ {
+  "key": "D UW D",
+  "say": "dude",
+  "weight": 64.6,
+  "now": "dude"
+ },
+ {
+  "key": "Z L AH W",
+  "say": "wulls",
+  "weight": 64.6,
+  "now": null
+ },
+ {
+  "key": "P AE ZH D",
+  "say": "jap",
+  "weight": 64.6,
+  "now": null
+ },
+ {
+  "key": "Z IY N AH",
+  "say": "unease",
+  "weight": 64.6,
+  "now": "xena"
+ },
+ {
+  "key": "D R IH W",
+  "say": "weird",
+  "weight": 64.6,
+  "now": "driw"
+ },
+ {
+  "key": "V R AH Z",
+  "say": "zurve",
+  "weight": 64.4,
+  "now": "vruz"
+ },
+ {
+  "key": "F IY L",
+  "say": "leaf",
+  "weight": 64.3,
+  "now": "feel"
+ },
+ {
+  "key": "K IY S",
+  "say": "seek",
+  "weight": 63.1,
+  "now": "keess"
+ },
+ {
+  "key": "T L AH",
+  "say": "ult",
+  "weight": 63.1,
+  "now": null
+ },
+ {
+  "key": "T S AH T",
+  "say": "tust",
+  "weight": 63.1,
+  "now": null
+ },
+ {
+  "key": "NG EH R",
+  "say": "reng",
+  "weight": 63.1,
+  "now": null
+ },
+ {
+  "key": "T EH R TH",
+  "say": "threat",
+  "weight": 62.7,
+  "now": null
+ },
+ {
+  "key": "N EH ZH D",
+  "say": "gen",
+  "weight": 62.3,
+  "now": null
+ },
+ {
+  "key": "S R AH V",
+  "say": "verse",
+  "weight": 62.3,
+  "now": null
+ },
+ {
+  "key": "TH AE B",
+  "say": "bath",
+  "weight": 62.2,
+  "now": "thab"
+ },
+ {
+  "key": "M AH R P",
+  "say": "prum",
+  "weight": 62.0,
+  "now": "murp"
+ },
+ {
+  "key": "M UW S AH",
+  "say": "assume",
+  "weight": 61.7,
+  "now": "moosa"
+ },
+ {
+  "key": "T EH B",
+  "say": "bet",
+  "weight": 61.7,
+  "now": "teb"
+ },
+ {
+  "key": "L AH D",
+  "say": "dull",
+  "weight": 61.7,
+  "now": "lud"
+ },
+ {
+  "key": "R IH P S",
+  "say": "spear",
+  "weight": 61.7,
+  "now": "rips"
+ },
+ {
+  "key": "L IH T",
+  "say": "till",
+  "weight": 61.7,
+  "now": "lit"
+ },
+ {
+  "key": "AH SH T",
+  "say": "chuh",
+  "weight": 61.4,
+  "now": "ushed"
+ },
+ {
+  "key": "Z AH SH T",
+  "say": "chuz",
+  "weight": 61.3,
+  "now": "zushed"
+ },
+ {
+  "key": "R AO G",
+  "say": "gore",
+  "weight": 60.6,
+  "now": "rawg"
+ },
+ {
+  "key": "N EH V",
+  "say": "venn",
+  "weight": 60.5,
+  "now": "nevve"
+ },
+ {
+  "key": "Z N AH T",
+  "say": "tons",
+  "weight": 60.5,
+  "now": null
+ },
+ {
+  "key": "L AA D",
+  "say": "doll",
+  "weight": 60.3,
+  "now": "lod"
+ },
+ {
+  "key": "UW L F",
+  "say": "flew",
+  "weight": 60.3,
+  "now": "oolf"
+ },
+ {
+  "key": "G AA R P",
+  "say": "prague",
+  "weight": 60.3,
+  "now": "garp"
+ },
+ {
+  "key": "T AH SH",
+  "say": "shut",
+  "weight": 60.3,
+  "now": null
+ },
+ {
+  "key": "Z L EH T",
+  "say": "tells",
+  "weight": 60.3,
+  "now": null
+ },
+ {
+  "key": "K IH L",
+  "say": "lick",
+  "weight": 60.0,
+  "now": "kill"
+ },
+ {
+  "key": "D L AH",
+  "say": "uld",
+  "weight": 59.9,
+  "now": null
+ },
+ {
+  "key": "T AE P",
+  "say": "pat",
+  "weight": 59.8,
+  "now": "tap"
+ },
+ {
+  "key": "NG IH M",
+  "say": "ming",
+  "weight": 59.8,
+  "now": null
+ },
+ {
+  "key": "K IY R F",
+  "say": "freak",
+  "weight": 59.2,
+  "now": null
+ },
+ {
+  "key": "M IH L",
+  "say": "limb",
+  "weight": 59.1,
+  "now": "mill"
+ },
+ {
+  "key": "R IH D",
+  "say": "dear",
+  "weight": 58.9,
+  "now": "rid"
+ },
+ {
+  "key": "G AA D",
+  "say": "dog",
+  "weight": 58.9,
+  "now": "god"
+ },
+ {
+  "key": "S T R AH F",
+  "say": "ferts",
+  "weight": 58.9,
+  "now": "struf"
+ },
+ {
+  "key": "R AA G",
+  "say": "gar",
+  "weight": 58.9,
+  "now": "rog"
+ },
+ {
+  "key": "NG EH L",
+  "say": "leng",
+  "weight": 58.9,
+  "now": null
+ },
+ {
+  "key": "DH IY N",
+  "say": "neathe",
+  "weight": 58.9,
+  "now": null
+ },
+ {
+  "key": "Z L IH K S",
+  "say": "skills",
+  "weight": 58.9,
+  "now": null
+ },
+ {
+  "key": "F AO S",
+  "say": "sauf",
+  "weight": 58.9,
+  "now": "fawss"
+ },
+ {
+  "key": "S T AH",
+  "say": "utz",
+  "weight": 58.9,
+  "now": "stuh"
+ },
+ {
+  "key": "Z N AH S",
+  "say": "sons",
+  "weight": 58.5,
+  "now": null
+ },
+ {
+  "key": "D AO R B",
+  "say": "broad",
+  "weight": 58.4,
+  "now": "dorb"
+ },
+ {
+  "key": "N AE R F",
+  "say": "fran",
+  "weight": 58.4,
+  "now": null
+ },
+ {
+  "key": "P IH",
+  "say": "yp",
+  "weight": 58.4,
+  "now": "pih"
+ },
+ {
+  "key": "L AE B",
+  "say": "bal",
+  "weight": 57.5,
+  "now": "lab"
+ },
+ {
+  "key": "S EH R D",
+  "say": "dress",
+  "weight": 57.5,
+  "now": null
+ },
+ {
+  "key": "T K IY",
+  "say": "eked",
+  "weight": 57.5,
+  "now": null
+ },
+ {
+  "key": "P AE M",
+  "say": "map",
+  "weight": 57.5,
+  "now": "pam"
+ },
+ {
+  "key": "AH M AA K",
+  "say": "comma",
+  "weight": 56.3,
+  "now": "amok"
+ },
+ {
+  "key": "P AH L",
+  "say": "lup",
+  "weight": 56.2,
+  "now": "pul"
+ },
+ {
+  "key": "NG IH T S",
+  "say": "sting",
+  "weight": 56.2,
+  "now": null
+ },
+ {
+  "key": "AA L S",
+  "say": "slaa",
+  "weight": 56.2,
+  "now": "olse"
+ },
+ {
+  "key": "T S EH ZH",
+  "say": "zhest",
+  "weight": 56.2,
+  "now": null
+ },
+ {
+  "key": "S T AO TH",
+  "say": "thoughts",
+  "weight": 56.2,
+  "now": "stawth"
+ },
+ {
+  "key": "SH IH L",
+  "say": "lish",
+  "weight": 55.1,
+  "now": "shill"
+ },
+ {
+  "key": "SH IY R",
+  "say": "reash",
+  "weight": 55.0,
+  "now": null
+ },
+ {
+  "key": "N IY Z",
+  "say": "zine",
+  "weight": 55.0,
+  "now": "knees"
+ },
+ {
+  "key": "T AE R T S",
+  "say": "strat",
+  "weight": 55.0,
+  "now": null
+ },
+ {
+  "key": "G AO L B",
+  "say": "blawg",
+  "weight": 53.7,
+  "now": "gaulb"
+ },
+ {
+  "key": "M EH D",
+  "say": "demme",
+  "weight": 53.7,
+  "now": "med"
+ },
+ {
+  "key": "T S IH Z",
+  "say": "zyst",
+  "weight": 53.7,
+  "now": "tsyz"
+ },
+ {
+  "key": "K UW N",
+  "say": "nuke",
+  "weight": 53.7,
+  "now": "coon"
+ },
+ {
+  "key": "S N AH Z",
+  "say": "zunce",
+  "weight": 53.7,
+  "now": "snuz"
+ },
+ {
+  "key": "T UW SH",
+  "say": "shoot",
+  "weight": 53.7,
+  "now": "tewsh"
+ },
+ {
+  "key": "L AA S",
+  "say": "sol",
+  "weight": 53.7,
+  "now": "los"
+ },
+ {
+  "key": "T R AO P S",
+  "say": "sport",
+  "weight": 53.7,
+  "now": "trawps"
+ },
+ {
+  "key": "S P EH T S",
+  "say": "steps",
+  "weight": 53.7,
+  "now": "spets"
+ },
+ {
+  "key": "N AE R T",
+  "say": "tran",
+  "weight": 53.4,
+  "now": null
+ },
+ {
+  "key": "T S IH S",
+  "say": "cyst",
+  "weight": 53.2,
+  "now": "tsyss"
+ },
+ {
+  "key": "N UW N",
+  "say": "noon",
+  "weight": 52.5,
+  "now": "noon"
+ },
+ {
+  "key": "D R AH T",
+  "say": "turd",
+  "weight": 52.5,
+  "now": "drut"
+ },
+ {
+  "key": "T S EH F",
+  "say": "fest",
+  "weight": 52.5,
+  "now": "tsef"
+ },
+ {
+  "key": "T AE L F",
+  "say": "flat",
+  "weight": 52.5,
+  "now": "talf"
+ },
+ {
+  "key": "N EH L P",
+  "say": "plen",
+  "weight": 52.5,
+  "now": "nelp"
+ },
+ {
+  "key": "S N IH R P",
+  "say": "prince",
+  "weight": 52.5,
+  "now": null
+ },
+ {
+  "key": "NG IH SH T",
+  "say": "ching",
+  "weight": 52.5,
+  "now": null
+ },
+ {
+  "key": "AO Z",
+  "say": "zaw",
+  "weight": 52.5,
+  "now": "awz"
+ },
+ {
+  "key": "R EH G",
+  "say": "gare",
+  "weight": 52.1,
+  "now": "wreg"
+ },
+ {
+  "key": "TH AE M",
+  "say": "math",
+  "weight": 51.6,
+  "now": "tham"
+ },
+ {
+  "key": "M AH M",
+  "say": "mum",
+  "weight": 51.4,
+  "now": "mum"
+ },
+ {
+  "key": "S K AE",
+  "say": "axe",
+  "weight": 51.3,
+  "now": null
+ },
+ {
+  "key": "P IY SH T",
+  "say": "cheap",
+  "weight": 51.3,
+  "now": "peashed"
+ },
+ {
+  "key": "SH AH K",
+  "say": "kush",
+  "weight": 51.3,
+  "now": "shuck"
+ },
+ {
+  "key": "T UW D",
+  "say": "dewt",
+  "weight": 51.3,
+  "now": "tude"
+ },
+ {
+  "key": "TH AE P",
+  "say": "path",
+  "weight": 51.3,
+  "now": "thap"
+ },
+ {
+  "key": "S AH SH T",
+  "say": "chuss",
+  "weight": 51.3,
+  "now": "sushed"
+ },
+ {
+  "key": "N EH P S",
+  "say": "spen",
+  "weight": 51.3,
+  "now": "neps"
+ },
+ {
+  "key": "V IY T S",
+  "say": "steve",
+  "weight": 51.3,
+  "now": "veats"
+ },
+ {
+  "key": "B AH R",
+  "say": "rub",
+  "weight": 51.3,
+  "now": "burr"
+ },
+ {
+  "key": "S AH R P",
+  "say": "pruss",
+  "weight": 50.5,
+  "now": "surp"
+ },
+ {
+  "key": "R IH B",
+  "say": "beer",
+  "weight": 50.1,
+  "now": "rib"
+ },
+ {
+  "key": "R AO B",
+  "say": "bore",
+  "weight": 50.1,
+  "now": "rawb"
+ },
+ {
+  "key": "UW R K",
+  "say": "crew",
+  "weight": 50.1,
+  "now": null
+ },
+ {
+  "key": "D L IH F",
+  "say": "filled",
+  "weight": 50.1,
+  "now": null
+ },
+ {
+  "key": "T S AH R",
+  "say": "rust",
+  "weight": 50.1,
+  "now": "tser"
+ },
+ {
+  "key": "T AH M",
+  "say": "mutt",
+  "weight": 50.1,
+  "now": "tum"
+ },
+ {
+  "key": "N UW M",
+  "say": "moon",
+  "weight": 50.1,
+  "now": "newm"
+ },
+ {
+  "key": "T AH F",
+  "say": "fut",
+  "weight": 50.1,
+  "now": "tough"
+ },
+ {
+  "key": "F UW R P",
+  "say": "proof",
+  "weight": 50.1,
+  "now": null
+ },
+ {
+  "key": "T UW S",
+  "say": "suit",
+  "weight": 50.1,
+  "now": "tewss"
+ },
+ {
+  "key": "Z N IH W",
+  "say": "wins",
+  "weight": 50.1,
+  "now": null
+ },
+ {
+  "key": "S AH G",
+  "say": "gus",
+  "weight": 49.7,
+  "now": "sugg"
+ },
+ {
+  "key": "AO K S",
+  "say": "scaw",
+  "weight": 49.2,
+  "now": "aux"
+ },
+ {
+  "key": "R EH N",
+  "say": "nair",
+  "weight": 49.2,
+  "now": "ren"
+ },
+ {
+  "key": "T EH D",
+  "say": "debt",
+  "weight": 49.0,
+  "now": "ted"
+ },
+ {
+  "key": "UW R G",
+  "say": "grew",
+  "weight": 49.0,
+  "now": null
+ },
+ {
+  "key": "Z M UW",
+  "say": "ooms",
+  "weight": 49.0,
+  "now": null
+ },
+ {
+  "key": "S IH L",
+  "say": "lis",
+  "weight": 49.0,
+  "now": "sill"
+ },
+ {
+  "key": "M EH IY P",
+  "say": "pm",
+  "weight": 49.0,
+  "now": "mayp"
+ },
+ {
+  "key": "G AH R",
+  "say": "rug",
+  "weight": 48.6,
+  "now": "gurr"
+ },
+ {
+  "key": "M IH R",
+  "say": "rim",
+  "weight": 48.1,
+  "now": "mere"
+ },
+ {
+  "key": "G IY",
+  "say": "eeg",
+  "weight": 47.9,
+  "now": "ghee"
+ },
+ {
+  "key": "Z L AH SH",
+  "say": "schulz",
+  "weight": 47.9,
+  "now": null
+ },
+ {
+  "key": "D R EH SH",
+  "say": "shared",
+  "weight": 47.9,
+  "now": "dresh"
+ },
+ {
+  "key": "F AA S",
+  "say": "sof",
+  "weight": 47.9,
+  "now": "foss"
+ },
+ {
+  "key": "K AH T S",
+  "say": "stuck",
+  "weight": 47.9,
+  "now": "cuts"
+ },
+ {
+  "key": "D IH T S",
+  "say": "stid",
+  "weight": 47.9,
+  "now": "dits"
+ },
+ {
+  "key": "T AO T",
+  "say": "taught",
+  "weight": 47.9,
+  "now": "taught"
+ },
+ {
+  "key": "F IH R",
+  "say": "riff",
+  "weight": 46.9,
+  "now": "fear"
+ },
+ {
+  "key": "L IY P AH",
+  "say": "appeal",
+  "weight": 46.8,
+  "now": "lipa"
+ },
+ {
+  "key": "M AA R D",
+  "say": "drom",
+  "weight": 46.8,
+  "now": "marred"
+ },
+ {
+  "key": "D IY F",
+  "say": "feed",
+  "weight": 46.8,
+  "now": "deef"
+ },
+ {
+  "key": "S P IY K",
+  "say": "keeps",
+  "weight": 46.8,
+  "now": "speak"
+ },
+ {
+  "key": "Z IH M",
+  "say": "myz",
+  "weight": 46.8,
+  "now": "zim"
+ },
+ {
+  "key": "T AE L P",
+  "say": "platt",
+  "weight": 46.8,
+  "now": "talp"
+ },
+ {
+  "key": "Z UW SH",
+  "say": "shoes",
+  "weight": 46.8,
+  "now": "zoosh"
+ },
+ {
+  "key": "D AA W K S",
+  "say": "squad",
+  "weight": 46.8,
+  "now": null
+ },
+ {
+  "key": "L AE V",
+  "say": "val",
+  "weight": 46.8,
+  "now": "lavve"
+ },
+ {
+  "key": "Z M AH",
+  "say": "ums",
+  "weight": 46.8,
+  "now": null
+ },
+ {
+  "key": "AA Y",
+  "say": "ja",
+  "weight": 46.8,
+  "now": null
+ },
+ {
+  "key": "T EH",
+  "say": "et",
+  "weight": 45.7,
+  "now": null
+ },
+ {
+  "key": "Z N AH G",
+  "say": "guns",
+  "weight": 45.7,
+  "now": null
+ },
+ {
+  "key": "EH D AH",
+  "say": "ade",
+  "weight": 45.7,
+  "now": "eda"
+ },
+ {
+  "key": "F AE L",
+  "say": "laugh",
+  "weight": 45.7,
+  "now": "fal"
+ },
+ {
+  "key": "L EH L",
+  "say": "lel",
+  "weight": 45.7,
+  "now": "lel"
+ },
+ {
+  "key": "L EH R",
+  "say": "rel",
+  "weight": 45.7,
+  "now": "lair"
+ },
+ {
+  "key": "AO N S",
+  "say": "snaw",
+  "weight": 45.7,
+  "now": "aunce"
+ },
+ {
+  "key": "AA R T S",
+  "say": "stra",
+  "weight": 45.7,
+  "now": "arts"
+ },
+ {
+  "key": "G AE",
+  "say": "ag",
+  "weight": 45.3,
+  "now": null
+ },
+ {
+  "key": "S N AE V",
+  "say": "vance",
+  "weight": 44.7,
+  "now": "snavve"
+ },
+ {
+  "key": "P AE SH T",
+  "say": "chap",
+  "weight": 44.7,
+  "now": "pashed"
+ },
+ {
+  "key": "K IY EH F",
+  "say": "fake",
+  "weight": 44.7,
+  "now": "kiev"
+ },
+ {
+  "key": "S N AE N",
+  "say": "nance",
+  "weight": 44.7,
+  "now": "snan"
+ },
+ {
+  "key": "M UW N",
+  "say": "newm",
+  "weight": 44.7,
+  "now": "moon"
+ },
+ {
+  "key": "D L IY V",
+  "say": "veald",
+  "weight": 44.7,
+  "now": null
+ },
+ {
+  "key": "S AE T",
+  "say": "tass",
+  "weight": 44.7,
+  "now": "sat"
+ },
+ {
+  "key": "N EH W T",
+  "say": "twen",
+  "weight": 44.7,
+  "now": null
+ },
+ {
+  "key": "K IH L F",
+  "say": "flick",
+  "weight": 43.7,
+  "now": "kylf"
+ },
+ {
+  "key": "R AH T IH D",
+  "say": "deter",
+  "weight": 43.7,
+  "now": "rutted"
+ },
+ {
+  "key": "S AE F",
+  "say": "fass",
+  "weight": 43.7,
+  "now": "saf"
+ },
+ {
+  "key": "T L AO F",
+  "say": "fault",
+  "weight": 43.7,
+  "now": null
+ },
+ {
+  "key": "T AE S",
+  "say": "sat",
+  "weight": 43.7,
+  "now": "tass"
+ },
+ {
+  "key": "AA M S",
+  "say": "sma",
+  "weight": 43.7,
+  "now": null
+ },
+ {
+  "key": "S P UW R T",
+  "say": "troops",
+  "weight": 43.7,
+  "now": null
+ },
+ {
+  "key": "S IH B",
+  "say": "bis",
+  "weight": 42.7,
+  "now": "sib"
+ },
+ {
+  "key": "D R AH B",
+  "say": "bird",
+  "weight": 42.7,
+  "now": "drub"
+ },
+ {
+  "key": "B AA B",
+  "say": "bob",
+  "weight": 42.7,
+  "now": "bob"
+ },
+ {
+  "key": "IH SH T",
+  "say": "chih",
+  "weight": 42.7,
+  "now": "yshed"
+ },
+ {
+  "key": "Z L AO F",
+  "say": "falls",
+  "weight": 42.7,
+  "now": null
+ },
+ {
+  "key": "S L AO F",
+  "say": "false",
+  "weight": 42.7,
+  "now": "slawf"
+ },
+ {
+  "key": "D R AO K S",
+  "say": "scored",
+  "weight": 42.7,
+  "now": "draux"
+ },
+ {
+  "key": "T R AH SH",
+  "say": "shirt",
+  "weight": 42.7,
+  "now": "trush"
+ },
+ {
+  "key": "S T AA SH",
+  "say": "shots",
+  "weight": 42.7,
+  "now": "stosh"
+ },
+ {
+  "key": "D R AH S",
+  "say": "surd",
+  "weight": 42.7,
+  "now": "druss"
+ },
+ {
+  "key": "Z UW T",
+  "say": "twos",
+  "weight": 42.7,
+  "now": "zoot"
+ },
+ {
+  "key": "S K AH",
+  "say": "ux",
+  "weight": 41.7,
+  "now": "scuh"
+ },
+ {
+  "key": "Z N IH G",
+  "say": "gyns",
+  "weight": 41.7,
+  "now": null
+ },
+ {
+  "key": "M IY R K",
+  "say": "cream",
+  "weight": 41.7,
+  "now": null
+ },
+ {
+  "key": "AH D EH",
+  "say": "eda",
+  "weight": 41.7,
+  "now": "ade"
+ },
+ {
+  "key": "T S EH",
+  "say": "este",
+  "weight": 41.7,
+  "now": null
+ },
+ {
+  "key": "T AH Z",
+  "say": "zut",
+  "weight": 41.7,
+  "now": "tuz"
+ },
+ {
+  "key": "G AH R T S",
+  "say": "strug",
+  "weight": 41.7,
+  "now": "gertz"
+ },
+ {
+  "key": "M IY TH",
+  "say": "theme",
+  "weight": 41.7,
+  "now": "meath"
+ },
+ {
+  "key": "Z L AO W",
+  "say": "walls",
+  "weight": 41.7,
+  "now": null
+ },
+ {
+  "key": "L AA",
+  "say": "ahl",
+  "weight": 40.7,
+  "now": "laa"
+ },
+ {
+  "key": "K EH R B",
+  "say": "breck",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "T S AH F",
+  "say": "fussed",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "F AE R D",
+  "say": "draf",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "NG AH R D",
+  "say": "drung",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "L IH G",
+  "say": "gill",
+  "weight": 40.7,
+  "now": "lyg"
+ },
+ {
+  "key": "Z N AH M",
+  "say": "muns",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "S K AO T",
+  "say": "talks",
+  "weight": 40.7,
+  "now": "scawt"
+ },
+ {
+  "key": "NG IH W",
+  "say": "wing",
+  "weight": 40.7,
+  "now": null
+ },
+ {
+  "key": "S N AE",
+  "say": "anse",
+  "weight": 39.8,
+  "now": null
+ },
+ {
+  "key": "M AA B",
+  "say": "bomb",
+  "weight": 39.8,
+  "now": "mob"
+ },
+ {
+  "key": "N AA D",
+  "say": "don",
+  "weight": 39.8,
+  "now": "nod"
+ },
+ {
+  "key": "AH P IY R",
+  "say": "ripa",
+  "weight": 39.8,
+  "now": null
+ },
+ {
+  "key": "K AH L B",
+  "say": "bluk",
+  "weight": 39.8,
+  "now": "culb"
+ },
+ {
+  "key": "D R EH K S",
+  "say": "scared",
+  "weight": 39.8,
+  "now": "drex"
+ },
+ {
+  "key": "S K IH T S",
+  "say": "sticks",
+  "weight": 39.8,
+  "now": "skits"
+ },
+ {
+  "key": "L EH B",
+  "say": "bell",
+  "weight": 38.9,
+  "now": "leb"
+ },
+ {
+  "key": "AO L B",
+  "say": "blaw",
+  "weight": 38.9,
+  "now": "aulb"
+ },
+ {
+  "key": "N AA B",
+  "say": "bon",
+  "weight": 38.9,
+  "now": "knob"
+ },
+ {
+  "key": "Z L IY D",
+  "say": "deals",
+  "weight": 38.9,
+  "now": null
+ },
+ {
+  "key": "V R AH",
+  "say": "irv",
+  "weight": 38.9,
+  "now": "vruh"
+ },
+ {
+  "key": "S K UW",
+  "say": "oox",
+  "weight": 38.9,
+  "now": "schoo"
+ },
+ {
+  "key": "M IH K",
+  "say": "kim",
+  "weight": 38.9,
+  "now": "mick"
+ },
+ {
+  "key": "N IH K",
+  "say": "kin",
+  "weight": 38.9,
+  "now": "nick"
+ },
+ {
+  "key": "B AH N",
+  "say": "nub",
+  "weight": 38.9,
+  "now": "bun"
+ },
+ {
+  "key": "Z IY S",
+  "say": "sees",
+  "weight": 38.9,
+  "now": "zeass"
+ },
+ {
+  "key": "Z L UW T",
+  "say": "tools",
+  "weight": 38.9,
+  "now": null
+ },
+ {
+  "key": "N AE R B",
+  "say": "bran",
+  "weight": 38.0,
+  "now": null
+ },
+ {
+  "key": "AH R B",
+  "say": "brough",
+  "weight": 38.0,
+  "now": "herb"
+ },
+ {
+  "key": "L IH Z",
+  "say": "zil",
+  "weight": 38.0,
+  "now": "liz"
+ },
+ {
+  "key": "G AE L F",
+  "say": "flag",
+  "weight": 38.0,
+  "now": "galf"
+ },
+ {
+  "key": "T S EH G",
+  "say": "guest",
+  "weight": 38.0,
+  "now": "tseg"
+ },
+ {
+  "key": "T AA L P",
+  "say": "plot",
+  "weight": 38.0,
+  "now": "tolp"
+ },
+ {
+  "key": "V IY R",
+  "say": "reeve",
+  "weight": 38.0,
+  "now": null
+ },
+ {
+  "key": "Z N IY S",
+  "say": "scenes",
+  "weight": 38.0,
+  "now": null
+ },
+ {
+  "key": "TH IY T",
+  "say": "teeth",
+  "weight": 38.0,
+  "now": "theet"
+ },
+ {
+  "key": "S P IH T",
+  "say": "tips",
+  "weight": 38.0,
+  "now": "spit"
+ },
+ {
+  "key": "AH K AE",
+  "say": "aka",
+  "weight": 37.2,
+  "now": "aca"
+ },
+ {
+  "key": "AE K AH",
+  "say": "aca",
+  "weight": 37.2,
+  "now": "aka"
+ },
+ {
+  "key": "B IY B",
+  "say": "beebe",
+  "weight": 37.2,
+  "now": "beebe"
+ },
+ {
+  "key": "T AE SH T",
+  "say": "chat",
+  "weight": 37.2,
+  "now": "tashed"
+ },
+ {
+  "key": "Z IY SH T",
+  "say": "cheese",
+  "weight": 37.2,
+  "now": "zeashed"
+ },
+ {
+  "key": "N IH L K",
+  "say": "clin",
+  "weight": 37.2,
+  "now": "nylk"
+ },
+ {
+  "key": "T UW R F",
+  "say": "fruit",
+  "weight": 37.2,
+  "now": null
+ },
+ {
+  "key": "S K EH D",
+  "say": "decks",
+  "weight": 37.2,
+  "now": "sked"
+ },
+ {
+  "key": "D R AH K",
+  "say": "curd",
+  "weight": 37.2,
+  "now": "druk"
+ },
+ {
+  "key": "M IY K S",
+  "say": "scheme",
+  "weight": 37.2,
+  "now": "meeks"
+ },
+ {
+  "key": "F IH SH",
+  "say": "shif",
+  "weight": 37.2,
+  "now": "fish"
+ },
+ {
+  "key": "NG AE T",
+  "say": "tang",
+  "weight": 37.2,
+  "now": null
+ },
+ {
+  "key": "T AH K S",
+  "say": "scut",
+  "weight": 36.3,
+  "now": "tux"
+ },
+ {
+  "key": "SH EH R",
+  "say": "resh",
+  "weight": 36.3,
+  "now": "share"
+ },
+ {
+  "key": "T R AH P S",
+  "say": "spurt",
+  "weight": 36.3,
+  "now": "trups"
+ },
+ {
+  "key": "F L AA G",
+  "say": "golf",
+  "weight": 36.3,
+  "now": "flog"
+ },
+ {
+  "key": "N IH V",
+  "say": "vin",
+  "weight": 36.3,
+  "now": "nivve"
+ },
+ {
+  "key": "L EH N",
+  "say": "nell",
+  "weight": 36.3,
+  "now": "len"
+ },
+ {
+  "key": "R IH V",
+  "say": "veer",
+  "weight": 36.3,
+  "now": "rivve"
+ },
+ {
+  "key": "L UW T",
+  "say": "tool",
+  "weight": 36.3,
+  "now": "loot"
+ },
+ {
+  "key": "N AA Z",
+  "say": "zahn",
+  "weight": 35.5,
+  "now": "naas"
+ },
+ {
+  "key": "TH AE K",
+  "say": "kath",
+  "weight": 35.5,
+  "now": "thak"
+ },
+ {
+  "key": "SH AE R K",
+  "say": "crash",
+  "weight": 35.5,
+  "now": null
+ },
+ {
+  "key": "D R EH L",
+  "say": "laird",
+  "weight": 35.5,
+  "now": "drel"
+ },
+ {
+  "key": "N AE T",
+  "say": "tan",
+  "weight": 35.5,
+  "now": "nat"
+ },
+ {
+  "key": "F UW R",
+  "say": "roof",
+  "weight": 35.5,
+  "now": null
+ },
+ {
+  "key": "P IH T",
+  "say": "tip",
+  "weight": 35.5,
+  "now": "pit"
+ },
+ {
+  "key": "T R AH V",
+  "say": "vert",
+  "weight": 34.7,
+  "now": "truvve"
+ },
+ {
+  "key": "S T AE R",
+  "say": "rats",
+  "weight": 34.7,
+  "now": null
+ },
+ {
+  "key": "V IH R D",
+  "say": "dryvve",
+  "weight": 34.7,
+  "now": "veered"
+ },
+ {
+  "key": "L AA P",
+  "say": "pol",
+  "weight": 34.7,
+  "now": "lop"
+ },
+ {
+  "key": "T EH W",
+  "say": "wet",
+  "weight": 34.7,
+  "now": null
+ },
+ {
+  "key": "N AO R D",
+  "say": "drawn",
+  "weight": 33.9,
+  "now": "nord"
+ },
+ {
+  "key": "Z IY F",
+  "say": "fees",
+  "weight": 33.9,
+  "now": "zeaf"
+ },
+ {
+  "key": "AA HH AA",
+  "say": "aha",
+  "weight": 33.9,
+  "now": "aha"
+ },
+ {
+  "key": "S EH SH T",
+  "say": "chess",
+  "weight": 33.9,
+  "now": "seshed"
+ },
+ {
+  "key": "K IY P",
+  "say": "peak",
+  "weight": 33.9,
+  "now": "keep"
+ },
+ {
+  "key": "S T UH P",
+  "say": "puts",
+  "weight": 33.9,
+  "now": null
+ },
+ {
+  "key": "AA P S",
+  "say": "spa",
+  "weight": 33.9,
+  "now": "ops"
+ },
+ {
+  "key": "S T IY S",
+  "say": "seats",
+  "weight": 33.9,
+  "now": "steass"
+ },
+ {
+  "key": "R EH D",
+  "say": "dare",
+  "weight": 33.9,
+  "now": "red"
+ },
+ {
+  "key": "Z L AO B",
+  "say": "balls",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "Z L IH B",
+  "say": "bills",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "AA L B",
+  "say": "blah",
+  "weight": 33.1,
+  "now": "olb"
+ },
+ {
+  "key": "TH EH R B",
+  "say": "breath",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "F IY R B",
+  "say": "brief",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "T S EH SH T",
+  "say": "chest",
+  "weight": 33.1,
+  "now": "tseshed"
+ },
+ {
+  "key": "S T R AH P S",
+  "say": "spurts",
+  "weight": 33.1,
+  "now": "strups"
+ },
+ {
+  "key": "T S EH R P",
+  "say": "pressed",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "B AE R G",
+  "say": "grab",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "IY AA N",
+  "say": "ni",
+  "weight": 33.1,
+  "now": "eon"
+ },
+ {
+  "key": "D R AH T S",
+  "say": "stirred",
+  "weight": 33.1,
+  "now": "druts"
+ },
+ {
+  "key": "M IY T S",
+  "say": "steam",
+  "weight": 33.1,
+  "now": "meets"
+ },
+ {
+  "key": "S T AE DH",
+  "say": "thats",
+  "weight": 33.1,
+  "now": null
+ },
+ {
+  "key": "IH L K",
+  "say": "clih",
+  "weight": 32.4,
+  "now": "ilk"
+ },
+ {
+  "key": "M IH D",
+  "say": "dim",
+  "weight": 32.4,
+  "now": "mid"
+ },
+ {
+  "key": "S T EH L",
+  "say": "lets",
+  "weight": 32.4,
+  "now": "stell"
+ },
+ {
+  "key": "G R AO",
+  "say": "org",
+  "weight": 32.4,
+  "now": "graw"
+ },
+ {
+  "key": "S AE L P",
+  "say": "plass",
+  "weight": 32.4,
+  "now": "salp"
+ },
+ {
+  "key": "S K IY N",
+  "say": "neex",
+  "weight": 32.4,
+  "now": "skene"
+ },
+ {
+  "key": "M IH T",
+  "say": "tim",
+  "weight": 32.4,
+  "now": "mit"
+ },
+ {
+  "key": "UW R P",
+  "say": "prue",
+  "weight": 31.6,
+  "now": null
+ },
+ {
+  "key": "D EH R B",
+  "say": "bread",
+  "weight": 31.6,
+  "now": null
+ },
+ {
+  "key": "D R AO F",
+  "say": "ford",
+  "weight": 31.6,
+  "now": "drawf"
+ },
+ {
+  "key": "NG AE G",
+  "say": "gang",
+  "weight": 31.6,
+  "now": null
+ },
+ {
+  "key": "D AE R G",
+  "say": "grad",
+  "weight": 31.6,
+  "now": null
+ },
+ {
+  "key": "K IY R G",
+  "say": "greek",
+  "weight": 31.6,
+  "now": null
+ },
+ {
+  "key": "AH L",
+  "say": "le",
+  "weight": 31.6,
+  "now": "ull"
+ },
+ {
+  "key": "F IH L",
+  "say": "lyf",
+  "weight": 31.6,
+  "now": "fill"
+ },
+ {
+  "key": "IY T S",
+  "say": "ste",
+  "weight": 31.6,
+  "now": "eats"
+ },
+ {
+  "key": "L IY W",
+  "say": "wheel",
+  "weight": 31.6,
+  "now": "leaw"
+ },
+ {
+  "key": "L IY Z",
+  "say": "zeal",
+  "weight": 31.6,
+  "now": "lees"
+ },
+ {
+  "key": "S IY B",
+  "say": "beass",
+  "weight": 30.9,
+  "now": "seab"
+ },
+ {
+  "key": "SH UH B",
+  "say": "bush",
+  "weight": 30.9,
+  "now": null
+ },
+ {
+  "key": "K AO SH T",
+  "say": "chalk",
+  "weight": 30.9,
+  "now": "kaushed"
+ },
+ {
+  "key": "T AO F",
+  "say": "fought",
+  "weight": 30.9,
+  "now": "tawf"
+ },
+ {
+  "key": "L AE G",
+  "say": "gal",
+  "weight": 30.9,
+  "now": "lag"
+ },
+ {
+  "key": "R UH ZH",
+  "say": "jour",
+  "weight": 30.9,
+  "now": null
+ },
+ {
+  "key": "NG AO K",
+  "say": "kawng",
+  "weight": 30.9,
+  "now": null
+ },
+ {
+  "key": "S K R AA M",
+  "say": "marks",
+  "weight": 30.9,
+  "now": "scrom"
+ },
+ {
+  "key": "N AA M",
+  "say": "mon",
+  "weight": 30.9,
+  "now": "nom"
+ },
+ {
+  "key": "L EH M S",
+  "say": "smell",
+  "weight": 30.9,
+  "now": null
+ },
+ {
+  "key": "T AO S",
+  "say": "sought",
+  "weight": 30.9,
+  "now": "toss"
+ },
+ {
+  "key": "T S AE V",
+  "say": "vast",
+  "weight": 30.9,
+  "now": "tsavve"
+ },
+ {
+  "key": "L IY M",
+  "say": "meal",
+  "weight": 30.2,
+  "now": "leem"
+ },
+ {
+  "key": "SH AH R",
+  "say": "rush",
+  "weight": 30.2,
+  "now": "sher"
+ },
+ {
+  "key": "P R AA SH",
+  "say": "sharp",
+  "weight": 30.2,
+  "now": "prosh"
+ },
+ {
+  "key": "K AA S",
+  "say": "sock",
+  "weight": 30.2,
+  "now": "cos"
+ },
+ {
+  "key": "L UH B",
+  "say": "bull",
+  "weight": 29.5,
+  "now": null
+ },
+ {
+  "key": "T R AA SH T",
+  "say": "chart",
+  "weight": 29.5,
+  "now": "troshed"
+ },
+ {
+  "key": "DH UW",
+  "say": "oothe",
+  "weight": 29.5,
+  "now": null
+ },
+ {
+  "key": "P AE G",
+  "say": "gap",
+  "weight": 29.5,
+  "now": "pag"
+ },
+ {
+  "key": "S T AH M",
+  "say": "mutts",
+  "weight": 29.5,
+  "now": "stum"
+ },
+ {
+  "key": "SH R AH B",
+  "say": "bersh",
+  "weight": 29.5,
+  "now": "shrub"
+ },
+ {
+  "key": "S N AH V",
+  "say": "vunce",
+  "weight": 29.5,
+  "now": "snuvve"
+ },
+ {
+  "key": "T S AH SH T",
+  "say": "chust",
+  "weight": 29.5,
+  "now": null
+ },
+ {
+  "key": "K IY N",
+  "say": "neek",
+  "weight": 29.5,
+  "now": "keen"
+ },
+ {
+  "key": "N IH TH",
+  "say": "thin",
+  "weight": 29.5,
+  "now": "nyth"
+ },
+ {
+  "key": "S T AE K",
+  "say": "cats",
+  "weight": 28.8,
+  "now": "stack"
+ },
+ {
+  "key": "L AA K",
+  "say": "coll",
+  "weight": 28.8,
+  "now": "lock"
+ },
+ {
+  "key": "T S AE R T",
+  "say": "trast",
+  "weight": 28.8,
+  "now": null
+ },
+ {
+  "key": "S T R AO K",
+  "say": "courts",
+  "weight": 28.8,
+  "now": "strauk"
+ },
+ {
+  "key": "D L AH N",
+  "say": "nuld",
+  "weight": 28.8,
+  "now": null
+ },
+ {
+  "key": "R IH G",
+  "say": "gear",
+  "weight": 28.8,
+  "now": "rig"
+ },
+ {
+  "key": "Z L IH",
+  "say": "ills",
+  "weight": 28.8,
+  "now": null
+ },
+ {
+  "key": "S AH R F",
+  "say": "fruss",
+  "weight": 28.8,
+  "now": "surf"
+ },
+ {
+  "key": "S UW L",
+  "say": "loose",
+  "weight": 28.8,
+  "now": "sool"
+ },
+ {
+  "key": "Z N IY SH",
+  "say": "sheens",
+  "weight": 28.8,
+  "now": null
+ },
+ {
+  "key": "F AH L",
+  "say": "lough",
+  "weight": 28.8,
+  "now": "ful"
+ },
+ {
+  "key": "K AA SH",
+  "say": "shock",
+  "weight": 28.8,
+  "now": "kosh"
+ },
+ {
+  "key": "K IH TH",
+  "say": "thick",
+  "weight": 28.8,
+  "now": "kyth"
+ },
+ {
+  "key": "AA Z",
+  "say": "zsa",
+  "weight": 28.2,
+  "now": "oz"
+ },
+ {
+  "key": "S AE K",
+  "say": "cas",
+  "weight": 28.2,
+  "now": "sack"
+ },
+ {
+  "key": "T S AH K",
+  "say": "cussed",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "K UW D",
+  "say": "duke",
+  "weight": 28.2,
+  "now": "cooed"
+ },
+ {
+  "key": "SH AE L F",
+  "say": "flash",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "IY R G",
+  "say": "gre",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "F EH ZH D",
+  "say": "jeff",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "K UW L",
+  "say": "luke",
+  "weight": 28.2,
+  "now": "cool"
+ },
+ {
+  "key": "K AE M",
+  "say": "mac",
+  "weight": 28.2,
+  "now": "cam"
+ },
+ {
+  "key": "S K IH P",
+  "say": "picks",
+  "weight": 28.2,
+  "now": "skip"
+ },
+ {
+  "key": "T EH P",
+  "say": "pet",
+  "weight": 28.2,
+  "now": "tep"
+ },
+ {
+  "key": "R AH F AH R",
+  "say": "rougher",
+  "weight": 28.2,
+  "now": "rougher"
+ },
+ {
+  "key": "S K AE R T",
+  "say": "tracks",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "T AO W",
+  "say": "wawt",
+  "weight": 28.2,
+  "now": "tauw"
+ },
+ {
+  "key": "AO Y",
+  "say": "yaw",
+  "weight": 28.2,
+  "now": null
+ },
+ {
+  "key": "D R AH SH T",
+  "say": "churd",
+  "weight": 27.5,
+  "now": "drushed"
+ },
+ {
+  "key": "T IY R K",
+  "say": "crete",
+  "weight": 27.5,
+  "now": null
+ },
+ {
+  "key": "D UW M",
+  "say": "mood",
+  "weight": 27.5,
+  "now": "doom"
+ },
+ {
+  "key": "IH P",
+  "say": "pih",
+  "weight": 27.5,
+  "now": "yp"
+ },
+ {
+  "key": "D AE SH",
+  "say": "shad",
+  "weight": 27.5,
+  "now": "dash"
+ },
+ {
+  "key": "Z L AH G",
+  "say": "gulls",
+  "weight": 27.5,
+  "now": null
+ },
+ {
+  "key": "G AE T",
+  "say": "tag",
+  "weight": 27.5,
+  "now": "gat"
+ },
+ {
+  "key": "D EH R TH",
+  "say": "thread",
+  "weight": 27.5,
+  "now": null
+ },
+ {
+  "key": "UW N AH",
+  "say": "anew",
+  "weight": 26.9,
+  "now": "oona"
+ },
+ {
+  "key": "S K AA L B",
+  "say": "blocks",
+  "weight": 26.9,
+  "now": "skolb"
+ },
+ {
+  "key": "K AA L K",
+  "say": "clock",
+  "weight": 26.9,
+  "now": "colk"
+ },
+ {
+  "key": "D IY AA N",
+  "say": "nied",
+  "weight": 26.9,
+  "now": "deon"
+ },
+ {
+  "key": "S EH D",
+  "say": "des",
+  "weight": 26.9,
+  "now": "said"
+ },
+ {
+  "key": "IH R D",
+  "say": "drih",
+  "weight": 26.9,
+  "now": "eared"
+ },
+ {
+  "key": "T IH P",
+  "say": "pit",
+  "weight": 26.9,
+  "now": "tip"
+ },
+ {
+  "key": "S T IY P",
+  "say": "peats",
+  "weight": 26.9,
+  "now": "steep"
+ },
+ {
+  "key": "T SH UH P",
+  "say": "pushed",
+  "weight": 26.9,
+  "now": null
+ },
+ {
+  "key": "L IY V",
+  "say": "veal",
+  "weight": 26.9,
+  "now": "leave"
+ },
+ {
+  "key": "S K IY P S",
+  "say": "speaks",
+  "weight": 26.9,
+  "now": "skeeps"
+ },
+ {
+  "key": "D IY T",
+  "say": "teed",
+  "weight": 26.9,
+  "now": "deet"
+ },
+ {
+  "key": "K R AA",
+  "say": "arc",
+  "weight": 26.3,
+  "now": "kra"
+ },
+ {
+  "key": "T L EH B",
+  "say": "belt",
+  "weight": 26.3,
+  "now": null
+ },
+ {
+  "key": "S P AA K",
+  "say": "cops",
+  "weight": 26.3,
+  "now": "spock"
+ },
+ {
+  "key": "T S EH R D",
+  "say": "dressed",
+  "weight": 26.3,
+  "now": null
+ },
+ {
+  "key": "M AA L",
+  "say": "lahm",
+  "weight": 26.3,
+  "now": "mol"
+ },
+ {
+  "key": "B AE L",
+  "say": "lab",
+  "weight": 26.3,
+  "now": "bal"
+ },
+ {
+  "key": "S P AE M",
+  "say": "maps",
+  "weight": 26.3,
+  "now": "spam"
+ },
+ {
+  "key": "L UW N",
+  "say": "nool",
+  "weight": 26.3,
+  "now": "loon"
+ },
+ {
+  "key": "S IH T",
+  "say": "tyss",
+  "weight": 26.3,
+  "now": "sit"
+ },
+ {
+  "key": "L EH D AH",
+  "say": "adele",
+  "weight": 26.3,
+  "now": "leda"
+ },
+ {
+  "key": "R EH R P",
+  "say": "prayer",
+  "weight": 26.3,
+  "now": null
+ },
+ {
+  "key": "L IH K S",
+  "say": "skill",
+  "weight": 26.3,
+  "now": "licks"
+ },
+ {
+  "key": "V L AA S",
+  "say": "solve",
+  "weight": 26.3,
+  "now": null
+ },
+ {
+  "key": "SH AE R T",
+  "say": "trash",
+  "weight": 26.3,
+  "now": null
+ },
+ {
+  "key": "IY L G",
+  "say": "glee",
+  "weight": 26.3,
+  "now": "eelg"
+ },
+ {
+  "key": "N AH TH",
+  "say": "thun",
+  "weight": 25.7,
+  "now": "knuth"
+ },
+ {
+  "key": "TH R AA",
+  "say": "arth",
+  "weight": 25.7,
+  "now": "thra"
+ },
+ {
+  "key": "T S UW B",
+  "say": "boost",
+  "weight": 25.7,
+  "now": "tsub"
+ },
+ {
+  "key": "Z AH K",
+  "say": "kuz",
+  "weight": 25.7,
+  "now": "zuck"
+ },
+ {
+  "key": "K AE R K",
+  "say": "crack",
+  "weight": 25.7,
+  "now": null
+ },
+ {
+  "key": "K EH D",
+  "say": "deck",
+  "weight": 25.7,
+  "now": "ked"
+ },
+ {
+  "key": "G AE R D",
+  "say": "drag",
+  "weight": 25.7,
+  "now": null
+ },
+ {
+  "key": "AH R D",
+  "say": "druh",
+  "weight": 25.7,
+  "now": "erred"
+ },
+ {
+  "key": "T S AH D",
+  "say": "dust",
+  "weight": 25.7,
+  "now": null
+ },
+ {
+  "key": "V EH",
+  "say": "ev",
+  "weight": 25.7,
+  "now": null
+ },
+ {
+  "key": "UW L AH",
+  "say": "alu",
+  "weight": 25.7,
+  "now": "ula"
+ },
+ {
+  "key": "S P AH",
+  "say": "ups",
+  "weight": 25.7,
+  "now": "spuh"
+ },
+ {
+  "key": "N AE Z",
+  "say": "zan",
+  "weight": 25.1,
+  "now": "naz"
+ },
+ {
+  "key": "D IH B",
+  "say": "bid",
+  "weight": 25.1,
+  "now": "dyb"
+ },
+ {
+  "key": "S N IH V",
+  "say": "vince",
+  "weight": 25.1,
+  "now": "snivve"
+ },
+ {
+  "key": "P AE R K",
+  "say": "crap",
+  "weight": 25.1,
+  "now": null
+ },
+ {
+  "key": "L AH T S",
+  "say": "stull",
+  "weight": 25.1,
+  "now": "lutz"
+ },
+ {
+  "key": "N IY D",
+  "say": "dean",
+  "weight": 25.1,
+  "now": "need"
+ },
+ {
+  "key": "T R AH Z",
+  "say": "zurt",
+  "weight": 25.1,
+  "now": "truz"
+ },
+ {
+  "key": "S P UW",
+  "say": "oops",
+  "weight": 25.1,
+  "now": "spu"
+ },
+ {
+  "key": "D L AO T",
+  "say": "tawld",
+  "weight": 25.1,
+  "now": null
+ },
+ {
+  "key": "W UW",
+  "say": "oow",
+  "weight": 25.1,
+  "now": "woo"
+ },
+ {
+  "key": "S R AH N",
+  "say": "nurse",
+  "weight": 25.1,
+  "now": null
+ },
+ {
+  "key": "S N EH P",
+  "say": "pence",
+  "weight": 25.1,
+  "now": "snep"
+ },
+ {
+  "key": "T AA P",
+  "say": "pot",
+  "weight": 25.1,
+  "now": "top"
+ },
+ {
+  "key": "T IY SH",
+  "say": "sheet",
+  "weight": 25.1,
+  "now": "teash"
+ },
+ {
+  "key": "UW M S",
+  "say": "smu",
+  "weight": 25.1,
+  "now": null
+ },
+ {
+  "key": "IH P S",
+  "say": "spih",
+  "weight": 25.1,
+  "now": "ips"
+ },
+ {
+  "key": "S P AA T S",
+  "say": "stops",
+  "weight": 25.1,
+  "now": "spots"
+ },
+ {
+  "key": "D AO R",
+  "say": "rawd",
+  "weight": 24.5,
+  "now": "door"
+ },
+ {
+  "key": "B AH R AE",
+  "say": "arab",
+  "weight": 24.5,
+  "now": null
+ },
+ {
+  "key": "T IY P",
+  "say": "pete",
+  "weight": 24.5,
+  "now": "tepe"
+ },
+ {
+  "key": "B IH R T",
+  "say": "trib",
+  "weight": 24.5,
+  "now": null
+ },
+ {
+  "key": "S K IH T",
+  "say": "ticks",
+  "weight": 24.5,
+  "now": "skit"
+ },
+ {
+  "key": "S N AH R T",
+  "say": "trunce",
+  "weight": 24.5,
+  "now": "snurt"
+ },
+ {
+  "key": "S N EH T",
+  "say": "tense",
+  "weight": 24.5,
+  "now": "snet"
+ },
+ {
+  "key": "Z IY K",
+  "say": "keys",
+  "weight": 24.5,
+  "now": "zeke"
+ },
+ {
+  "key": "G R AO M",
+  "say": "morgue",
+  "weight": 24.5,
+  "now": "grawm"
+ },
+ {
+  "key": "S K IH Z",
+  "say": "zyx",
+  "weight": 24.5,
+  "now": "skiz"
+ },
+ {
+  "key": "D AA R",
+  "say": "rod",
+  "weight": 24.5,
+  "now": "dar"
+ },
+ {
+  "key": "S AA R",
+  "say": "raass",
+  "weight": 24.5,
+  "now": "sar"
+ },
+ {
+  "key": "L EH SH",
+  "say": "shell",
+  "weight": 24.5,
+  "now": "lesh"
+ },
+ {
+  "key": "P EH Y",
+  "say": "yep",
+  "weight": 24.5,
+  "now": null
+ },
+ {
+  "key": "N IH L",
+  "say": "lynn",
+  "weight": 24.0,
+  "now": "nil"
+ },
+ {
+  "key": "SH IH B",
+  "say": "bish",
+  "weight": 24.0,
+  "now": "shib"
+ },
+ {
+  "key": "Z L AH N",
+  "say": "nulls",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "K R AA L K",
+  "say": "clark",
+  "weight": 24.0,
+  "now": "crolk"
+ },
+ {
+  "key": "P R AH T",
+  "say": "turp",
+  "weight": 24.0,
+  "now": "prut"
+ },
+ {
+  "key": "S AE R G",
+  "say": "grass",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "AH N R AH",
+  "say": "erna",
+  "weight": 24.0,
+  "now": "unruh"
+ },
+ {
+  "key": "T S AH L",
+  "say": "lust",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "P AE R",
+  "say": "wrap",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "S K AA R",
+  "say": "rocks",
+  "weight": 24.0,
+  "now": "scar"
+ },
+ {
+  "key": "T P IY",
+  "say": "eapt",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "N IH P S",
+  "say": "spin",
+  "weight": 24.0,
+  "now": "nips"
+ },
+ {
+  "key": "K IH ZH D",
+  "say": "jik",
+  "weight": 24.0,
+  "now": null
+ },
+ {
+  "key": "S K AH S",
+  "say": "sucks",
+  "weight": 24.0,
+  "now": "skuss"
+ },
+ {
+  "key": "Z N AH SH T",
+  "say": "chuns",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "S R AH M",
+  "say": "merce",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "K IY R K",
+  "say": "creek",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "D AO R F",
+  "say": "fraud",
+  "weight": 23.4,
+  "now": "dorf"
+ },
+ {
+  "key": "S AH Z",
+  "say": "zus",
+  "weight": 23.4,
+  "now": "suz"
+ },
+ {
+  "key": "G AO L",
+  "say": "log",
+  "weight": 23.4,
+  "now": "gall"
+ },
+ {
+  "key": "T EH R",
+  "say": "ret",
+  "weight": 23.4,
+  "now": "terre"
+ },
+ {
+  "key": "K EH ZH",
+  "say": "zhek",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "T R AO Z",
+  "say": "zort",
+  "weight": 23.4,
+  "now": "trauz"
+ },
+ {
+  "key": "R EH K S",
+  "say": "scare",
+  "weight": 23.4,
+  "now": "rex"
+ },
+ {
+  "key": "D IY S",
+  "say": "seed",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "L EH P S",
+  "say": "spell",
+  "weight": 23.4,
+  "now": "leps"
+ },
+ {
+  "key": "D R AO S",
+  "say": "sword",
+  "weight": 23.4,
+  "now": "dross"
+ },
+ {
+  "key": "NG AH T",
+  "say": "tongue",
+  "weight": 23.4,
+  "now": null
+ },
+ {
+  "key": "D R AO W",
+  "say": "ward",
+  "weight": 23.4,
+  "now": "drauw"
+ },
+ {
+  "key": "G R AA",
+  "say": "argh",
+  "weight": 22.9,
+  "now": "gra"
+ },
+ {
+  "key": "P IY L",
+  "say": "leap",
+  "weight": 22.9,
+  "now": "peel"
+ },
+ {
+  "key": "R AO L G",
+  "say": "glor",
+  "weight": 22.9,
+  "now": "raulg"
+ },
+ {
+  "key": "T R AO W",
+  "say": "wart",
+  "weight": 22.9,
+  "now": "trauw"
+ },
+ {
+  "key": "V R AH T",
+  "say": "turve",
+  "weight": 22.9,
+  "now": "vrut"
+ },
+ {
+  "key": "D AA L",
+  "say": "lod",
+  "weight": 22.9,
+  "now": "doll"
+ },
+ {
+  "key": "S T IY M",
+  "say": "meets",
+  "weight": 22.9,
+  "now": "steam"
+ },
+ {
+  "key": "B L EH M",
+  "say": "melb",
+  "weight": 22.9,
+  "now": "blem"
+ },
+ {
+  "key": "K EH ZH D",
+  "say": "jek",
+  "weight": 22.9,
+  "now": null
+ },
+ {
+  "key": "S T IH F",
+  "say": "fits",
+  "weight": 22.9,
+  "now": "stiff"
+ },
+ {
+  "key": "L AE S",
+  "say": "sal",
+  "weight": 22.9,
+  "now": "lass"
+ },
+ {
+  "key": "P IH R K S",
+  "say": "scrip",
+  "weight": 22.9,
+  "now": null
+ },
+ {
+  "key": "P IH R T S",
+  "say": "strip",
+  "weight": 22.9,
+  "now": null
+ },
+ {
+  "key": "B UW T",
+  "say": "tube",
+  "weight": 22.9,
+  "now": "boot"
+ },
+ {
+  "key": "Z IY T",
+  "say": "tease",
+  "weight": 22.9,
+  "now": "zeat"
+ },
+ {
+  "key": "S IH W",
+  "say": "wyss",
+  "weight": 22.9,
+  "now": "syw"
+ },
+ {
+  "key": "T S EH R B",
+  "say": "breast",
+  "weight": 22.4,
+  "now": null
+ },
+ {
+  "key": "S L EH SH T",
+  "say": "chelse",
+  "weight": 22.4,
+  "now": "sleshed"
+ },
+ {
+  "key": "T S AO R K",
+  "say": "crossed",
+  "weight": 22.4,
+  "now": "tsork"
+ },
+ {
+  "key": "S N AE F",
+  "say": "fance",
+  "weight": 22.4,
+  "now": "snaf"
+ },
+ {
+  "key": "D R AO G",
+  "say": "gored",
+  "weight": 22.4,
+  "now": "draug"
+ },
+ {
+  "key": "SH AA",
+  "say": "osh",
+  "weight": 22.4,
+  "now": "shah"
+ },
+ {
+  "key": "K AA N",
+  "say": "knock",
+  "weight": 22.4,
+  "now": "con"
+ },
+ {
+  "key": "DH EH L",
+  "say": "lethe",
+  "weight": 22.4,
+  "now": null
+ },
+ {
+  "key": "S P IH L",
+  "say": "lips",
+  "weight": 22.4,
+  "now": "spill"
+ },
+ {
+  "key": "G AH L",
+  "say": "lug",
+  "weight": 22.4,
+  "now": "gull"
+ },
+ {
+  "key": "R IH L",
+  "say": "lear",
+  "weight": 22.4,
+  "now": "rill"
+ },
+ {
+  "key": "T S AE M",
+  "say": "mast",
+  "weight": 22.4,
+  "now": "tsam"
+ },
+ {
+  "key": "K AO",
+  "say": "auch",
+  "weight": 22.4,
+  "now": "caw"
+ },
+ {
+  "key": "T AO",
+  "say": "ought",
+  "weight": 22.4,
+  "now": "taw"
+ },
+ {
+  "key": "B AA R",
+  "say": "rob",
+  "weight": 22.4,
+  "now": "bar"
+ },
+ {
+  "key": "L EH W T",
+  "say": "twel",
+  "weight": 22.4,
+  "now": null
+ },
+ {
+  "key": "N IH ZH",
+  "say": "zhyn",
+  "weight": 22.4,
+  "now": null
+ },
+ {
+  "key": "Z IH SH",
+  "say": "shiz",
+  "weight": 22.4,
+  "now": "zish"
+ },
+ {
+  "key": "F L UH W",
+  "say": "wolf",
+  "weight": 22.4,
+  "now": null
+ },
+ {
+  "key": "S N AH S",
+  "say": "sunce",
+  "weight": 21.9,
+  "now": "snuss"
+ },
+ {
+  "key": "TH AE",
+  "say": "ath",
+  "weight": 21.9,
+  "now": null
+ },
+ {
+  "key": "S T IY L",
+  "say": "leats",
+  "weight": 21.9,
+  "now": "steel"
+ }
+]

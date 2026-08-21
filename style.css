@@ -58,3 +58,10 @@ h2 .n { display:inline-grid; place-items:center; width:1.4rem; height:1.4rem; bo
 .tips b { color:var(--ink); }
 .status { max-width:40rem; margin:2.5rem auto 0; color:var(--dim); font-size:.82rem; }
 .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+
+.big { font-size:2.6rem; letter-spacing:-0.02em; margin:.2rem 0 .4rem; }
+input[type=text] {
+  width:100%; padding:.7rem .9rem; margin-top:.6rem; font:inherit; font-size:1.2rem;
+  color:var(--ink); background:transparent; border:1px solid var(--line); border-radius:10px;
+}
+input[type=text]:focus { outline:2px solid var(--accent); outline-offset:1px; }

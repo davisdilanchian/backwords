@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Backwords · teach it your spelling</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%8E%A4%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+  <header>
+    <h1>Teach it your spelling</h1>
+    <p>The app spells the reversed sounds the way a text-to-speech engine reads them, which is
+       not how you read them. This fixes that. Say a word, hear it backwards, and write down
+       what <em>you</em> would have to read to make that sound.</p>
+    <p class="lede">Everything is stored in this browser as you go. Stop whenever — partial
+       answers are still worth having, and the pieces are ordered so the early ones matter most.</p>
+  </header>
+
+  <p id="micwarn" class="warn" hidden></p>
+
+  <section id="card" hidden>
+    <p class="kicker"><span id="progress"></span></p>
+    <div class="track"><div id="bar" class="bar"></div></div>
+
+    <p class="lede" style="margin-top:1.4rem">Say this out loud and record it</p>
+    <p id="say" class="say big"></p>
+    <div class="row">
+      <button id="rec" type="button">Record</button>
+      <button id="skip" type="button" class="ghost">Skip</button>
+    </div>
+    <canvas id="wave" class="wave"></canvas>
+
+    <div id="answer" hidden>
+      <p class="kicker">Now — how would you spell what you just heard?</p>
+      <p class="lede">Write it so that if you read it cold, you would make exactly that sound.
+         Real words are ideal. Nonsense is fine if that is genuinely what it sounds like.</p>
+      <input id="spell" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+             placeholder="type it here, then press enter" />
+      <div class="row">
+        <button id="save" type="button">Save &amp; next</button>
+        <button id="again" type="button" class="ghost">Play again</button>
+        <button id="slow" type="button" class="ghost">0.5&times;</button>
+        <button id="redo" type="button" class="ghost">Re-record</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="tips">
+    <h2>How it goes</h2>
+    <ul>
+      <li><b>Space</b> starts and stops recording. <b>Enter</b> saves and moves on.</li>
+      <li>Say the prompt word plainly, then it plays your own voice backwards. That backwards
+          sound is the thing the app will ask you to say later — so spell it however you would
+          actually read it back.</li>
+      <li>You are not being graded and there is no right answer. Your spelling <em>is</em> the
+          right answer, because you are the one who has to read it.</li>
+    </ul>
+    <h2 id="donewrap" hidden>Done for now</h2>
+    <div id="doneinner" hidden>
+      <p class="lede">Send this file back and it gets built into the dictionary.</p>
+      <div class="row">
+        <button id="export" type="button">Download my spellings</button>
+        <button id="reset" type="button" class="ghost">Start over</button>
+      </div>
+    </div>
+  </section>
+</main>
+<p id="status" class="status">Loading…</p>
+<script src="audio.js"></script>
+<script src="calibrate.js"></script>
+</body>
+</html>
