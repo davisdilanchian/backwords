@@ -59,8 +59,18 @@ def main():
             if mark: print(f"      {x:<14s} {y:<14s} {mark}")
     (cnt, head), _ = learn_style.build()                 # leave it trained on everything
     learn_style.save(cnt, head)
+    got = 100*(exact+close)/max(1,tot)
     print(f"\n  {len(hand)} line(s), {tot} tokens: {exact} exact, {close} close"
-          f" ({100*(exact+close)/max(1,tot):.0f}% within reach)")
+          f" ({got:.0f}% within reach)")
+    try:
+        import ceiling
+        c = ceiling.self_agreement()
+        if c is not None:
+            print(f"  the same person spelling the same sound twice agrees {c:.0f}% of the time,")
+            print(f"  so {got:.0f}% is measured against a target that moves. 100% is not the goal")
+            print(f"  and more hand-written lines cannot make it one.")
+    except Exception:
+        pass
     return 0
 
 if __name__ == '__main__':

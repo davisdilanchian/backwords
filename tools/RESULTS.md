@@ -110,6 +110,37 @@ Properties of English, not bugs, and they set the floor:
 Together these are roughly 40% of the remaining spelling error. None of them
 touch the audio channel, which is the other reason it leads.
 
+## When to stop asking someone for data
+
+Five hand-written lines score the renderer at 41% "within reach" — 5 tokens
+exact and 8 close out of 32, leave-one-line-out. That looks like it wants to be
+100% and does not.
+
+The same person spells the same sound differently on different days. Across
+their answers and their lines, five chunks came up more than once and **none of
+them got the same spelling twice**:
+
+| sound | how they wrote it |
+|---|---|
+| `AH DH` ("the") | eth, huhth, huth |
+| `R AO F` ("for") | herolf, herowf |
+| `IY AA` ("i") | yah, eeyuh |
+| `V AH` ("of") | vah, vuh |
+| `AH` ("a") | eeah, huh |
+
+On the same yardstick the renderer is scored with, those variants agree with
+each other **14%** of the time. The renderer agrees with them 41% of the time,
+which is to say it already matches this person better than they match
+themselves. More lines cannot fix that, because the disagreement is in the
+target, not the model.
+
+That is worth stating plainly rather than quietly collecting more data: the
+metric was always a proxy. Matching someone's spelling was never the goal —
+producing a spelling they can read was. Their own variation is evidence that
+several spellings read fine, which is the outcome we wanted. The real test is
+whether reading the generated script and flipping the take says the line, and
+the page already measures exactly that.
+
 ## Still open
 
 Every number here is espeak on one side or the other. A human voice has real
