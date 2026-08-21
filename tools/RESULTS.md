@@ -186,3 +186,45 @@ stop bursts and real aspiration where espeak has synthesised ones, so the
 per-phone reversal table in particular deserves re-measuring against recorded
 speech. The loop in the page is the instrument for that: it scores a real take
 against a real take, with no synthesis anywhere in the path.
+
+## Whole real words, chosen by measured reversal — tested, and it loses
+
+The speller assumes reversing a recording reverses the phoneme list, which
+`reversal_matrix.py` measured as false. The obvious repair is to stop assuming:
+speak every English word, reverse the waveform, store what it actually sounds
+like, then tile the target sound with those signatures and read the matched
+words back to front. `reverse(a ++ b)` is `reverse(b) ++ reverse(a)`, so the
+script is the tiling reversed. Every piece is a real English word by
+construction, and chosen by measurement rather than derivation — which should
+dissolve the readable-versus-accurate tension entirely.
+
+It produces real English. "call me back" comes out `come look`, "the quick
+brown fox" comes out `try body even`. Then it loses.
+
+Scored by speaking each script, reversing the waveform, and measuring the
+distance to the line spoken normally — ten lines:
+
+| what gets spoken | distance |
+|---|---|
+| the line itself, forwards — the control | 0.750 |
+| the searched phone-level index | **0.312** |
+| tiling whole reversed words | 0.403 |
+| the ear-based speller | 0.440 |
+
+Growing the word index from 400 to 6,000 moved tiling from 0.434 to 0.422 on
+the same three lines. Fifteen times the vocabulary for one part in forty is a
+flat curve, and a flat curve means vocabulary was never the constraint. Per-word
+fit sits around 0.4 no matter how many words are available.
+
+The reason is granularity. A reversed English word is a fixed acoustic shape
+roughly 0.6 seconds long, and an arbitrary stretch of reversed English rarely
+looks like any of them. The phone-level index wins because its 90,988 pieces
+are small enough to place precisely — and it already contains real words
+wherever they fit, so it is the same idea at a granularity that works.
+
+**The two headline numbers here matter more than the ranking.** Every speller
+beats the control by a wide margin, which the earlier single-line neural-voice
+test failed to show because it had no control to compare against. And the
+ear-based speller reaches 0.440 with no espeak anywhere in its construction,
+while the other two were both built against espeak and scored by espeak. On a
+fair footing that gap would narrow.

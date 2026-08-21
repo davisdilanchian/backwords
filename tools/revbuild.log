@@ -1,0 +1,10 @@
+vocabulary: 6000 words
+   spoke 0
+   spoke 2000
+   spoke 4000
+   signed 2000
+   signed 4000
+   signed 6000
+
+wrote revindex.npz: 6000 words, signatures (6000, 13, 16)
+durations 0.29–1.16s, median 0.59s
