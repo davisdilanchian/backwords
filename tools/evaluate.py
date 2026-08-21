@@ -9,7 +9,10 @@ produces, and compare against the phones of the line the user typed.
   got    = atomise(espeak(script))
   PER    = edit distance / len(target)
 
-Run against the shipped app.js so it stays a regression test, not a museum.
+Run against the shipped script.js so it stays a regression test, not a museum.
+
+This covers the written crutch only. The channel that actually carries the line
+is the audio loop; looptest.py measures that.
 """
 import sys, os, json, subprocess
 sys.path.insert(0, os.path.dirname(__file__) or '.')
@@ -21,18 +24,12 @@ CMU = json.load(open(os.path.join(HERE, 'cmudict.json')))
 
 BRIDGE = r'''
 const fs = require('fs');
-let src = fs.readFileSync(process.argv[2], 'utf8');
-src = src.slice(0, src.indexOf('// ---- page ----'));
-const mod = { exports: {} };
-new Function('module','exports','LEXTEXT','IDXTEXT', src + `
-  LEX = parseLex(LEXTEXT); IDX = parseIdx(IDXTEXT);
-  module.exports = { reverseScript };
-`)(mod, mod.exports,
-   fs.readFileSync(process.argv[3], 'utf8'),
-   fs.readFileSync(process.argv[4], 'utf8'));
+const SCRIPTER = require(process.argv[2]);
+SCRIPTER.load(fs.readFileSync(process.argv[3], 'utf8'),
+              fs.readFileSync(process.argv[4], 'utf8'));
 const lines = fs.readFileSync(0, 'utf8').split('\n').filter(Boolean);
 process.stdout.write(JSON.stringify(lines.map(l => {
-  const r = mod.exports.reverseScript(l);
+  const r = SCRIPTER.make(l);
   return { line: l, script: r.parts.map(p => p.spell).join(' '), accuracy: r.accuracy };
 })));
 '''
@@ -50,7 +47,7 @@ def run(lines):
     bp = os.path.join(HERE, '_bridge.js')
     open(bp, 'w').write(BRIDGE)
     try:
-        r = subprocess.run(['node', bp, os.path.join(ROOT, 'app.js'),
+        r = subprocess.run(['node', bp, os.path.join(ROOT, 'script.js'),
                             os.path.join(ROOT, 'data/lex.txt'),
                             os.path.join(ROOT, 'data/idx.txt')],
                            input='\n'.join(lines), capture_output=True, text=True)

@@ -4,48 +4,93 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Backwords</title>
-  <meta name="description" content="Type a line. Get a script that says it when you play the take backwards." />
+  <meta name="description" content="Learn to say a line backwards, so it plays forwards when you reverse the take." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%94%84%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <header>
-      <h1>Backwords</h1>
-      <p>Type what you want it to say <em>when reversed</em>. Read the script out loud, record it, then play the take backwards.</p>
-    </header>
+<main>
+  <header>
+    <h1>Backwords</h1>
+    <p>Say a line backwards well enough that playing the take in reverse says it properly.
+       You do that by hearing the line reversed and copying it — the spelling is only a crutch.</p>
+  </header>
 
-    <label class="sr" for="input">Forward line</label>
-    <textarea id="input" rows="3" placeholder="I am a fantastic singer" autofocus></textarea>
+  <label class="sr" for="input">The line</label>
+  <textarea id="input" rows="2" placeholder="I am a fantastic singer" autofocus></textarea>
+  <div class="row"><button id="go" type="button">Start</button></div>
 
-    <div class="row">
-      <button id="go" type="button">Make script</button>
-      <button id="copy" type="button" class="ghost" hidden>Copy</button>
-    </div>
+  <p id="micwarn" class="warn" hidden></p>
 
-    <section id="outwrap" hidden>
-      <p class="kicker">Say this</p>
+  <section id="work" hidden>
+
+    <section id="step1" class="step on now">
+      <h2><span class="n">1</span> Say it normally</h2>
+      <p class="lede">Read this out loud, once, at an even pace.</p>
+      <p id="say" class="say"></p>
+      <div class="row">
+        <button id="rec1" type="button">Record</button>
+        <button id="playForward" type="button" class="ghost">Hear it</button>
+      </div>
+      <canvas id="wave1" class="wave"></canvas>
+    </section>
+
+    <section id="step2" class="step">
+      <h2><span class="n">2</span> Learn the sound</h2>
+      <p class="lede">This is your line played backwards. It is exactly what you have to say.
+         Loop it, slow it down, and copy it sound for sound.</p>
+      <div id="targetwrap" hidden>
+        <div class="row">
+          <button id="playTarget" type="button">Play target</button>
+          <span class="rates">
+            <button type="button" data-rate="1" class="ghost sel">1&times;</button>
+            <button type="button" data-rate="0.75" class="ghost">0.75&times;</button>
+            <button type="button" data-rate="0.5" class="ghost">0.5&times;</button>
+          </span>
+        </div>
+        <canvas id="wave2" class="wave"></canvas>
+      </div>
+      <p class="kicker">Written out, it is roughly</p>
       <p id="script"></p>
       <p id="meter" class="meter"></p>
-      <p id="note" class="warn" hidden></p>
-      <p class="legend">Faded pieces are the closest sound English can spell &mdash; they land near the target, not on it.</p>
+      <div class="row"><button id="copy" type="button" class="ghost">Copy script</button></div>
+      <p class="legend">Faded pieces are the closest sound English can spell. Trust your ears over the spelling
+         wherever they disagree.</p>
     </section>
 
-    <section class="tips">
-      <h2>Reading it</h2>
-      <ul>
-        <li>Every piece is spelled to be read the plain English way. <b>ee</b> as in knee, <b>ah</b> as in father, <b>aw</b> as in law, <b>uh</b> as in the.</li>
-        <li>Say the pieces evenly, with a small gap between them, and hold the vowels. Reversal eats anything you rush.</li>
-        <li>Flat and slow beats expressive. Pitch and stress come back inside out, so they only muddy it.</li>
-      </ul>
-      <h2>What it can't do</h2>
-      <ul>
-        <li>A word starting with <b>h</b> needs a breath at the <em>end</em> of a piece, and English has no letter for that. Exhale on the last vowel.</li>
-        <li>A word ending in <b>ng</b> needs a piece that <em>starts</em> with that sound, which English never does. It comes back closer to <b>n</b>.</li>
-      </ul>
+    <section id="step3" class="step">
+      <h2><span class="n">3</span> Say it backwards</h2>
+      <p class="lede">Now say what you just heard. Flat, even, and slightly slow works best.</p>
+      <div class="row"><button id="rec2" type="button">Record attempt</button></div>
+      <div id="resultwrap" hidden>
+        <p class="kicker">Your take, reversed</p>
+        <canvas id="wave3" class="wave"></canvas>
+        <div class="row">
+          <button id="playResult" type="button">Play it</button>
+          <button id="again" type="button" class="ghost">Try again</button>
+          <button id="save" type="button" class="ghost">Download</button>
+        </div>
+        <div class="track"><div id="bar" class="bar"></div></div>
+        <p id="verdict" class="verdict"></p>
+      </div>
     </section>
-  </main>
-  <p id="status" class="status">Loading sounds…</p>
-  <script src="app.js"></script>
+
+  </section>
+
+  <section class="tips">
+    <h2>Getting a clean take</h2>
+    <ul>
+      <li>Flat and slow beats expressive. Pitch and stress come back inside out, so they only muddy it.</li>
+      <li>Hold the vowels and put a small gap between pieces. Reversal eats anything you rush.</li>
+      <li>Two sounds fight you, and it is English, not the tool: a word starting with <b>h</b> needs a
+          breath at the <em>end</em> of a piece, and a word ending in <b>ng</b> needs a piece that
+          <em>starts</em> with that sound, which English never does.</li>
+    </ul>
+  </section>
+</main>
+<p id="status" class="status">Loading…</p>
+<script src="script.js"></script>
+<script src="audio.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
