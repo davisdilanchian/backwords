@@ -13,16 +13,33 @@ allows api.elevenlabs.io:
     python3 eleven_test.py               # uses testset.txt
     python3 eleven_test.py "some line"   # or your own
 
-For each line it speaks three things, reverses the audio, transcribes it, and
-scores the transcript against the line that was meant:
+For each line it speaks three things, reverses the audio, and scores it two
+ways: by transcript, and by acoustic distance to the sound the reader is
+actually trying to make.
 
-    forward   the line said normally, reversed and transcribed  -> the floor,
-              since a reversed recording of the line should NOT be intelligible
-    words     the readable spelling, reversed  -> should say the line
-    sounds    the ear-based spelling, reversed -> should say the line
+    forward   the line said normally  -> the control, should NOT match
+    words     the readable spelling
+    sounds    the ear-based spelling
 
-Whichever of words/sounds transcribes closer to the original wins, and that is
-the answer nobody in this repo can currently give.
+WHAT A FIRST RUN OF THIS ALREADY SHOWED, on one line and one voice:
+
+  - Scribe transcribes forward nonsense perfectly. Asked to read
+    "puh vig ruh venn" it came back "puh vig ruh venn", so it is a fair judge
+    of whether a voice said what the script asked for.
+  - Reversing that same audio transcribed as nothing at all.
+  - Reversing the line itself transcribed as "A figure of eight" at 0.95
+    confidence, which looks like a result and is not one: speaking
+    "A figure of eight" and reversing THAT transcribes as nothing. The
+    recogniser is snapping reversed noise onto plausible English rather than
+    reporting what is there, so a transcript of reversed audio cannot be
+    trusted and cannot be used to generate scripts.
+  - By acoustic distance, which does not involve a language model, the spread
+    was small: the script scored 0.69 against the sound it is meant to
+    reproduce and simply saying the line forwards scored 0.75. A script that
+    worked should be far below its own control.
+
+So the transcript half of this is a diagnostic, not the verdict, and `dtw` is
+the number to watch. One line is not a result — run it over the whole set.
 """
 import os, sys, json, io, wave, array, subprocess, tempfile, urllib.request, urllib.error
 
@@ -81,6 +98,18 @@ def hear(path):
              {"Content-Type": "multipart/form-data; boundary=" + b.decode()})
     return (r.get("text") or "").strip()
 
+def dist(a, b):
+    """acoustic distance, no language model involved"""
+    import numpy as np, librosa
+    def feats(p):
+        y, sr = librosa.load(p, sr=16000)
+        y, _ = librosa.effects.trim(y, top_db=32)
+        m = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13, hop_length=160)
+        X = np.vstack([m, librosa.feature.delta(m)])
+        return ((X - X.mean(1, keepdims=True)) / (X.std(1, keepdims=True) + 1e-8)).T
+    D, wp = librosa.sequence.dtw(X=feats(a).T, Y=feats(b).T, metric="cosine")
+    return D[-1, -1] / len(wp)
+
 def wer(ref, hyp):
     a, b = ref.lower().split(), "".join(c for c in hyp.lower() if c.isalnum() or c.isspace()).split()
     if not a: return 1.0
@@ -104,6 +133,7 @@ def main():
     voice = pick_voice()
     print(f"voice {voice}, {len(lines)} lines\n")
     tot = {"forward": 0.0, "words": 0.0, "sounds": 0.0}
+    dtot = {"forward": 0.0, "words": 0.0, "sounds": 0.0}
 
     from subprocess import run as _run
     def words_script(line):
@@ -118,23 +148,30 @@ def main():
         for line in lines:
             cand = {"forward": line, "words": words_script(line), "sounds": script_for(line, style)}
             print(f"  {line}")
+            # the sound a correct script must reproduce: the line, backwards
+            tgt = os.path.join(td, "t.wav"); tgt_rev = os.path.join(td, "trev.wav")
+            say(line, voice, tgt); reverse(tgt, tgt_rev)
             for kind, text in cand.items():
                 f = os.path.join(td, "a.wav"); r = os.path.join(td, "b.wav")
                 say(text, voice, f); reverse(f, r)
                 heard = hear(r)
-                e = wer(line, heard)
-                tot[kind] += e
+                e = wer(line, heard); tot[kind] += e
+                dd = dist(tgt_rev, f); dtot[kind] += dd   # speaking it vs the target sound
                 print(f"    {kind:8s} said {text[:52]:<52s}")
-                print(f"    {'':8s} heard {heard[:60]!r}  WER {e:.2f}")
+                print(f"    {'':8s} dtw {dd:.3f}   heard {heard[:44]!r}  WER {e:.2f}")
             print()
 
     n = len(lines)
-    print("mean word error against the intended line (lower is better):")
+    print(f"{'':8s} {'dtw':>7}  {'WER':>7}")
     for k in ("forward", "words", "sounds"):
-        print(f"  {k:8s} {tot[k]/n:.3f}")
-    print("\nforward is the control — a reversed recording of the line itself should")
-    print("score badly. If words or sounds beats it clearly, the speller works, and")
-    print("whichever of the two is lower is the one to keep.")
+        print(f"  {k:8s} {dtot[k]/n:7.3f}  {tot[k]/n:7.3f}")
+    print("\ndtw is the one to trust: it compares what the reader would actually")
+    print("produce against the sound they are trying to make, with no language")
+    print("model in the way. forward is the control. A speller that works puts")
+    print("words or sounds clearly below it; a small spread means it does not.")
+    print("WER is a diagnostic only — reversed speech is out of distribution for")
+    print("the recogniser, which invents plausible English rather than reporting")
+    print("what is there.")
 
 if __name__ == "__main__":
     main()

@@ -141,6 +141,44 @@ several spellings read fine, which is the outcome we wanted. The real test is
 whether reading the generated script and flipping the take says the line, and
 the page already measures exactly that.
 
+## A real voice, at last — and it does not say what we hoped
+
+Everything above has espeak on at least one side. With a neural voice and a
+real recogniser in the loop, on one line and one voice:
+
+| | |
+|---|---|
+| Scribe reads the script forwards | `"puh vig ruh venn"` — exactly right |
+| that same audio, reversed | **nothing**, 0.12 language confidence |
+| the line itself, reversed | `"A figure of eight"`, 0.95 confidence |
+| `"A figure of eight"` spoken and reversed | **nothing** |
+
+The third row looks like the answer to the whole project and is not. If
+reversed speech transcribed faithfully, the transcript of a reversed line would
+*be* the script — type the line, reverse it, read back what the recogniser
+heard. Speaking that transcript and reversing it gives nothing, so the
+recogniser is snapping reversed noise onto plausible English rather than
+reporting what is in the signal. **A transcript of reversed audio cannot be
+trusted, and cannot be used to generate scripts.**
+
+That leaves acoustic distance, which has no language model to hallucinate with.
+Against the sound a correct script has to reproduce:
+
+| what gets spoken | distance |
+|---|---|
+| the readable spelling | 0.69 |
+| the recogniser's guess | 0.64 |
+| the line itself, forwards — the control | 0.75 |
+
+A script that worked would sit far below its own control. These sit just under
+it. On one line, with one voice, **there is no evidence the speller does much**,
+and some evidence it does not.
+
+That is worth more than the 41% match to hand-written spellings, because it
+measures the thing the tool claims rather than agreement with a person about
+notation. `eleven_test.py` runs it over the whole set; the number to watch is
+`dtw`, not the transcript.
+
 ## Still open
 
 Every number here is espeak on one side or the other. A human voice has real
