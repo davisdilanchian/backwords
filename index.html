@@ -75,7 +75,15 @@
 
     <section id="step3" class="step">
       <h2><span class="n">3</span> Say it backwards</h2>
-      <p class="lede">Now say what you just heard. Flat, even, and slightly slow works best.</p>
+      <p class="lede">Two ways to do this, and they answer different questions.
+         Reading the script tests the spelling. Copying the sound tests you.
+         Flat, even and slightly slow works either way.</p>
+      <div class="row">
+        <span class="rates" role="group" aria-label="What are you reading from">
+          <button type="button" data-mode="script" class="ghost sel">Reading the script</button>
+          <button type="button" data-mode="ear" class="ghost">Copying the sound</button>
+        </span>
+      </div>
       <div class="row"><button id="rec2" type="button">Record attempt</button></div>
       <div id="resultwrap" hidden>
         <p class="kicker">Your take, reversed</p>
@@ -87,6 +95,8 @@
         </div>
         <div class="track"><div id="bar" class="bar"></div></div>
         <p id="verdict" class="verdict"></p>
+        <p id="tally" class="meter"></p>
+        <div class="row"><button id="exportruns" type="button" class="ghost" hidden>Download my scores</button></div>
       </div>
     </section>
 

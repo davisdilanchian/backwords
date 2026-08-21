@@ -17,7 +17,29 @@ const S = {
   result: null,      // their attempt, flipped back
   rate: 1,
   recording: null,
+  mode: "script",     // reading the spelling, or copying what you heard
 };
+
+// Every attempt is kept with what it was read from, because a score only means
+// something once you know whether it was testing the spelling or the listener.
+const RUNS_KEY = "backwords-runs-v1";
+const runs = () => { try { return JSON.parse(localStorage.getItem(RUNS_KEY) || "[]"); } catch (e) { return []; } };
+function logRun(row) {
+  const all = runs(); all.push(row);
+  try { localStorage.setItem(RUNS_KEY, JSON.stringify(all)); } catch (e) {}
+  showTally();
+}
+
+function showTally() {
+  const all = runs();
+  const byMode = {};
+  for (const r of all) (byMode[r.mode] ||= []).push(r.score);
+  $("tally").textContent = Object.entries(byMode)
+    .map(([m, xs]) => `${m === "script" ? "reading the script" : "copying the sound"}: `
+      + `${Math.round(100 * xs.reduce((a, b) => a + b, 0) / xs.length)}% average over ${xs.length}`)
+    .join(" · ");
+  $("exportruns").hidden = !all.length;
+}
 
 // ---- waveform ------------------------------------------------------------
 
@@ -109,12 +131,15 @@ async function recordInto(which, btn) {
     show("resultwrap");
     const sim = BW.similarity(S.result, S.forward);
     const pct = Math.round(sim * 100);
+    logRun({ line: S.text, mode: S.mode, score: sim, script: plain(),
+             at: new Date().toISOString() });
     $("bar").style.width = `${Math.max(3, pct)}%`;
+    const what = S.mode === "script" ? "reading the script" : "copying the sound";
     $("verdict").textContent =
-      sim >= 0.6 ? `That lands. ${pct}% match to your original.`
-      : sim >= 0.38 ? `Close — recognisable but soft. ${pct}% match.`
-      : sim >= 0.2 ? `Some of it is there. ${pct}% match. Try slower and flatter.`
-      : `Not there yet. ${pct}% match. Play the target again and copy it sound for sound.`;
+      sim >= 0.6 ? `That lands — ${what} got ${pct}%.`
+      : sim >= 0.38 ? `Close — recognisable but soft. ${what}, ${pct}%.`
+      : sim >= 0.2 ? `Some of it is there. ${what}, ${pct}%. Try slower and flatter.`
+      : `Not there yet. ${what}, ${pct}%. Play the target again and go slower.`;
     BW.play(S.result, 1);
   }
 }
@@ -149,6 +174,7 @@ function start() {
   $("say").textContent = t;
   $("mine").value = "";
   countLines();
+  showTally();
   gate();
   BW.warm();                            // this click is our chance to open the audio graph
   $("work").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -168,6 +194,20 @@ for (const [id, which] of [["rec1", "forward"], ["rec2", "attempt"]]) {
 $("playTarget").addEventListener("click", () => S.target && BW.play(S.target, S.rate));
 $("playResult").addEventListener("click", () => S.result && BW.play(S.result, 1));
 $("playForward").addEventListener("click", () => S.forward && BW.play(S.forward, 1));
+
+for (const b of document.querySelectorAll("[data-mode]")) {
+  b.addEventListener("click", () => {
+    S.mode = b.dataset.mode;
+    for (const o of document.querySelectorAll("[data-mode]")) o.classList.toggle("sel", o === b);
+  });
+}
+$("exportruns").addEventListener("click", () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({ version: 1, runs: runs() }, null, 1)],
+                                        { type: "application/json" }));
+  a.download = "backwords-scores.json";
+  a.click();
+});
 
 for (const b of document.querySelectorAll("[data-rate]")) {
   b.addEventListener("click", () => {
